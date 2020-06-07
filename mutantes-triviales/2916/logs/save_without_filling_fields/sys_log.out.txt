@@ -1,0 +1,322 @@
+--------- beginning of main
+06-02 02:41:47.050 W/OpenGLRenderer( 2220): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-02 02:41:54.577 I/Icing   ( 2163): Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+06-02 02:41:54.577 I/Icing   ( 2163): Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+06-02 02:41:54.584 D/AndroidRuntime(10024): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-02 02:41:54.610 W/app_process(10024): Unexpected CPU variant for X86 using defaults: x86
+06-02 02:41:54.621 D/AndroidRuntime(10024): Calling main entry com.android.commands.pm.Pm
+06-02 02:41:54.624 W/MessageQueue(10024): Handler (android.os.Handler) {c4556a9} sending message to a Handler on a dead thread
+06-02 02:41:54.624 W/MessageQueue(10024): java.lang.IllegalStateException: Handler (android.os.Handler) {c4556a9} sending message to a Handler on a dead thread
+06-02 02:41:54.624 W/MessageQueue(10024): 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-02 02:41:54.624 W/MessageQueue(10024): 	at android.os.Handler.enqueueMessage(Handler.java:661)
+06-02 02:41:54.624 W/MessageQueue(10024): 	at android.os.Handler.sendMessageAtTime(Handler.java:630)
+06-02 02:41:54.624 W/MessageQueue(10024): 	at android.os.Handler.sendMessageDelayed(Handler.java:600)
+06-02 02:41:54.624 W/MessageQueue(10024): 	at android.os.Handler.post(Handler.java:356)
+06-02 02:41:54.624 W/MessageQueue(10024): 	at android.os.ResultReceiver$MyResultReceiver.send(ResultReceiver.java:57)
+06-02 02:41:54.624 W/MessageQueue(10024): 	at com.android.internal.os.IResultReceiver$Stub.onTransact(IResultReceiver.java:58)
+06-02 02:41:54.624 W/MessageQueue(10024): 	at android.os.Binder.execTransact(Binder.java:674)
+06-02 02:41:54.624 I/app_process(10024): System.exit called, status: 0
+06-02 02:41:54.625 I/AndroidRuntime(10024): VM exiting with result code 0.
+06-02 02:41:54.760 D/AndroidRuntime(10036): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-02 02:41:54.787 W/app_process(10036): Unexpected CPU variant for X86 using defaults: x86
+06-02 02:41:54.798 D/AndroidRuntime(10036): Calling main entry com.android.commands.pm.Pm
+06-02 02:41:54.801 W/MessageQueue(10036): Handler (android.os.Handler) {c4556a9} sending message to a Handler on a dead thread
+06-02 02:41:54.801 W/MessageQueue(10036): java.lang.IllegalStateException: Handler (android.os.Handler) {c4556a9} sending message to a Handler on a dead thread
+06-02 02:41:54.801 W/MessageQueue(10036): 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-02 02:41:54.801 W/MessageQueue(10036): 	at android.os.Handler.enqueueMessage(Handler.java:661)
+06-02 02:41:54.801 W/MessageQueue(10036): 	at android.os.Handler.sendMessageAtTime(Handler.java:630)
+06-02 02:41:54.801 W/MessageQueue(10036): 	at android.os.Handler.sendMessageDelayed(Handler.java:600)
+06-02 02:41:54.801 W/MessageQueue(10036): 	at android.os.Handler.post(Handler.java:356)
+06-02 02:41:54.801 W/MessageQueue(10036): 	at android.os.ResultReceiver$MyResultReceiver.send(ResultReceiver.java:57)
+06-02 02:41:54.801 W/MessageQueue(10036): 	at com.android.internal.os.IResultReceiver$Stub.onTransact(IResultReceiver.java:58)
+06-02 02:41:54.801 W/MessageQueue(10036): 	at android.os.Binder.execTransact(Binder.java:674)
+06-02 02:41:54.801 I/app_process(10036): System.exit called, status: 0
+06-02 02:41:54.801 I/AndroidRuntime(10036): VM exiting with result code 0.
+06-02 02:41:54.933 D/AndroidRuntime(10048): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-02 02:41:54.959 W/app_process(10048): Unexpected CPU variant for X86 using defaults: x86
+06-02 02:41:54.970 D/AndroidRuntime(10048): Calling main entry com.android.commands.am.Am
+06-02 02:41:54.975 I/zygote  (10058): Not late-enabling -Xcheck:jni (already on)
+06-02 02:41:54.980 W/zygote  (10058): Unexpected CPU variant for X86 using defaults: x86
+06-02 02:41:54.981 D/AndroidRuntime(10048): Shutting down VM
+06-02 02:41:54.989 W/zygote  (10058): Found duplicate classes, falling back to extracting from APK : /data/app/com.evancharlton.mileage.test-Ra0UjZOPIDjDPLaUrmNbOA==/base.apk
+06-02 02:41:54.989 W/zygote  (10058): NOTE: This wastes RAM and hurts startup performance.
+06-02 02:41:54.989 W/zygote  (10058): Found duplicated class when checking oat files: 'Ljunit/runner/BaseTestRunner;' in /data/app/com.evancharlton.mileage.test-Ra0UjZOPIDjDPLaUrmNbOA==/base.apk and /system/framework/android.test.runner.jar
+06-02 02:41:54.989 W/zygote  (10058): 
+06-02 02:41:55.013 W/System  (10058): ClassLoader referenced unknown path: 
+06-02 02:41:55.017 I/System.out(10058): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+06-02 02:41:55.018 I/System.out(10058): External cache dir: /storage/emulated/0/Android/data/com.evancharlton.mileage/cache
+06-02 02:41:55.018 I/System.out(10058): Deleting external cache dir...
+06-02 02:41:55.019 I/System.out(10058): Deleting: /storage/emulated/0/Android/data/com.evancharlton.mileage/cache
+06-02 02:41:55.019 I/System.out(10058): Cache dir: /data/user/0/com.evancharlton.mileage/cache
+06-02 02:41:55.019 I/System.out(10058): Deleting cache dir...
+06-02 02:41:55.019 I/System.out(10058): Deleting: /data/user/0/com.evancharlton.mileage/cache
+06-02 02:41:55.020 I/System.out(10058): External files dir: /storage/emulated/0/Android/data/com.evancharlton.mileage/files
+06-02 02:41:55.020 I/System.out(10058): Deleting external files dir...
+06-02 02:41:55.021 I/System.out(10058): Deleting: /storage/emulated/0/Android/data/com.evancharlton.mileage/files
+06-02 02:41:55.021 I/System.out(10058): Files dir: /data/user/0/com.evancharlton.mileage/files
+06-02 02:41:55.021 I/System.out(10058): Deleting files dir...
+06-02 02:41:55.021 I/System.out(10058): Deleting: /data/user/0/com.evancharlton.mileage/files
+06-02 02:41:55.021 I/System.out(10058): Data dir: /data/user/0/com.evancharlton.mileage
+06-02 02:41:55.022 I/System.out(10058): Deleting: /data/user/0/com.evancharlton.mileage/code_cache
+06-02 02:41:55.029 I/zygote  (10074): Not late-enabling -Xcheck:jni (already on)
+06-02 02:41:55.034 W/zygote  (10074): Unexpected CPU variant for X86 using defaults: x86
+06-02 02:41:55.045 W/zygote  (10074): Found duplicate classes, falling back to extracting from APK : /data/app/com.evancharlton.mileage.test-Ra0UjZOPIDjDPLaUrmNbOA==/base.apk
+06-02 02:41:55.045 W/zygote  (10074): NOTE: This wastes RAM and hurts startup performance.
+06-02 02:41:55.045 W/zygote  (10074): Found duplicated class when checking oat files: 'Ljunit/runner/BaseTestRunner;' in /data/app/com.evancharlton.mileage.test-Ra0UjZOPIDjDPLaUrmNbOA==/base.apk and /system/framework/android.test.runner.jar
+06-02 02:41:55.045 W/zygote  (10074): 
+06-02 02:41:55.059 D/gralloc_ranchu( 1437): gralloc_alloc: Creating ashmem region of size 8298496
+06-02 02:41:55.083 I/System.out(10074): Failure file: /data/user/0/com.evancharlton.mileage.test/files/calabash_failure.out
+06-02 02:41:55.084 I/System.out(10074): Finished file: /data/user/0/com.evancharlton.mileage.test/files/calabash_finished.out
+06-02 02:41:55.084 I/System.out(10074): method: report-finished
+06-02 02:41:55.084 I/System.out(10074): Finished state: SUCCESSFUL
+06-02 02:41:55.102 E/SurfaceFlinger( 1449): Failed to find layer (Splash Screen com.evancharlton.mileage.test#0) in layer parent (no-parent).
+06-02 02:41:55.102 I/Icing   ( 2163): Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+06-02 02:41:55.103 I/Icing   ( 2163): Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+06-02 02:41:57.509 E/memtrack( 1671): Couldn't load memtrack module
+06-02 02:41:57.509 W/android.os.Debug( 1671): failed to get memory consumption info: -1
+06-02 02:42:00.024 D/hwcomposer( 1438): hw_composer sent 231 syncs in 64s
+06-02 02:42:00.169 D/AndroidRuntime(10096): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-02 02:42:00.194 W/app_process(10096): Unexpected CPU variant for X86 using defaults: x86
+06-02 02:42:00.205 D/AndroidRuntime(10096): Calling main entry com.android.commands.am.Am
+--------- beginning of system
+06-02 02:42:00.206 I/ActivityManager( 1671): Force stopping com.evancharlton.mileage appid=16140 user=0: start instr
+06-02 02:42:00.206 I/ActivityManager( 1671): Killing 10058:com.evancharlton.mileage/u0a6140 (adj 0): stop com.evancharlton.mileage
+06-02 02:42:00.208 W/ActivityManager( 1671): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.ClearAppData2}
+06-02 02:42:00.208 I/ActivityManager( 1671): Force stopping com.evancharlton.mileage appid=16140 user=0: finished inst
+06-02 02:42:00.211 I/zygote  (10106): Not late-enabling -Xcheck:jni (already on)
+06-02 02:42:00.216 W/zygote  (10106): Unexpected CPU variant for X86 using defaults: x86
+06-02 02:42:00.219 I/ActivityManager( 1671): Start proc 10106:com.evancharlton.mileage/u0a6140 for added application com.evancharlton.mileage
+06-02 02:42:00.220 D/AndroidRuntime(10096): Shutting down VM
+06-02 02:42:00.226 W/zygote  (10106): Found duplicate classes, falling back to extracting from APK : /data/app/com.evancharlton.mileage.test-Ra0UjZOPIDjDPLaUrmNbOA==/base.apk
+06-02 02:42:00.226 W/zygote  (10106): NOTE: This wastes RAM and hurts startup performance.
+06-02 02:42:00.226 W/zygote  (10106): Found duplicated class when checking oat files: 'Ljunit/runner/BaseTestRunner;' in /data/app/com.evancharlton.mileage.test-Ra0UjZOPIDjDPLaUrmNbOA==/base.apk and /system/framework/android.test.runner.jar
+06-02 02:42:00.226 W/zygote  (10106): 
+06-02 02:42:00.238 E/adbd    ( 1422): failed to connect to socket 'tcp:7102': Connection refused
+06-02 02:42:00.239 E/adbd    ( 1422): failed to connect to socket 'tcp:7102': Connection refused
+06-02 02:42:00.249 W/System  (10106): ClassLoader referenced unknown path: 
+06-02 02:42:00.255 I/System.out(10106): Main activity name automatically set to: com.evancharlton.mileage.Mileage
+06-02 02:42:00.255 I/System.out(10106): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+06-02 02:42:00.255 I/calabash(10106): Test server port: 7102
+06-02 02:42:00.256 I/InstrumentationBackend(10106): Added:'GetPreferences', with key:'get_preferences'
+06-02 02:42:00.274 I/InstrumentationBackend(10106): Added:'SetPreferences', with key:'set_preferences'
+06-02 02:42:00.274 I/InstrumentationBackend(10106): Added:'ClearPreferences', with key:'clear_preferences'
+06-02 02:42:00.275 I/InstrumentationBackend(10106): Added:'PressElement', with key:'press_l10n_element'
+06-02 02:42:00.275 I/InstrumentationBackend(10106): Added:'WaitForElement', with key:'wait_for_l10n_element'
+06-02 02:42:00.275 I/InstrumentationBackend(10106): Added:'NullAction', with key:'nullAction'
+06-02 02:42:00.275 I/InstrumentationBackend(10106): Added:'PressKey', with key:'press_key'
+06-02 02:42:00.275 I/InstrumentationBackend(10106): Added:'SetActivityOrientation', with key:'set_activity_orientation'
+06-02 02:42:00.276 I/InstrumentationBackend(10106): Added:'GetActivityOrientation', with key:'get_activity_orientation'
+06-02 02:42:00.276 I/InstrumentationBackend(10106): Added:'FakeGPSLocation', with key:'set_gps_coordinates'
+06-02 02:42:00.276 I/InstrumentationBackend(10106): Added:'SetPropertyByCssSelector', with key:'set_property_by_css_selector'
+06-02 02:42:00.277 I/InstrumentationBackend(10106): Added:'GetUrl', with key:'get_url'
+06-02 02:42:00.277 I/InstrumentationBackend(10106): Added:'ScrollTo', with key:'scroll_to'
+06-02 02:42:00.278 I/InstrumentationBackend(10106): Added:'GetLoadProgress', with key:'get_load_progress'
+06-02 02:42:00.278 I/InstrumentationBackend(10106): Added:'DumpHtml', with key:'dump_html'
+06-02 02:42:00.278 I/InstrumentationBackend(10106): Added:'DumpBodyHtml', with key:'dump_body_html'
+06-02 02:42:00.278 I/InstrumentationBackend(10106): Added:'EnterTextByCssSelector', with key:'enter_text_by_selector'
+06-02 02:42:00.282 I/InstrumentationBackend(10106): Added:'AndroidSDKVersion', with key:'android_sdk_version'
+06-02 02:42:00.282 I/InstrumentationBackend(10106): Added:'Version', with key:'version'
+06-02 02:42:00.282 I/InstrumentationBackend(10106): Added:'Drag', with key:'drag'
+06-02 02:42:00.282 I/InstrumentationBackend(10106): Added:'TouchCoordinates', with key:'touch_coordinate'
+06-02 02:42:00.282 I/InstrumentationBackend(10106): Added:'LongPressCoordinate', with key:'long_press_coordinate'
+06-02 02:42:00.282 I/InstrumentationBackend(10106): Added:'DragCoordinates', with key:'drag_coordinates'
+06-02 02:42:00.283 I/InstrumentationBackend(10106): Added:'ResumeApplication', with key:'resume_application'
+06-02 02:42:00.283 I/InstrumentationBackend(10106): Added:'Swipe', with key:'swipe'
+06-02 02:42:00.283 I/InstrumentationBackend(10106): Added:'DoubleTapCoordinate', with key:'double_tap_coordinate'
+06-02 02:42:00.283 I/InstrumentationBackend(10106): Added:'ClickOnScreen', with key:'click_on_screen'
+06-02 02:42:00.283 I/InstrumentationBackend(10106): Added:'GetActivityName', with key:'get_activity_name'
+06-02 02:42:00.284 I/InstrumentationBackend(10106): Added:'ScrollToView', with key:'scroll_to_view'
+06-02 02:42:00.284 I/InstrumentationBackend(10106): Added:'ViewConfiguration', with key:'view_configuration'
+06-02 02:42:00.284 I/InstrumentationBackend(10106): Added:'IsCurrentActivityFocused', with key:'is_current_activity_focused'
+06-02 02:42:00.284 I/InstrumentationBackend(10106): Added:'SendTcp', with key:'send_tcp'
+06-02 02:42:00.284 I/InstrumentationBackend(10106): Added:'DpToDevicePixel', with key:'dp_to_device_pixel'
+06-02 02:42:00.285 I/InstrumentationBackend(10106): Added:'KeyboardEnterText', with key:'keyboard_enter_text'
+06-02 02:42:00.285 I/InstrumentationBackend(10106): Added:'DeleteSurroundingText', with key:'delete_surrounding_text'
+06-02 02:42:00.285 I/InstrumentationBackend(10106): Added:'SetComposingRegion', with key:'set_composing_region'
+06-02 02:42:00.285 I/InstrumentationBackend(10106): Added:'SetSelection', with key:'set_selection'
+06-02 02:42:00.285 I/InstrumentationBackend(10106): Added:'KeyboardKeyEvent', with key:'keyboard_key_event'
+06-02 02:42:00.285 I/InstrumentationBackend(10106): Added:'PressUserActionButton', with key:'press_user_action_button'
+06-02 02:42:00.286 I/InstrumentationBackend(10106): Added:'HideSoftKeyboard', with key:'hide_soft_keyboard'
+06-02 02:42:00.286 I/InstrumentationBackend(10106): Added:'ListActions', with key:'list_actions'
+06-02 02:42:00.286 I/calabash(10106): Instantiating http server at 7102
+06-02 02:42:00.287 I/System.out(10106): HTTP Daemon listening on: 7102
+06-02 02:42:00.342 I/System.out(10106): URI: //ping
+06-02 02:42:00.342 I/System.out(10106): params: {json={}
+06-02 02:42:00.342 I/System.out(10106): }
+06-02 02:42:00.348 I/System.out(10106): URI: //ping
+06-02 02:42:00.348 I/System.out(10106): params: {json={}
+06-02 02:42:00.348 I/System.out(10106): }
+06-02 02:42:00.352 I/System.out(10106): URI: //ready
+06-02 02:42:00.352 I/System.out(10106): params: {json={}
+06-02 02:42:00.352 I/System.out(10106): }
+06-02 02:42:00.358 I/System.out(10106): URI: //
+06-02 02:42:00.358 I/System.out(10106): params: {json={"command":"version","arguments":[]}
+06-02 02:42:00.358 I/System.out(10106): }
+06-02 02:42:00.359 I/System.out(10106): header: {content-type=application/json;charset=utf-8, date=Tue, 02 Jun 2020 07:42:00 GMT, accept=*/*, host=127.0.0.1:34782, content-length=36, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-02 02:42:00.359 I/System.out(10106): params: {json={"command":"version","arguments":[]}
+06-02 02:42:00.359 I/System.out(10106): }
+06-02 02:42:00.359 I/System.out(10106): ProP json = {"command":"version","arguments":[]}
+06-02 02:42:00.359 I/System.out(10106): files: {}
+06-02 02:42:00.359 I/System.out(10106): command: {"command":"version","arguments":[]}
+06-02 02:42:00.379 I/InstrumentationBackend(10106): Got command:'Command:'Line:null,version', arguments:'[]'
+06-02 02:42:00.403 I/System.out(10106): result:{"bonusInformation":[],"message":"0.9.8","success":true}
+06-02 02:42:00.406 I/System.out(10106): URI: //start-application
+06-02 02:42:00.406 I/System.out(10106): params: {json={"intent":null}
+06-02 02:42:00.406 I/System.out(10106): }
+06-02 02:42:00.425 I/ActivityManager( 1671): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.evancharlton.mileage/.Mileage} from uid 16140
+06-02 02:42:00.432 I/calabash(10106): newActivity1
+06-02 02:42:00.445 W/ActivityManager( 1671): Bad activity token: android.os.BinderProxy@ebfb02a
+06-02 02:42:00.445 W/ActivityManager( 1671): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-02 02:42:00.445 W/ActivityManager( 1671): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+06-02 02:42:00.445 W/ActivityManager( 1671): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+06-02 02:42:00.445 W/ActivityManager( 1671): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+06-02 02:42:00.445 W/ActivityManager( 1671): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+06-02 02:42:00.445 W/ActivityManager( 1671): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+06-02 02:42:00.445 W/ActivityManager( 1671): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+06-02 02:42:00.445 W/ActivityManager( 1671): 	at android.os.Binder.execTransact(Binder.java:674)
+06-02 02:42:00.445 I/calabash(10106): newActivity1
+06-02 02:42:00.447 W/ActivityManager( 1671): Bad activity token: android.os.BinderProxy@ebfb02a
+06-02 02:42:00.447 W/ActivityManager( 1671): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-02 02:42:00.447 W/ActivityManager( 1671): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+06-02 02:42:00.447 W/ActivityManager( 1671): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+06-02 02:42:00.447 W/ActivityManager( 1671): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+06-02 02:42:00.447 W/ActivityManager( 1671): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+06-02 02:42:00.447 W/ActivityManager( 1671): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+06-02 02:42:00.447 W/ActivityManager( 1671): 	at android.os.Binder.execTransact(Binder.java:674)
+06-02 02:42:00.448 W/ActivityManager( 1671): Bad activity token: android.os.BinderProxy@ebfb02a
+06-02 02:42:00.448 W/ActivityManager( 1671): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-02 02:42:00.448 W/ActivityManager( 1671): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+06-02 02:42:00.448 W/ActivityManager( 1671): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+06-02 02:42:00.448 W/ActivityManager( 1671): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+06-02 02:42:00.448 W/ActivityManager( 1671): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+06-02 02:42:00.448 W/ActivityManager( 1671): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+06-02 02:42:00.448 W/ActivityManager( 1671): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+06-02 02:42:00.448 W/ActivityManager( 1671): 	at android.os.Binder.execTransact(Binder.java:674)
+06-02 02:42:00.460 D/gralloc_ranchu( 1437): gralloc_alloc: Creating ashmem region of size 7675904
+06-02 02:42:00.467 D/FillupsProvider(10106): Creating database
+06-02 02:42:00.477 I/zygote  (10106): Do partial code cache collection, code=30KB, data=22KB
+06-02 02:42:00.477 I/zygote  (10106): After code cache collection, code=30KB, data=22KB
+06-02 02:42:00.477 I/zygote  (10106): Increasing code cache capacity to 128KB
+06-02 02:42:00.492 D/AndroidRuntime(10106): Shutting down VM
+--------- beginning of crash
+06-02 02:42:00.493 E/AndroidRuntime(10106): FATAL EXCEPTION: main
+06-02 02:42:00.493 E/AndroidRuntime(10106): Process: com.evancharlton.mileage, PID: 10106
+06-02 02:42:00.493 E/AndroidRuntime(10106): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.evancharlton.mileage/com.evancharlton.mileage.Mileage}: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.evancharlton.mileage/com.evancharlton.mileage.FillupActivity}: android.view.InflateException: Binary XML file line #14: Binary XML file line #14: Error inflating class com.evancharlton.mileage.views.DateButton
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2817)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.os.Handler.dispatchMessage(Handler.java:105)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.os.Looper.loop(Looper.java:164)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at java.lang.reflect.Method.invoke(Native Method)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+06-02 02:42:00.493 E/AndroidRuntime(10106): Caused by: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.evancharlton.mileage/com.evancharlton.mileage.FillupActivity}: android.view.InflateException: Binary XML file line #14: Binary XML file line #14: Error inflating class com.evancharlton.mileage.views.DateButton
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2817)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.startActivityNow(ActivityThread.java:2615)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.LocalActivityManager.moveToState(LocalActivityManager.java:136)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.LocalActivityManager.startActivity(LocalActivityManager.java:348)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.widget.TabHost$IntentContentStrategy.getContentView(TabHost.java:769)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.widget.TabHost.setCurrentTab(TabHost.java:423)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.widget.TabHost.addTab(TabHost.java:233)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at com.evancharlton.mileage.Mileage.onCreate(Mileage.java:31)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.Activity.performCreate(Activity.java:6975)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	... 9 more
+06-02 02:42:00.493 E/AndroidRuntime(10106): Caused by: android.view.InflateException: Binary XML file line #14: Binary XML file line #14: Error inflating class com.evancharlton.mileage.views.DateButton
+06-02 02:42:00.493 E/AndroidRuntime(10106): Caused by: android.view.InflateException: Binary XML file line #14: Error inflating class com.evancharlton.mileage.views.DateButton
+06-02 02:42:00.493 E/AndroidRuntime(10106): Caused by: java.lang.reflect.InvocationTargetException
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.createView(LayoutInflater.java:647)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:790)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:730)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:863)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:824)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:866)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:824)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:866)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:489)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:423)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:374)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at com.evancharlton.mileage.BaseFormActivity.onCreate(BaseFormActivity.java:37)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at com.evancharlton.mileage.FillupActivity.onCreate(FillupActivity.java:72)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.Activity.performCreate(Activity.java:6975)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.startActivityNow(ActivityThread.java:2615)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.LocalActivityManager.moveToState(LocalActivityManager.java:136)
+06-02 02:42:00.493 D/EGL_emulation( 2220): eglMakeCurrent: 0xa51846c0: ver 2 0 (tinfo 0xa5183410)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.LocalActivityManager.startActivity(LocalActivityManager.java:348)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.widget.TabHost$IntentContentStrategy.getContentView(TabHost.java:769)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.widget.TabHost.setCurrentTab(TabHost.java:423)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.widget.TabHost.addTab(TabHost.java:233)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at com.evancharlton.mileage.Mileage.onCreate(Mileage.java:31)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.Activity.performCreate(Activity.java:6975)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.os.Handler.dispatchMessage(Handler.java:105)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.os.Looper.loop(Looper.java:164)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at java.lang.reflect.Method.invoke(Native Method)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+06-02 02:42:00.493 E/AndroidRuntime(10106): Caused by: java.lang.NullPointerException: Attempt to invoke super method 'void android.widget.Button.setOnClickListener(android.view.View$OnClickListener)' on a null object reference
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	at com.evancharlton.mileage.views.DateButton.<init>(DateButton.java:39)
+06-02 02:42:00.493 E/AndroidRuntime(10106): 	... 37 more
+06-02 02:42:00.494 D/EGL_emulation( 2301): eglMakeCurrent: 0xa0bfb4e0: ver 2 0 (tinfo 0x89e6e100)
+06-02 02:42:00.495 I/Process (10106): Sending signal. PID: 10106 SIG: 9
+06-02 02:42:00.499 W/BroadcastQueue( 1671): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+06-02 02:42:00.499 W/BroadcastQueue( 1671): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-02 02:42:00.511 D/EGL_emulation( 1776): eglMakeCurrent: 0x90b31e20: ver 2 0 (tinfo 0x90b242d0)
+06-02 02:42:00.511 V/StatusBar( 1776): setLightsOn(true)
+06-02 02:42:00.526 D/EGL_emulation( 1776): eglMakeCurrent: 0x90b31e20: ver 2 0 (tinfo 0x90b242d0)
+06-02 02:42:00.529 D/EGL_emulation( 1776): eglMakeCurrent: 0x90b31e20: ver 2 0 (tinfo 0x90b242d0)
+06-02 02:42:00.530 I/MicroDetectionState( 2301): Should stop hotword detection immediately - false
+06-02 02:42:00.530 I/MicroDetector( 2301): Keeping mic open: false
+06-02 02:42:00.530 I/RecognitionAudioControl( 2301): #shutdownAudio [requestId: -7785632038238940376, keepAudioOpen: false, forced: true]
+06-02 02:42:00.530 E/DeviceStateChecker( 2301): DeviceStateChecker cancelled
+06-02 02:42:00.530 I/RecognitionAudioControl( 2301): #internalShutdownAudio [requestId: -7785632038238940376]
+06-02 02:42:00.530 I/RecognitionAudioControl( 2301): #internalShutdownAudio [keepAudioOpen: false, forced: true]
+06-02 02:42:00.530 I/RecognitionAudioControl( 2301): #actualShutdownAudio
+06-02 02:42:00.530 I/AudioController( 2301): #shutdown [requestId=-7785632038238940376]
+06-02 02:42:00.530 I/AudioController( 2301): internalShutdown
+06-02 02:42:00.530 I/MicroRecognitionRunner( 2301): Stopping hotword detection.
+06-02 02:42:00.535 W/asset   ( 1776): Asset path /data/app/com.evancharlton.mileage-f8RtSAraD3KeS3C9eZSwRQ==/base.apk is neither a directory nor file (type=1).
+06-02 02:42:00.536 E/ResourcesManager( 1776): failed to add asset path /data/app/com.evancharlton.mileage-f8RtSAraD3KeS3C9eZSwRQ==/base.apk
+06-02 02:42:00.536 W/PackageManager( 1776): Failure retrieving resources for com.evancharlton.mileage
+06-02 02:42:00.536 W/asset   ( 1776): Asset path /data/app/com.evancharlton.mileage-f8RtSAraD3KeS3C9eZSwRQ==/base.apk is neither a directory nor file (type=1).
+06-02 02:42:00.536 E/ResourcesManager( 1776): failed to add asset path /data/app/com.evancharlton.mileage-f8RtSAraD3KeS3C9eZSwRQ==/base.apk
+06-02 02:42:00.536 W/PackageManager( 1776): Failure retrieving resources for com.evancharlton.mileage
+06-02 02:42:00.536 W/asset   ( 1776): Asset path /data/app/com.evancharlton.mileage-f8RtSAraD3KeS3C9eZSwRQ==/base.apk is neither a directory nor file (type=1).
+06-02 02:42:00.536 E/ResourcesManager( 1776): failed to add asset path /data/app/com.evancharlton.mileage-f8RtSAraD3KeS3C9eZSwRQ==/base.apk
+06-02 02:42:00.536 W/PackageManager( 1776): Failure retrieving resources for com.evancharlton.mileage
+06-02 02:42:00.540 I/OpenGLRenderer( 1671): Initialized EGL, version 1.4
+06-02 02:42:00.540 D/OpenGLRenderer( 1671): Swap behavior 1
+06-02 02:42:00.541 W/OpenGLRenderer( 1671): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-02 02:42:00.541 D/OpenGLRenderer( 1671): Swap behavior 0
+06-02 02:42:00.541 D/EGL_emulation( 1671): eglCreateContext: 0x84e96a20: maj 2 min 0 rcv 2
+06-02 02:42:00.542 I/MicrophoneInputStream( 2301): mic_close  SR : 16000 CC : 16 SO : 1999
+06-02 02:42:00.542 E/AudioSource( 2301): Stop listening is called on already closed AudioSource
+06-02 02:42:00.542 I/MicroRecognitionRunner( 2301): Detection finished
+06-02 02:42:00.542 D/EGL_emulation( 1776): eglMakeCurrent: 0x90b31e20: ver 2 0 (tinfo 0x90b242d0)
+06-02 02:42:00.544 D/EGL_emulation( 1671): eglMakeCurrent: 0x84e96a20: ver 2 0 (tinfo 0x96e31720)
+06-02 02:42:00.546 D/gralloc_ranchu( 1437): gralloc_alloc: Creating ashmem region of size 1748992
+06-02 02:42:00.548 D/EGL_emulation( 1776): eglMakeCurrent: 0x90b31e20: ver 2 0 (tinfo 0x90b242d0)
+06-02 02:42:00.555 I/ActivityManager( 1671): Process com.evancharlton.mileage (pid 10106) has died: fore TOP 
+06-02 02:42:00.556 W/ActivityManager( 1671): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner}
+06-02 02:42:00.556 I/ActivityManager( 1671): Force stopping com.evancharlton.mileage appid=16140 user=0: finished inst
+06-02 02:42:00.556 I/ActivityManager( 1671):   Force finishing activity ActivityRecord{ce1e46 u0 com.evancharlton.mileage/.Mileage t586}
+06-02 02:42:00.558 E/adbd    ( 1422): failed to connect to socket 'tcp:7102': Connection refused
+06-02 02:42:00.559 D/EGL_emulation( 1776): eglMakeCurrent: 0x90b31e20: ver 2 0 (tinfo 0x90b242d0)
+06-02 02:42:00.559 D/gralloc_ranchu( 1437): gralloc_alloc: Creating ashmem region of size 7675904
+06-02 02:42:00.563 D/        ( 1671): HostConnection::get() New Host Connection established 0x9207a300, tid 2763
+06-02 02:42:00.566 E/EGL_emulation( 1449): tid 1449: eglCreateSyncKHR(1957): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-02 02:42:00.568 I/ActivityManager( 1671):   Force finishing activity ActivityRecord{ce1e46 u0 com.evancharlton.mileage/.Mileage t586 f}
+06-02 02:42:00.568 W/ActivityManager( 1671): Duplicate finish request for ActivityRecord{ce1e46 u0 com.evancharlton.mileage/.Mileage t586 f}
+06-02 02:42:00.568 D/EGL_emulation( 1776): eglMakeCurrent: 0x90b31e20: ver 2 0 (tinfo 0x90b242d0)

@@ -1,0 +1,391 @@
+--------- beginning of system
+06-05 18:32:21.638 W/ActivityManager( 1629): Duplicate finish request for ActivityRecord{c582372 u0 com.evancharlton.mileage/.Mileage t3041 f}
+06-05 18:32:21.639 W/ActivityManager( 1629): Duplicate finish request for ActivityRecord{c582372 u0 com.evancharlton.mileage/.Mileage t3041 f}
+06-05 18:32:21.639 W/ActivityManager( 1629): Duplicate finish request for ActivityRecord{c582372 u0 com.evancharlton.mileage/.Mileage t3041 f}
+--------- beginning of main
+06-05 18:32:21.639 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:21.640 W/ActivityManager( 1629): Duplicate finish request for ActivityRecord{3d642d2 u0 com.evancharlton.mileage/.ServiceIntervalsListActivity t3041 f}
+06-05 18:32:21.641 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:21.642 W/ActivityManager( 1629): Duplicate finish request for ActivityRecord{6961564 u0 com.evancharlton.mileage/.ServiceIntervalTemplateListActivity t3041 f}
+06-05 18:32:21.643 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:21.645 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:21.646 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:21.647 W/ActivityManager( 1629): Finishing task with all activities already finished
+06-05 18:32:21.647 W/ActivityManager( 1629): Duplicate finish request for ActivityRecord{d2d01a6 u0 com.evancharlton.mileage/.ServiceIntervalTemplateActivity t3041 f}
+06-05 18:32:21.690 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 3145728
+06-05 18:32:21.695 E/EGL_emulation( 1346): tid 1346: eglCreateSyncKHR(1901): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-05 18:32:21.720 I/WindowManager( 1629): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.ServiceIntervalTemplateActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.removeLocked:1456 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2484 com.android.server.wm.AppWindowToken.destroySurfaces:365 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.WindowStateAnimator.stepAnimationLocked:491 com.android.server.wm.WindowAnimator.updateWindowsLocked:303 
+06-05 18:32:21.740 W/IInputConnectionWrapper( 2906): finishComposingText on inactive InputConnection
+06-05 18:32:21.740 W/InputMethodService( 1696): Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+06-05 18:32:21.740 D/AndroidRuntime( 2976): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-05 18:32:21.740 W/IInputConnectionWrapper( 2906): reportFullscreenMode on inexistent InputConnection
+06-05 18:32:21.740 W/IInputConnectionWrapper( 2906): finishComposingText on inactive InputConnection
+06-05 18:32:21.742 D/AndroidRuntime( 2976): CheckJNI is ON
+06-05 18:32:21.755 D/EGL_emulation( 2150): eglMakeCurrent: 0xb4f852a0: ver 2 0 (tinfo 0xb4f832e0)
+06-05 18:32:21.755 D/EGL_emulation( 1696): eglMakeCurrent: 0xb4f85720: ver 2 0 (tinfo 0xb4f83530)
+06-05 18:32:21.756 W/art     ( 2976): Unexpected CPU variant for X86 using defaults: x86
+06-05 18:32:21.758 D/ICU     ( 2976): No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-05 18:32:21.766 E/memtrack( 2976): Couldn't load memtrack module (No such file or directory)
+06-05 18:32:21.766 E/android.os.Debug( 2976): failed to load memtrack module: -2
+06-05 18:32:21.767 I/Radio-JNI( 2976): register_android_hardware_Radio DONE
+06-05 18:32:21.771 D/AndroidRuntime( 2976): Calling main entry com.android.commands.am.Am
+06-05 18:32:21.772 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.773 I/ActivityManager( 1629): Force stopping com.evancharlton.mileage appid=10160 user=0: start instr
+06-05 18:32:21.773 I/ActivityManager( 1629): Killing 2906:com.evancharlton.mileage/u0a160 (adj 0): stop com.evancharlton.mileage
+06-05 18:32:21.773 D/ActivityManager( 1629): cleanUpApplicationRecord -- 2906
+06-05 18:32:21.775 W/ActivityManager( 1629): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner}
+06-05 18:32:21.775 I/ActivityManager( 1629): Force stopping com.evancharlton.mileage appid=10160 user=0: finished inst
+06-05 18:32:21.779 I/art     ( 2986): Not late-enabling -Xcheck:jni (already on)
+06-05 18:32:21.779 W/art     ( 2986): Unexpected CPU variant for X86 using defaults: x86
+06-05 18:32:21.786 I/ActivityManager( 1629): Start proc 2986:com.evancharlton.mileage/u0a160 for added application com.evancharlton.mileage
+06-05 18:32:21.786 D/AndroidRuntime( 2976): Shutting down VM
+06-05 18:32:21.787 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.789 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.792 W/System  ( 2986): ClassLoader referenced unknown path: /data/app/com.evancharlton.mileage.test-1/lib/x86
+06-05 18:32:21.792 W/System  ( 2986): ClassLoader referenced unknown path: /data/app/com.evancharlton.mileage-1/lib/x86
+06-05 18:32:21.794 W/System  ( 2986): ClassLoader referenced unknown path: 
+06-05 18:32:21.799 I/System.out( 2986): Main activity name automatically set to: com.evancharlton.mileage.Mileage
+06-05 18:32:21.799 I/System.out( 2986): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+06-05 18:32:21.799 I/calabash( 2986): Test server port: 7102
+06-05 18:32:21.800 I/InstrumentationBackend( 2986): Added:'GetPreferences', with key:'get_preferences'
+06-05 18:32:21.804 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.806 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.807 I/InstrumentationBackend( 2986): Added:'SetPreferences', with key:'set_preferences'
+06-05 18:32:21.807 I/InstrumentationBackend( 2986): Added:'ClearPreferences', with key:'clear_preferences'
+06-05 18:32:21.807 I/InstrumentationBackend( 2986): Added:'PressElement', with key:'press_l10n_element'
+06-05 18:32:21.807 I/InstrumentationBackend( 2986): Added:'WaitForElement', with key:'wait_for_l10n_element'
+06-05 18:32:21.807 I/InstrumentationBackend( 2986): Added:'NullAction', with key:'nullAction'
+06-05 18:32:21.807 I/InstrumentationBackend( 2986): Added:'PressKey', with key:'press_key'
+06-05 18:32:21.807 I/InstrumentationBackend( 2986): Added:'SetActivityOrientation', with key:'set_activity_orientation'
+06-05 18:32:21.807 I/InstrumentationBackend( 2986): Added:'GetActivityOrientation', with key:'get_activity_orientation'
+06-05 18:32:21.807 I/InstrumentationBackend( 2986): Added:'FakeGPSLocation', with key:'set_gps_coordinates'
+06-05 18:32:21.807 I/InstrumentationBackend( 2986): Added:'SetPropertyByCssSelector', with key:'set_property_by_css_selector'
+06-05 18:32:21.808 I/InstrumentationBackend( 2986): Added:'GetUrl', with key:'get_url'
+06-05 18:32:21.808 I/InstrumentationBackend( 2986): Added:'ScrollTo', with key:'scroll_to'
+06-05 18:32:21.808 I/InstrumentationBackend( 2986): Added:'GetLoadProgress', with key:'get_load_progress'
+06-05 18:32:21.808 I/InstrumentationBackend( 2986): Added:'DumpHtml', with key:'dump_html'
+06-05 18:32:21.808 I/InstrumentationBackend( 2986): Added:'DumpBodyHtml', with key:'dump_body_html'
+06-05 18:32:21.808 I/InstrumentationBackend( 2986): Added:'EnterTextByCssSelector', with key:'enter_text_by_selector'
+06-05 18:32:21.808 I/InstrumentationBackend( 2986): Added:'AndroidSDKVersion', with key:'android_sdk_version'
+06-05 18:32:21.808 I/InstrumentationBackend( 2986): Added:'Version', with key:'version'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'Drag', with key:'drag'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'TouchCoordinates', with key:'touch_coordinate'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'LongPressCoordinate', with key:'long_press_coordinate'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'DragCoordinates', with key:'drag_coordinates'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'ResumeApplication', with key:'resume_application'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'Swipe', with key:'swipe'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'DoubleTapCoordinate', with key:'double_tap_coordinate'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'ClickOnScreen', with key:'click_on_screen'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'GetActivityName', with key:'get_activity_name'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'ScrollToView', with key:'scroll_to_view'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'ViewConfiguration', with key:'view_configuration'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'IsCurrentActivityFocused', with key:'is_current_activity_focused'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'SendTcp', with key:'send_tcp'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'DpToDevicePixel', with key:'dp_to_device_pixel'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'KeyboardEnterText', with key:'keyboard_enter_text'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'DeleteSurroundingText', with key:'delete_surrounding_text'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'SetComposingRegion', with key:'set_composing_region'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'SetSelection', with key:'set_selection'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'KeyboardKeyEvent', with key:'keyboard_key_event'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'PressUserActionButton', with key:'press_user_action_button'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'HideSoftKeyboard', with key:'hide_soft_keyboard'
+06-05 18:32:21.809 I/InstrumentationBackend( 2986): Added:'ListActions', with key:'list_actions'
+06-05 18:32:21.809 I/calabash( 2986): Instantiating http server at 7102
+06-05 18:32:21.810 I/System.out( 2986): HTTP Daemon listening on: 7102
+06-05 18:32:21.811 I/WindowManager( 1629): WIN DEATH: Window{8179232 u0 com.evancharlton.mileage/com.evancharlton.mileage.ServiceIntervalTemplateActivity EXITING}
+06-05 18:32:21.821 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.824 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.837 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.839 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.854 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.856 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.871 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.872 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.887 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.889 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.896 I/System.out( 2986): URI: //ping
+06-05 18:32:21.896 I/System.out( 2986): params: {json={}
+06-05 18:32:21.896 I/System.out( 2986): }
+06-05 18:32:21.898 I/System.out( 2986): URI: //ping
+06-05 18:32:21.898 I/System.out( 2986): params: {json={}
+06-05 18:32:21.898 I/System.out( 2986): }
+06-05 18:32:21.899 I/System.out( 2986): URI: //ready
+06-05 18:32:21.899 I/System.out( 2986): params: {json={}
+06-05 18:32:21.899 I/System.out( 2986): }
+06-05 18:32:21.901 I/System.out( 2986): URI: //
+06-05 18:32:21.901 I/System.out( 2986): params: {json={"command":"version","arguments":[]}
+06-05 18:32:21.901 I/System.out( 2986): }
+06-05 18:32:21.901 I/System.out( 2986): header: {content-type=application/json;charset=utf-8, date=Fri, 05 Jun 2020 23:32:22 GMT, accept=*/*, host=127.0.0.1:34783, content-length=36, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-05 18:32:21.901 I/System.out( 2986): params: {json={"command":"version","arguments":[]}
+06-05 18:32:21.901 I/System.out( 2986): }
+06-05 18:32:21.901 I/System.out( 2986): ProP json = {"command":"version","arguments":[]}
+06-05 18:32:21.901 I/System.out( 2986): files: {}
+06-05 18:32:21.901 I/System.out( 2986): command: {"command":"version","arguments":[]}
+06-05 18:32:21.904 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.904 I/InstrumentationBackend( 2986): Got command:'Command:'Line:null,version', arguments:'[]'
+06-05 18:32:21.906 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.911 I/System.out( 2986): result:{"bonusInformation":[],"message":"0.9.8","success":true}
+06-05 18:32:21.913 I/System.out( 2986): URI: //start-application
+06-05 18:32:21.913 I/System.out( 2986): params: {json={"intent":null}
+06-05 18:32:21.913 I/System.out( 2986): }
+06-05 18:32:21.921 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.923 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.923 I/ActivityManager( 1629): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.evancharlton.mileage/.Mileage} from uid 10160 on display 0
+06-05 18:32:21.929 I/calabash( 2986): newActivity1
+06-05 18:32:21.937 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.939 I/calabash( 2986): newActivity1
+06-05 18:32:21.939 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.939 I/WindowManager( 1629): Destroying surface Surface(name=InputMethod) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementInner:429 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop:232 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:180 com.android.server.wm.WindowManagerService.relayoutWindow:2943 com.android.server.wm.Session.relayout:224 
+06-05 18:32:21.940 W/ActivityManager( 1629): Bad activity token: android.os.BinderProxy@a48858d
+06-05 18:32:21.940 W/ActivityManager( 1629): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 18:32:21.940 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 18:32:21.940 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 18:32:21.940 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-05 18:32:21.940 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:9806)
+06-05 18:32:21.940 W/ActivityManager( 1629): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2566)
+06-05 18:32:21.940 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 18:32:21.940 W/ActivityManager( 1629): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 18:32:21.941 W/ActivityManager( 1629): Bad activity token: android.os.BinderProxy@a48858d
+06-05 18:32:21.941 W/ActivityManager( 1629): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 18:32:21.941 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 18:32:21.941 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 18:32:21.941 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9358)
+06-05 18:32:21.941 W/ActivityManager( 1629): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2639)
+06-05 18:32:21.941 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 18:32:21.941 W/ActivityManager( 1629): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 18:32:21.942 W/ActivityManager( 1629): Bad activity token: android.os.BinderProxy@a48858d
+06-05 18:32:21.942 W/ActivityManager( 1629): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 18:32:21.942 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 18:32:21.942 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 18:32:21.942 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-05 18:32:21.942 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:9817)
+06-05 18:32:21.942 W/ActivityManager( 1629): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2856)
+06-05 18:32:21.942 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 18:32:21.942 W/ActivityManager( 1629): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 18:32:21.954 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 18:32:21.958 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.959 W/ActivityManager( 1629): Bad activity token: android.os.BinderProxy@a48858d
+06-05 18:32:21.959 W/ActivityManager( 1629): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 18:32:21.959 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 18:32:21.959 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 18:32:21.959 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:12559)
+06-05 18:32:21.959 W/ActivityManager( 1629): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1933)
+06-05 18:32:21.959 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 18:32:21.959 W/ActivityManager( 1629): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 18:32:21.962 W/ActivityManager( 1629): Bad activity token: android.os.BinderProxy@a48858d
+06-05 18:32:21.962 W/ActivityManager( 1629): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 18:32:21.962 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 18:32:21.962 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 18:32:21.962 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:12559)
+06-05 18:32:21.962 W/ActivityManager( 1629): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1933)
+06-05 18:32:21.962 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 18:32:21.962 W/ActivityManager( 1629): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 18:32:21.972 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.973 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.987 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.988 D/EGL_emulation( 2150): eglMakeCurrent: 0xb4f852a0: ver 2 0 (tinfo 0xb4f832e0)
+06-05 18:32:21.989 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:21.990 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:22.004 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 18:32:22.008 D/        ( 2986): HostConnection::get() New Host Connection established 0xa7838500, tid 2986
+06-05 18:32:22.008 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.009 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:22.039 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.041 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.043 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.044 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.054 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.056 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.056 I/ActivityManager( 1629): Displayed com.evancharlton.mileage/.Mileage: +131ms
+06-05 18:32:22.057 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 18:32:22.071 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.073 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.073 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:22.088 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.094 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.104 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.106 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.121 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.122 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.138 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.139 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.154 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.156 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.171 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.172 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.187 I/WindowManager( 1629): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.ServiceIntervalTemplateActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.AppWindowAnimator.stepAnimationLocked:427 com.android.server.wm.WindowAnimator.updateAppWindowsLocked:196 com.android.server.wm.WindowAnimator.animateLocked:678 
+06-05 18:32:22.188 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.190 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.205 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.207 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.208 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:22.221 D/EGL_emulation( 1711): eglMakeCurrent: 0xa5b6bd80: ver 2 0 (tinfo 0xb1367140)
+06-05 18:32:22.253 I/WindowManager( 1629): Destroying surface Surface(name=Starting com.evancharlton.mileage) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.WindowStateAnimator.stepAnimationLocked:491 com.android.server.wm.WindowAnimator.updateWindowsLocked:303 com.android.server.wm.WindowAnimator.animateLocked:704 
+06-05 18:32:22.255 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:22.256 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:22.407 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:22.708 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:22.711 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:22.714 W/OpenGLRenderer( 2150): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-05 18:32:22.723 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:22.726 I/WindowManager( 1629): Destroying surface Surface(name=com.android.launcher3/com.android.launcher3.Launcher) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.AppWindowToken.notifyAppStopped:389 com.android.server.wm.WindowManagerService.notifyAppStopped:4463 com.android.server.am.ActivityStack.activityStoppedLocked:1252 com.android.server.am.ActivityManagerService.activityStopped:6903 
+06-05 18:32:23.106 I/System.out( 2986): URI: //
+06-05 18:32:23.106 I/System.out( 2986): params: {json={"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-05 18:32:23.106 I/System.out( 2986): }
+06-05 18:32:23.106 I/System.out( 2986): header: {content-type=application/json;charset=utf-8, date=Fri, 05 Jun 2020 23:32:23 GMT, accept=*/*, host=127.0.0.1:34783, content-length=52, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-05 18:32:23.106 I/System.out( 2986): params: {json={"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-05 18:32:23.106 I/System.out( 2986): }
+06-05 18:32:23.106 I/System.out( 2986): ProP json = {"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-05 18:32:23.106 I/System.out( 2986): files: {}
+06-05 18:32:23.106 I/System.out( 2986): command: {"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-05 18:32:23.111 I/InstrumentationBackend( 2986): Got command:'Command:'Line:null,press_key', arguments:'[KEYCODE_MENU]'
+06-05 18:32:23.142 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.157 I/System.out( 2986): result:{"bonusInformation":[],"message":"","success":true}
+06-05 18:32:23.160 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.164 I/System.out( 2986): URI: //map
+06-05 18:32:23.165 I/System.out( 2986): params: {json={"query":"* marked:'Import / Export'","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:23.165 I/System.out( 2986): }
+06-05 18:32:23.172 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.190 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.194 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 1720320
+06-05 18:32:23.213 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.216 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.222 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.274 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:23.289 I/System.out( 2986): URI: //gesture
+06-05 18:32:23.289 I/System.out( 2986): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'Import / Export'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-05 18:32:23.289 I/System.out( 2986): }
+06-05 18:32:23.304 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 18:32:23.334 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:23.438 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.468 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 1720320
+06-05 18:32:23.555 I/ActivityManager( 1629): START u0 {cmp=com.evancharlton.mileage/.ImportExportActivity} from uid 10160 on display 0
+06-05 18:32:23.558 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.560 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.578 I/WindowManager( 1629): Destroying surface Surface(name=AtchDlg:com.evancharlton.mileage/com.evancharlton.mileage.FillupActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.removeLocked:1456 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2484 com.android.server.wm.WindowManagerService.removeWindowLocked:2442 com.android.server.wm.WindowManagerService.removeWindowLocked:2311 com.android.server.wm.WindowManagerService.removeWindow:2306 com.android.server.wm.Session.remove:202 
+06-05 18:32:23.583 I/calabash( 2986): newActivity1
+06-05 18:32:23.595 I/System.out( 2986): URI: //map
+06-05 18:32:23.595 I/System.out( 2986): params: {json={"query":"* {text CONTAINS[c] 'Import / Export data'}","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:23.595 I/System.out( 2986): }
+06-05 18:32:23.621 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.624 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 18:32:23.637 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.655 I/ActivityManager( 1629): Displayed com.evancharlton.mileage/.ImportExportActivity: +90ms
+06-05 18:32:23.660 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 18:32:23.676 I/System.out( 2986): URI: //map
+06-05 18:32:23.676 I/System.out( 2986): params: {json={"query":"* {text CONTAINS[c] 'If you need to get data'}","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:23.676 I/System.out( 2986): }
+06-05 18:32:23.687 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.738 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:23.747 I/art     ( 2986): Do partial code cache collection, code=30KB, data=30KB
+06-05 18:32:23.748 I/art     ( 2986): After code cache collection, code=28KB, data=29KB
+06-05 18:32:23.748 I/art     ( 2986): Increasing code cache capacity to 128KB
+06-05 18:32:23.759 I/System.out( 2986): URI: //map
+06-05 18:32:23.759 I/System.out( 2986): params: {json={"query":"* {text CONTAINS[c] 'to connect to your computer via USB for this'}","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:23.759 I/System.out( 2986): }
+06-05 18:32:23.779 I/System.out( 2986): URI: //map
+06-05 18:32:23.779 I/System.out( 2986): params: {json={"query":"* marked:'Import data'","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:23.779 I/System.out( 2986): }
+06-05 18:32:23.784 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:23.791 I/System.out( 2986): URI: //gesture
+06-05 18:32:23.791 I/System.out( 2986): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'Import data'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-05 18:32:23.791 I/System.out( 2986): }
+06-05 18:32:23.795 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:23.890 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.006 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.009 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.022 I/WindowManager( 1629): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.Mileage) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:3024 com.android.server.wm.WindowManagerService.relayoutWindow:2904 com.android.server.wm.Session.relayout:224 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:145 
+06-05 18:32:24.024 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.027 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.030 I/ActivityManager( 1629): START u0 {cmp=com.evancharlton.mileage/.ImportActivity} from uid 10160 on display 0
+06-05 18:32:24.035 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.039 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.060 I/System.out( 2986): URI: //map
+06-05 18:32:24.060 I/System.out( 2986): params: {json={"query":"* {text CONTAINS[c] 'Import data'}","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:24.060 I/System.out( 2986): }
+06-05 18:32:24.110 I/calabash( 2986): newActivity1
+06-05 18:32:24.124 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.126 I/System.out( 2986): URI: //map
+06-05 18:32:24.126 I/System.out( 2986): params: {json={"query":"* marked:'Database (*.db)'","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:24.126 I/System.out( 2986): }
+06-05 18:32:24.137 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.139 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 18:32:24.154 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.163 I/ActivityManager( 1629): Displayed com.evancharlton.mileage/.ImportActivity: +85ms
+06-05 18:32:24.165 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:24.170 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 18:32:24.171 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.174 I/System.out( 2986): URI: //gesture
+06-05 18:32:24.174 I/System.out( 2986): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'Database (*.db)'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-05 18:32:24.174 I/System.out( 2986): }
+06-05 18:32:24.187 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.220 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.229 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:24.404 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.461 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.467 I/System.out( 2986): URI: //map
+06-05 18:32:24.467 I/System.out( 2986): params: {json={"query":"* marked:'Spreadsheet (*.csv)'","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:24.467 I/System.out( 2986): }
+06-05 18:32:24.475 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.488 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.520 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 1597440
+06-05 18:32:24.527 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.528 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.528 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:24.529 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 1597440
+06-05 18:32:24.538 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.539 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.571 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.788 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.821 I/WindowManager( 1629): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.ImportExportActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:3024 com.android.server.wm.WindowManagerService.relayoutWindow:2904 com.android.server.wm.Session.relayout:224 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:145 
+06-05 18:32:24.821 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:24.835 I/System.out( 2986): URI: //map
+06-05 18:32:24.835 I/System.out( 2986): params: {json={"query":"* marked:'Spreadsheet (*.csv)'","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:24.835 I/System.out( 2986): }
+06-05 18:32:24.839 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:24.848 I/System.out( 2986): URI: //gesture
+06-05 18:32:24.848 I/System.out( 2986): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'Spreadsheet (*.csv)'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-05 18:32:24.848 I/System.out( 2986): }
+06-05 18:32:24.853 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:25.089 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.089 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.098 I/System.out( 2986): URI: //map
+06-05 18:32:25.098 I/System.out( 2986): params: {json={"query":"* {text CONTAINS[c] 'Missing files?'}","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:25.098 I/System.out( 2986): }
+06-05 18:32:25.104 W/InputEventReceiver( 2986): Attempted to finish an input event but the input event receiver has already been disposed.
+06-05 18:32:25.131 W/InputMethodManagerService( 1629): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@70f6f23 attribute=null, token = android.os.BinderProxy@d5def8f
+06-05 18:32:25.176 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.229 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.237 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.240 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 2539520
+06-05 18:32:25.252 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.253 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.255 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.370 I/WindowManager( 1629): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.ImportActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.WindowStateAnimator.stepAnimationLocked:491 com.android.server.wm.WindowAnimator.updateWindowsLocked:303 com.android.server.wm.WindowAnimator.animateLocked:704 
+06-05 18:32:25.371 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.396 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.486 I/System.out( 2986): URI: //map
+06-05 18:32:25.486 I/System.out( 2986): params: {json={"query":"* {text CONTAINS[c] 'Missing files?'}","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:25.486 I/System.out( 2986): }
+06-05 18:32:25.490 I/art     ( 2986): Do partial code cache collection, code=59KB, data=62KB
+06-05 18:32:25.490 I/art     ( 2986): After code cache collection, code=58KB, data=62KB
+06-05 18:32:25.490 I/art     ( 2986): Increasing code cache capacity to 256KB
+06-05 18:32:25.504 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.537 I/System.out( 2986): URI: //map
+06-05 18:32:25.537 I/System.out( 2986): params: {json={"query":"* {text CONTAINS[c] 'To import files, place them'}","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:25.537 I/System.out( 2986): }
+06-05 18:32:25.600 I/System.out( 2986): URI: //map
+06-05 18:32:25.600 I/System.out( 2986): params: {json={"query":"* marked:'OK'","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:25.600 I/System.out( 2986): }
+06-05 18:32:25.628 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:25.635 I/System.out( 2986): URI: //gesture
+06-05 18:32:25.635 I/System.out( 2986): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'OK'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-05 18:32:25.635 I/System.out( 2986): }
+06-05 18:32:25.640 W/ResourceType( 2986): No package identifier when getting name for resource number 0x00000001
+06-05 18:32:25.654 D/gralloc_ranchu( 1346): gralloc_alloc: Creating ashmem region of size 2539520
+06-05 18:32:25.872 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.877 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 18:32:25.879 I/System.out( 2986): URI: //map
+06-05 18:32:25.879 I/System.out( 2986): params: {json={"query":"* {text CONTAINS[c] 'Erase database before importing'}","operation":{"method_name":"query","arguments":[]}}
+06-05 18:32:25.879 I/System.out( 2986): }
+06-05 18:32:25.888 W/InputMethodManagerService( 1629): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@ea26f9e attribute=null, token = android.os.BinderProxy@d5def8f

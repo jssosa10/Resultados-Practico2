@@ -1,0 +1,922 @@
+--------- beginning of main
+06-06 03:13:22.364 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.397 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.398 V/PhoneStatusBar( 1711): setLightsOn(true)
+--------- beginning of system
+06-06 03:13:22.414 I/WindowManager( 1630): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.FieldListActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:3024 com.android.server.wm.WindowManagerService.relayoutWindow:2904 com.android.server.wm.Session.relayout:224 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:145 
+06-06 03:13:22.414 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.415 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.431 W/ActivityManager( 1630): Duplicate finish request for ActivityRecord{8b76978 u0 com.evancharlton.mileage/.Mileage t12633 f}
+06-06 03:13:22.431 W/ActivityManager( 1630): Duplicate finish request for ActivityRecord{8b76978 u0 com.evancharlton.mileage/.Mileage t12633 f}
+06-06 03:13:22.431 W/ActivityManager( 1630): Duplicate finish request for ActivityRecord{8b76978 u0 com.evancharlton.mileage/.Mileage t12633 f}
+06-06 03:13:22.431 W/ActivityManager( 1630): Duplicate finish request for ActivityRecord{5ba7f97 u0 com.evancharlton.mileage/.FieldListActivity t12633 f}
+06-06 03:13:22.432 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.433 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.434 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.434 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.435 W/ActivityManager( 1630): Finishing task with all activities already finished
+06-06 03:13:22.435 W/ActivityManager( 1630): Duplicate finish request for ActivityRecord{dbaa1 u0 com.evancharlton.mileage/.FieldActivity t12633 f}
+06-06 03:13:22.480 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 3145728
+06-06 03:13:22.485 E/EGL_emulation( 1347): tid 1347: eglCreateSyncKHR(1901): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-06 03:13:22.515 W/InputMethodService( 1696): Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+06-06 03:13:22.515 W/IInputConnectionWrapper(32033): finishComposingText on inactive InputConnection
+06-06 03:13:22.515 W/IInputConnectionWrapper(32033): reportFullscreenMode on inexistent InputConnection
+06-06 03:13:22.515 W/IInputConnectionWrapper(32033): finishComposingText on inactive InputConnection
+06-06 03:13:22.521 D/AndroidRuntime(32083): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 03:13:22.522 D/AndroidRuntime(32083): CheckJNI is ON
+06-06 03:13:22.531 D/EGL_emulation( 1696): eglMakeCurrent: 0x9cbfeaa0: ver 2 0 (tinfo 0x98551b20)
+06-06 03:13:22.533 D/EGL_emulation( 2078): eglMakeCurrent: 0x9852d440: ver 2 0 (tinfo 0xa3d30310)
+06-06 03:13:22.536 W/art     (32083): Unexpected CPU variant for X86 using defaults: x86
+06-06 03:13:22.539 D/ICU     (32083): No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-06 03:13:22.548 E/memtrack(32083): Couldn't load memtrack module (No such file or directory)
+06-06 03:13:22.548 E/android.os.Debug(32083): failed to load memtrack module: -2
+06-06 03:13:22.548 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.549 I/Radio-JNI(32083): register_android_hardware_Radio DONE
+06-06 03:13:22.554 D/AndroidRuntime(32083): Calling main entry com.android.commands.am.Am
+06-06 03:13:22.556 I/ActivityManager( 1630): Force stopping com.evancharlton.mileage appid=10422 user=0: start instr
+06-06 03:13:22.556 I/ActivityManager( 1630): Killing 32033:com.evancharlton.mileage/u0a422 (adj 0): stop com.evancharlton.mileage
+06-06 03:13:22.556 D/ActivityManager( 1630): cleanUpApplicationRecord -- 32033
+06-06 03:13:22.556 W/ActivityManager( 1630): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner}
+06-06 03:13:22.556 I/ActivityManager( 1630): Force stopping com.evancharlton.mileage appid=10422 user=0: finished inst
+06-06 03:13:22.558 W/InputDispatcher( 1630): channel '4aa5fdd com.evancharlton.mileage/com.evancharlton.mileage.FieldActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-06 03:13:22.558 E/InputDispatcher( 1630): channel '4aa5fdd com.evancharlton.mileage/com.evancharlton.mileage.FieldActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-06 03:13:22.558 I/WindowManager( 1630): WIN DEATH: Window{4aa5fdd u0 com.evancharlton.mileage/com.evancharlton.mileage.FieldActivity EXITING}
+06-06 03:13:22.558 W/InputDispatcher( 1630): Attempted to unregister already unregistered input channel '4aa5fdd com.evancharlton.mileage/com.evancharlton.mileage.FieldActivity (server)'
+06-06 03:13:22.560 I/art     (32093): Not late-enabling -Xcheck:jni (already on)
+06-06 03:13:22.560 W/art     (32093): Unexpected CPU variant for X86 using defaults: x86
+06-06 03:13:22.567 I/ActivityManager( 1630): Start proc 32093:com.evancharlton.mileage/u0a422 for added application com.evancharlton.mileage
+06-06 03:13:22.567 D/AndroidRuntime(32083): Shutting down VM
+06-06 03:13:22.572 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.573 W/System  (32093): ClassLoader referenced unknown path: /data/app/com.evancharlton.mileage.test-1/lib/x86
+06-06 03:13:22.573 W/System  (32093): ClassLoader referenced unknown path: /data/app/com.evancharlton.mileage-1/lib/x86
+06-06 03:13:22.575 W/System  (32093): ClassLoader referenced unknown path: 
+06-06 03:13:22.576 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.580 I/System.out(32093): Main activity name automatically set to: com.evancharlton.mileage.Mileage
+06-06 03:13:22.580 I/System.out(32093): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+06-06 03:13:22.580 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.580 I/calabash(32093): Test server port: 7102
+06-06 03:13:22.581 I/InstrumentationBackend(32093): Added:'GetPreferences', with key:'get_preferences'
+06-06 03:13:22.582 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'SetPreferences', with key:'set_preferences'
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'ClearPreferences', with key:'clear_preferences'
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'PressElement', with key:'press_l10n_element'
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'WaitForElement', with key:'wait_for_l10n_element'
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'NullAction', with key:'nullAction'
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'PressKey', with key:'press_key'
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'SetActivityOrientation', with key:'set_activity_orientation'
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'GetActivityOrientation', with key:'get_activity_orientation'
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'FakeGPSLocation', with key:'set_gps_coordinates'
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'SetPropertyByCssSelector', with key:'set_property_by_css_selector'
+06-06 03:13:22.585 I/InstrumentationBackend(32093): Added:'GetUrl', with key:'get_url'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'ScrollTo', with key:'scroll_to'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'GetLoadProgress', with key:'get_load_progress'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'DumpHtml', with key:'dump_html'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'DumpBodyHtml', with key:'dump_body_html'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'EnterTextByCssSelector', with key:'enter_text_by_selector'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'AndroidSDKVersion', with key:'android_sdk_version'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'Version', with key:'version'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'Drag', with key:'drag'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'TouchCoordinates', with key:'touch_coordinate'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'LongPressCoordinate', with key:'long_press_coordinate'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'DragCoordinates', with key:'drag_coordinates'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'ResumeApplication', with key:'resume_application'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'Swipe', with key:'swipe'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'DoubleTapCoordinate', with key:'double_tap_coordinate'
+06-06 03:13:22.586 I/InstrumentationBackend(32093): Added:'ClickOnScreen', with key:'click_on_screen'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'GetActivityName', with key:'get_activity_name'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'ScrollToView', with key:'scroll_to_view'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'ViewConfiguration', with key:'view_configuration'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'IsCurrentActivityFocused', with key:'is_current_activity_focused'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'SendTcp', with key:'send_tcp'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'DpToDevicePixel', with key:'dp_to_device_pixel'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'KeyboardEnterText', with key:'keyboard_enter_text'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'DeleteSurroundingText', with key:'delete_surrounding_text'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'SetComposingRegion', with key:'set_composing_region'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'SetSelection', with key:'set_selection'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'KeyboardKeyEvent', with key:'keyboard_key_event'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'PressUserActionButton', with key:'press_user_action_button'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'HideSoftKeyboard', with key:'hide_soft_keyboard'
+06-06 03:13:22.587 I/InstrumentationBackend(32093): Added:'ListActions', with key:'list_actions'
+06-06 03:13:22.587 I/calabash(32093): Instantiating http server at 7102
+06-06 03:13:22.588 I/System.out(32093): HTTP Daemon listening on: 7102
+06-06 03:13:22.597 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.599 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.613 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.615 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.630 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.632 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.647 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.649 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.664 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.666 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.677 I/System.out(32093): URI: //ping
+06-06 03:13:22.677 I/System.out(32093): params: {json={}
+06-06 03:13:22.677 I/System.out(32093): }
+06-06 03:13:22.680 I/System.out(32093): URI: //ping
+06-06 03:13:22.680 I/System.out(32093): params: {json={}
+06-06 03:13:22.680 I/System.out(32093): }
+06-06 03:13:22.680 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.682 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.683 I/System.out(32093): URI: //ready
+06-06 03:13:22.683 I/System.out(32093): params: {json={}
+06-06 03:13:22.683 I/System.out(32093): }
+06-06 03:13:22.685 I/System.out(32093): URI: //
+06-06 03:13:22.685 I/System.out(32093): params: {json={"command":"version","arguments":[]}
+06-06 03:13:22.685 I/System.out(32093): }
+06-06 03:13:22.685 I/System.out(32093): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 08:13:23 GMT, accept=*/*, host=127.0.0.1:34777, content-length=36, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-06 03:13:22.685 I/System.out(32093): params: {json={"command":"version","arguments":[]}
+06-06 03:13:22.685 I/System.out(32093): }
+06-06 03:13:22.685 I/System.out(32093): ProP json = {"command":"version","arguments":[]}
+06-06 03:13:22.685 I/System.out(32093): files: {}
+06-06 03:13:22.685 I/System.out(32093): command: {"command":"version","arguments":[]}
+06-06 03:13:22.690 I/InstrumentationBackend(32093): Got command:'Command:'Line:null,version', arguments:'[]'
+06-06 03:13:22.696 I/System.out(32093): result:{"bonusInformation":[],"message":"0.9.8","success":true}
+06-06 03:13:22.697 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.698 I/System.out(32093): URI: //start-application
+06-06 03:13:22.698 I/System.out(32093): params: {json={"intent":null}
+06-06 03:13:22.698 I/System.out(32093): }
+06-06 03:13:22.699 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.707 I/ActivityManager( 1630): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.evancharlton.mileage/.Mileage} from uid 10422 on display 0
+06-06 03:13:22.713 I/calabash(32093): newActivity1
+06-06 03:13:22.713 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.715 I/WindowManager( 1630): Destroying surface Surface(name=InputMethod) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementInner:429 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop:232 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:180 com.android.server.wm.WindowManagerService.relayoutWindow:2943 com.android.server.wm.Session.relayout:224 
+06-06 03:13:22.715 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.722 I/calabash(32093): newActivity1
+06-06 03:13:22.723 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@1edc014
+06-06 03:13:22.723 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-06 03:13:22.723 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-06 03:13:22.723 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-06 03:13:22.723 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-06 03:13:22.723 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:9806)
+06-06 03:13:22.723 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2566)
+06-06 03:13:22.723 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-06 03:13:22.723 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-06 03:13:22.724 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@1edc014
+06-06 03:13:22.724 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9358)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2639)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-06 03:13:22.724 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@1edc014
+06-06 03:13:22.724 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:9817)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2856)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-06 03:13:22.724 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-06 03:13:22.730 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:22.734 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.743 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@1edc014
+06-06 03:13:22.743 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:12559)
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1933)
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-06 03:13:22.743 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@1edc014
+06-06 03:13:22.743 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:12559)
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1933)
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-06 03:13:22.743 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-06 03:13:22.748 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.750 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.764 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.764 D/EGL_emulation( 2078): eglMakeCurrent: 0x9852d440: ver 2 0 (tinfo 0xa3d30310)
+06-06 03:13:22.766 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.767 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.780 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:22.785 D/        (32093): HostConnection::get() New Host Connection established 0x8b5af4c0, tid 32093
+06-06 03:13:22.823 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.824 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.825 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.828 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.831 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.833 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.844 I/ActivityManager( 1630): Displayed com.evancharlton.mileage/.Mileage: +134ms
+06-06 03:13:22.847 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.847 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:22.862 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.863 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.872 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.872 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.884 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.886 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.897 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.899 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.913 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.915 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.930 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.932 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.947 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.948 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.963 I/WindowManager( 1630): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.FieldActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.removeLocked:1456 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2484 com.android.server.wm.AppWindowToken.destroySurfaces:365 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.AppWindowAnimator.stepAnimationLocked:427 com.android.server.wm.WindowAnimator.updateAppWindowsLocked:196 
+06-06 03:13:22.964 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.965 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.980 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.982 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:22.983 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:22.997 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:23.030 I/WindowManager( 1630): Destroying surface Surface(name=Starting com.evancharlton.mileage) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.WindowStateAnimator.stepAnimationLocked:491 com.android.server.wm.WindowAnimator.updateWindowsLocked:303 com.android.server.wm.WindowAnimator.animateLocked:704 
+06-06 03:13:23.035 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.039 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.180 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.481 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.483 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.485 W/OpenGLRenderer( 2078): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-06 03:13:23.498 I/WindowManager( 1630): Destroying surface Surface(name=com.android.launcher3/com.android.launcher3.Launcher) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.AppWindowToken.notifyAppStopped:389 com.android.server.wm.WindowManagerService.notifyAppStopped:4463 com.android.server.am.ActivityStack.activityStoppedLocked:1252 com.android.server.am.ActivityManagerService.activityStopped:6903 
+06-06 03:13:23.499 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.891 I/System.out(32093): URI: //
+06-06 03:13:23.891 I/System.out(32093): params: {json={"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:23.891 I/System.out(32093): }
+06-06 03:13:23.891 I/System.out(32093): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 08:13:24 GMT, accept=*/*, host=127.0.0.1:34777, content-length=52, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-06 03:13:23.891 I/System.out(32093): params: {json={"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:23.891 I/System.out(32093): }
+06-06 03:13:23.891 I/System.out(32093): ProP json = {"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:23.891 I/System.out(32093): files: {}
+06-06 03:13:23.891 I/System.out(32093): command: {"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:23.892 I/InstrumentationBackend(32093): Got command:'Command:'Line:null,press_key', arguments:'[KEYCODE_MENU]'
+06-06 03:13:23.900 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.904 I/System.out(32093): result:{"bonusInformation":[],"message":"","success":true}
+06-06 03:13:23.906 I/System.out(32093): URI: //map
+06-06 03:13:23.906 I/System.out(32093): params: {json={"query":"* marked:'Edit fields'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:23.906 I/System.out(32093): }
+06-06 03:13:23.915 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.930 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.947 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.948 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 1720320
+06-06 03:13:23.955 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.955 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.959 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:23.964 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:23.973 I/System.out(32093): URI: //gesture
+06-06 03:13:23.973 I/System.out(32093): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'Edit fields'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-06 03:13:23.973 I/System.out(32093): }
+06-06 03:13:24.040 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:24.041 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:24.181 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.233 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 1720320
+06-06 03:13:24.297 I/ActivityManager( 1630): START u0 {cmp=com.evancharlton.mileage/.FieldListActivity} from uid 10422 on display 0
+06-06 03:13:24.299 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.299 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.304 I/WindowManager( 1630): Destroying surface Surface(name=AtchDlg:com.evancharlton.mileage/com.evancharlton.mileage.FillupActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.removeLocked:1456 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2484 com.android.server.wm.WindowManagerService.removeWindowLocked:2442 com.android.server.wm.WindowManagerService.removeWindowLocked:2311 com.android.server.wm.WindowManagerService.removeWindow:2306 com.android.server.wm.Session.remove:202 
+06-06 03:13:24.304 I/calabash(32093): newActivity1
+06-06 03:13:24.330 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.332 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:24.346 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.352 I/ActivityManager( 1630): Displayed com.evancharlton.mileage/.FieldListActivity: +51ms
+06-06 03:13:24.363 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.398 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.414 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.600 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.714 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.715 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.730 I/WindowManager( 1630): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.Mileage) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:3024 com.android.server.wm.WindowManagerService.relayoutWindow:2904 com.android.server.wm.Session.relayout:224 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:145 
+06-06 03:13:24.731 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:24.731 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.310 I/System.out(32093): URI: //
+06-06 03:13:25.310 I/System.out(32093): params: {json={"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:25.310 I/System.out(32093): }
+06-06 03:13:25.310 I/System.out(32093): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 08:13:26 GMT, accept=*/*, host=127.0.0.1:34777, content-length=52, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-06 03:13:25.310 I/System.out(32093): params: {json={"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:25.310 I/System.out(32093): }
+06-06 03:13:25.310 I/System.out(32093): ProP json = {"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:25.310 I/System.out(32093): files: {}
+06-06 03:13:25.310 I/System.out(32093): command: {"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:25.311 I/InstrumentationBackend(32093): Got command:'Command:'Line:null,press_key', arguments:'[KEYCODE_MENU]'
+06-06 03:13:25.316 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.320 I/System.out(32093): result:{"bonusInformation":[],"message":"","success":true}
+06-06 03:13:25.323 I/System.out(32093): URI: //map
+06-06 03:13:25.324 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:25.324 I/System.out(32093): }
+06-06 03:13:25.332 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.347 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.367 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.367 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 929792
+06-06 03:13:25.372 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.372 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:25.372 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.381 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.384 I/System.out(32093): URI: //gesture
+06-06 03:13:25.384 I/System.out(32093): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'Add new field'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-06 03:13:25.384 I/System.out(32093): }
+06-06 03:13:25.388 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:25.390 I/art     (32093): Do partial code cache collection, code=29KB, data=30KB
+06-06 03:13:25.390 I/art     (32093): After code cache collection, code=29KB, data=30KB
+06-06 03:13:25.390 I/art     (32093): Increasing code cache capacity to 128KB
+06-06 03:13:25.496 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 929792
+06-06 03:13:25.530 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:25.566 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:25.597 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.675 I/System.out(32093): URI: //map
+06-06 03:13:25.675 I/System.out(32093): params: {json={"query":"android.widget.EditText index:0","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:25.675 I/System.out(32093): }
+06-06 03:13:25.694 I/ActivityManager( 1630): START u0 {cmp=com.evancharlton.mileage/.FieldActivity} from uid 10422 on display 0
+06-06 03:13:25.695 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.696 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.738 I/WindowManager( 1630): Destroying surface Surface(name=AtchDlg:com.evancharlton.mileage/com.evancharlton.mileage.FieldListActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.removeLocked:1456 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2484 com.android.server.wm.WindowManagerService.removeWindowLocked:2442 com.android.server.wm.WindowManagerService.removeWindowLocked:2311 com.android.server.wm.WindowManagerService.removeWindow:2306 com.android.server.wm.Session.remove:202 
+06-06 03:13:25.765 I/calabash(32093): newActivity1
+06-06 03:13:25.799 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.813 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.830 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.839 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:25.863 W/InputMethodService( 1696): Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+06-06 03:13:25.863 I/ActivityManager( 1630): Displayed com.evancharlton.mileage/.FieldActivity: +129ms
+06-06 03:13:25.863 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:25.864 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.870 I/LatinIME( 1696): Starting input. Cursor position = 0,0
+06-06 03:13:25.880 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.947 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.964 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.982 D/EGL_emulation( 1696): eglMakeCurrent: 0x9cbfeaa0: ver 2 0 (tinfo 0x98551b20)
+06-06 03:13:25.982 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:25.983 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:25.998 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:26.007 I/System.out(32093): URI: //map
+06-06 03:13:26.014 I/System.out(32093): params: {json={"query":"android.widget.EditText index:0","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:26.014 I/System.out(32093): }
+06-06 03:13:26.014 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:26.042 I/System.out(32093): URI: //gesture
+06-06 03:13:26.042 I/System.out(32093): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.EditText index:0","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-06 03:13:26.042 I/System.out(32093): }
+06-06 03:13:26.097 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:26.214 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:26.215 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:26.230 I/WindowManager( 1630): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.FieldListActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:3024 com.android.server.wm.WindowManagerService.relayoutWindow:2904 com.android.server.wm.Session.relayout:224 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:145 
+06-06 03:13:26.231 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:26.232 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:26.822 I/System.out(32093): URI: //
+06-06 03:13:26.822 I/System.out(32093): params: {json={"command":"set_selection","arguments":[-1,-1]}
+06-06 03:13:26.822 I/System.out(32093): }
+06-06 03:13:26.823 I/System.out(32093): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 08:13:27 GMT, accept=*/*, host=127.0.0.1:34777, content-length=47, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-06 03:13:26.823 I/System.out(32093): params: {json={"command":"set_selection","arguments":[-1,-1]}
+06-06 03:13:26.823 I/System.out(32093): }
+06-06 03:13:26.824 I/System.out(32093): ProP json = {"command":"set_selection","arguments":[-1,-1]}
+06-06 03:13:26.824 I/System.out(32093): files: {}
+06-06 03:13:26.824 I/System.out(32093): command: {"command":"set_selection","arguments":[-1,-1]}
+06-06 03:13:26.870 I/InstrumentationBackend(32093): Got command:'Command:'Line:null,set_selection', arguments:'[-1, -1]'
+06-06 03:13:27.009 I/System.out(32093): result:{"bonusInformation":[],"message":"","success":true}
+06-06 03:13:27.067 I/System.out(32093): URI: //
+06-06 03:13:27.067 I/System.out(32093): params: {json={"command":"keyboard_enter_text","arguments":["Gas station name"]}
+06-06 03:13:27.067 I/System.out(32093): }
+06-06 03:13:27.067 I/System.out(32093): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 08:13:27 GMT, accept=*/*, host=127.0.0.1:34777, content-length=66, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-06 03:13:27.067 I/System.out(32093): params: {json={"command":"keyboard_enter_text","arguments":["Gas station name"]}
+06-06 03:13:27.067 I/System.out(32093): }
+06-06 03:13:27.067 I/System.out(32093): ProP json = {"command":"keyboard_enter_text","arguments":["Gas station name"]}
+06-06 03:13:27.067 I/System.out(32093): files: {}
+06-06 03:13:27.067 I/System.out(32093): command: {"command":"keyboard_enter_text","arguments":["Gas station name"]}
+06-06 03:13:27.070 I/InstrumentationBackend(32093): Got command:'Command:'Line:null,keyboard_enter_text', arguments:'[Gas station name]'
+06-06 03:13:27.098 E/SpannableStringBuilder(32093): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-06 03:13:27.098 E/SpannableStringBuilder(32093): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-06 03:13:27.112 E/SpannableStringBuilder(32093): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-06 03:13:27.112 E/SpannableStringBuilder(32093): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-06 03:13:27.118 I/System.out(32093): result:{"bonusInformation":[],"message":"","success":true}
+06-06 03:13:27.122 I/System.out(32093): URI: //
+06-06 03:13:27.122 I/System.out(32093): params: {json={"command":"press_key","arguments":["KEYCODE_BACK"]}
+06-06 03:13:27.122 I/System.out(32093): }
+06-06 03:13:27.122 I/System.out(32093): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 08:13:27 GMT, accept=*/*, host=127.0.0.1:34777, content-length=52, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-06 03:13:27.122 I/System.out(32093): params: {json={"command":"press_key","arguments":["KEYCODE_BACK"]}
+06-06 03:13:27.122 I/System.out(32093): }
+06-06 03:13:27.122 I/System.out(32093): ProP json = {"command":"press_key","arguments":["KEYCODE_BACK"]}
+06-06 03:13:27.122 I/System.out(32093): files: {}
+06-06 03:13:27.122 I/System.out(32093): command: {"command":"press_key","arguments":["KEYCODE_BACK"]}
+06-06 03:13:27.126 I/InstrumentationBackend(32093): Got command:'Command:'Line:null,press_key', arguments:'[KEYCODE_BACK]'
+06-06 03:13:27.154 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:27.163 I/LatinIME:LogUtils( 1696): Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1591431207 ; date = ?
+06-06 03:13:27.178 I/LatinIME:LogUtils( 1696): Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+06-06 03:13:27.245 I/System.out(32093): result:{"bonusInformation":[],"message":"","success":true}
+06-06 03:13:27.248 I/System.out(32093): URI: //map
+06-06 03:13:27.248 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:27.248 I/System.out(32093): }
+06-06 03:13:27.304 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:27.308 W/InputMethodService( 1696): Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+06-06 03:13:27.312 I/System.out(32093): URI: //gesture
+06-06 03:13:27.312 I/System.out(32093): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'Add new field'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-06 03:13:27.312 I/System.out(32093): }
+06-06 03:13:27.314 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:27.314 D/EGL_emulation( 1696): eglMakeCurrent: 0x9cbfeaa0: ver 2 0 (tinfo 0x98551b20)
+06-06 03:13:27.316 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:27.317 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:27.320 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:27.356 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:27.499 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:27.500 I/WindowManager( 1630): Destroying surface Surface(name=InputMethod) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementInner:429 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop:232 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:180 com.android.server.wm.WindowManagerService$H.handleMessage:8086 android.os.Handler.dispatchMessage:102 
+06-06 03:13:28.581 I/System.out(32093): URI: //
+06-06 03:13:28.581 I/System.out(32093): params: {json={"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:28.581 I/System.out(32093): }
+06-06 03:13:28.581 I/System.out(32093): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 08:13:29 GMT, accept=*/*, host=127.0.0.1:34777, content-length=52, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-06 03:13:28.581 I/System.out(32093): params: {json={"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:28.581 I/System.out(32093): }
+06-06 03:13:28.581 I/System.out(32093): ProP json = {"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:28.581 I/System.out(32093): files: {}
+06-06 03:13:28.581 I/System.out(32093): command: {"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-06 03:13:28.582 I/InstrumentationBackend(32093): Got command:'Command:'Line:null,press_key', arguments:'[KEYCODE_MENU]'
+06-06 03:13:28.588 I/System.out(32093): result:{"bonusInformation":[],"message":"","success":true}
+06-06 03:13:28.591 I/System.out(32093): URI: //map
+06-06 03:13:28.591 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:28.591 I/System.out(32093): }
+06-06 03:13:28.595 I/art     (32093): Do partial code cache collection, code=50KB, data=56KB
+06-06 03:13:28.595 I/art     (32093): After code cache collection, code=50KB, data=56KB
+06-06 03:13:28.595 I/art     (32093): Increasing code cache capacity to 256KB
+06-06 03:13:28.595 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:28.603 I/System.out(32093): URI: //gesture
+06-06 03:13:28.603 I/System.out(32093): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'Add new field'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-06 03:13:28.603 I/System.out(32093): }
+06-06 03:13:28.607 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:28.856 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:28.885 I/System.out(32093): URI: //map
+06-06 03:13:28.885 I/System.out(32093): params: {json={"query":"android.widget.EditText index:0","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:28.885 I/System.out(32093): }
+06-06 03:13:28.927 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:28.931 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:28.932 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:28.933 D/Mileage.ABS(32093): Finished backup
+06-06 03:13:28.980 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:28.982 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:28.994 I/System.out(32093): URI: //gesture
+06-06 03:13:28.994 I/System.out(32093): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.EditText index:0","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-06 03:13:28.994 I/System.out(32093): }
+06-06 03:13:29.030 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.037 I/art     (32093): Compiler allocated 7MB to compile sh.calaba.instrumentationbackend.actions.NanoHTTPD$Response sh.calaba.instrumentationbackend.actions.HttpServer.serve(java.lang.String, java.lang.String, java.util.Properties, java.util.Properties, java.util.Properties)
+06-06 03:13:29.047 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.077 W/IInputConnectionWrapper(32093): finishComposingText on inactive InputConnection
+06-06 03:13:29.097 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.180 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:29.231 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:29.297 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.298 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.314 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.322 I/WindowManager( 1630): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.FieldActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.removeLocked:1456 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2484 com.android.server.wm.WindowManagerService.removeWindowLocked:2442 com.android.server.wm.WindowManagerService.removeWindowLocked:2311 com.android.server.wm.WindowManagerService.removeWindow:2306 com.android.server.wm.Session.remove:202 
+06-06 03:13:29.322 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.413 I/ActivityManager( 1630): START u0 {cmp=com.evancharlton.mileage/.FieldActivity (has extras)} from uid 10422 on display 0
+06-06 03:13:29.414 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.414 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.473 I/calabash(32093): newActivity1
+06-06 03:13:29.483 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.499 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:29.513 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.530 I/ActivityManager( 1630): Displayed com.evancharlton.mileage/.FieldActivity: +59ms
+06-06 03:13:29.530 W/InputMethodService( 1696): Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+06-06 03:13:29.530 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.531 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-06 03:13:29.535 I/LatinIME( 1696): Starting input. Cursor position = 0,0
+06-06 03:13:29.547 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.597 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.614 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.631 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:29.632 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.632 D/EGL_emulation( 1696): eglMakeCurrent: 0x9cbfeaa0: ver 2 0 (tinfo 0x98551b20)
+06-06 03:13:29.647 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:29.663 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.764 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.860 I/System.out(32093): URI: //
+06-06 03:13:29.860 I/System.out(32093): params: {json={"command":"set_selection","arguments":[-1,-1]}
+06-06 03:13:29.860 I/System.out(32093): }
+06-06 03:13:29.860 I/System.out(32093): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 08:13:30 GMT, accept=*/*, host=127.0.0.1:34777, content-length=47, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-06 03:13:29.860 I/System.out(32093): params: {json={"command":"set_selection","arguments":[-1,-1]}
+06-06 03:13:29.860 I/System.out(32093): }
+06-06 03:13:29.860 I/System.out(32093): ProP json = {"command":"set_selection","arguments":[-1,-1]}
+06-06 03:13:29.860 I/System.out(32093): files: {}
+06-06 03:13:29.860 I/System.out(32093): command: {"command":"set_selection","arguments":[-1,-1]}
+06-06 03:13:29.866 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.866 I/InstrumentationBackend(32093): Got command:'Command:'Line:null,set_selection', arguments:'[-1, -1]'
+06-06 03:13:29.878 I/System.out(32093): result:{"bonusInformation":[],"message":"","success":true}
+06-06 03:13:29.897 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.899 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.915 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.938 I/System.out(32093): URI: //
+06-06 03:13:29.938 I/System.out(32093): params: {json={"command":"keyboard_enter_text","arguments":["Gas station address"]}
+06-06 03:13:29.938 I/System.out(32093): }
+06-06 03:13:29.938 I/System.out(32093): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 08:13:30 GMT, accept=*/*, host=127.0.0.1:34777, content-length=69, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-06 03:13:29.938 I/System.out(32093): params: {json={"command":"keyboard_enter_text","arguments":["Gas station address"]}
+06-06 03:13:29.938 I/System.out(32093): }
+06-06 03:13:29.938 I/System.out(32093): ProP json = {"command":"keyboard_enter_text","arguments":["Gas station address"]}
+06-06 03:13:29.938 I/System.out(32093): files: {}
+06-06 03:13:29.938 I/System.out(32093): command: {"command":"keyboard_enter_text","arguments":["Gas station address"]}
+06-06 03:13:29.939 I/InstrumentationBackend(32093): Got command:'Command:'Line:null,keyboard_enter_text', arguments:'[Gas station address]'
+06-06 03:13:29.947 I/WindowManager( 1630): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.FieldListActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:3024 com.android.server.wm.WindowManagerService.relayoutWindow:2904 com.android.server.wm.Session.relayout:224 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:145 
+06-06 03:13:29.947 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:29.949 E/SpannableStringBuilder(32093): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-06 03:13:29.949 E/SpannableStringBuilder(32093): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-06 03:13:29.955 I/LatinIME:LogUtils( 1696): Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1591431209 ; date = ?
+06-06 03:13:29.959 I/LatinIME:LogUtils( 1696): Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+06-06 03:13:29.960 E/SpannableStringBuilder(32093): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-06 03:13:29.960 E/SpannableStringBuilder(32093): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-06 03:13:29.965 I/System.out(32093): result:{"bonusInformation":[],"message":"","success":true}
+06-06 03:13:29.968 I/System.out(32093): URI: //
+06-06 03:13:29.969 I/System.out(32093): params: {json={"command":"press_key","arguments":["KEYCODE_BACK"]}
+06-06 03:13:29.969 I/System.out(32093): }
+06-06 03:13:29.969 I/System.out(32093): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 08:13:30 GMT, accept=*/*, host=127.0.0.1:34777, content-length=52, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-06 03:13:29.969 I/System.out(32093): params: {json={"command":"press_key","arguments":["KEYCODE_BACK"]}
+06-06 03:13:29.969 I/System.out(32093): }
+06-06 03:13:29.969 I/System.out(32093): ProP json = {"command":"press_key","arguments":["KEYCODE_BACK"]}
+06-06 03:13:29.969 I/System.out(32093): files: {}
+06-06 03:13:29.969 I/System.out(32093): command: {"command":"press_key","arguments":["KEYCODE_BACK"]}
+06-06 03:13:29.970 I/InstrumentationBackend(32093): Got command:'Command:'Line:null,press_key', arguments:'[KEYCODE_BACK]'
+06-06 03:13:30.052 W/InputMethodService( 1696): Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+06-06 03:13:30.053 I/System.out(32093): result:{"bonusInformation":[],"message":"","success":true}
+06-06 03:13:30.055 I/System.out(32093): URI: //map
+06-06 03:13:30.055 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:30.055 I/System.out(32093): }
+06-06 03:13:30.058 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:30.064 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:13:30.064 D/EGL_emulation( 1696): eglMakeCurrent: 0x9cbfeaa0: ver 2 0 (tinfo 0x98551b20)
+06-06 03:13:30.066 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:30.067 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:30.080 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:30.248 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-06 03:13:30.248 I/WindowManager( 1630): Destroying surface Surface(name=InputMethod) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementInner:429 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop:232 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:180 com.android.server.wm.WindowManagerService$H.handleMessage:8086 android.os.Handler.dispatchMessage:102 
+06-06 03:13:30.365 I/System.out(32093): URI: //map
+06-06 03:13:30.365 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:30.365 I/System.out(32093): }
+06-06 03:13:30.371 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:30.681 I/System.out(32093): URI: //map
+06-06 03:13:30.681 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:30.681 I/System.out(32093): }
+06-06 03:13:30.745 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:31.052 I/System.out(32093): URI: //map
+06-06 03:13:31.052 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:31.052 I/System.out(32093): }
+06-06 03:13:31.055 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:31.361 I/System.out(32093): URI: //map
+06-06 03:13:31.361 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:31.361 I/System.out(32093): }
+06-06 03:13:31.365 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:31.674 I/System.out(32093): URI: //map
+06-06 03:13:31.674 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:31.674 I/System.out(32093): }
+06-06 03:13:31.698 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:32.005 I/System.out(32093): URI: //map
+06-06 03:13:32.005 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:32.005 I/System.out(32093): }
+06-06 03:13:32.009 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:32.317 I/System.out(32093): URI: //map
+06-06 03:13:32.317 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:32.317 I/System.out(32093): }
+06-06 03:13:32.320 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:32.621 W/audio_hw_generic( 1395): Not supplying enough data to HAL, expected position 261056296 , only wrote 260352000
+06-06 03:13:32.628 I/System.out(32093): URI: //map
+06-06 03:13:32.628 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:32.628 I/System.out(32093): }
+06-06 03:13:32.632 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:32.941 I/System.out(32093): URI: //map
+06-06 03:13:32.941 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:32.941 I/System.out(32093): }
+06-06 03:13:32.954 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:33.279 I/System.out(32093): URI: //map
+06-06 03:13:33.279 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:33.279 I/System.out(32093): }
+06-06 03:13:33.292 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:33.608 I/System.out(32093): URI: //map
+06-06 03:13:33.608 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:33.608 I/System.out(32093): }
+06-06 03:13:33.612 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:33.921 I/System.out(32093): URI: //map
+06-06 03:13:33.921 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:33.921 I/System.out(32093): }
+06-06 03:13:33.933 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:34.253 I/System.out(32093): URI: //map
+06-06 03:13:34.253 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:34.253 I/System.out(32093): }
+06-06 03:13:34.267 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:34.581 I/System.out(32093): URI: //map
+06-06 03:13:34.581 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:34.581 I/System.out(32093): }
+06-06 03:13:34.587 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:34.896 I/System.out(32093): URI: //map
+06-06 03:13:34.896 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:34.896 I/System.out(32093): }
+06-06 03:13:34.901 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:35.208 I/System.out(32093): URI: //map
+06-06 03:13:35.208 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:35.208 I/System.out(32093): }
+06-06 03:13:35.212 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:35.520 I/System.out(32093): URI: //map
+06-06 03:13:35.520 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:35.520 I/System.out(32093): }
+06-06 03:13:35.524 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:35.831 I/System.out(32093): URI: //map
+06-06 03:13:35.831 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:35.831 I/System.out(32093): }
+06-06 03:13:35.835 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:36.141 I/System.out(32093): URI: //map
+06-06 03:13:36.141 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:36.141 I/System.out(32093): }
+06-06 03:13:36.144 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:36.452 I/System.out(32093): URI: //map
+06-06 03:13:36.452 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:36.452 I/System.out(32093): }
+06-06 03:13:36.456 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:36.765 I/System.out(32093): URI: //map
+06-06 03:13:36.765 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:36.765 I/System.out(32093): }
+06-06 03:13:36.769 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:37.075 I/System.out(32093): URI: //map
+06-06 03:13:37.075 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:37.075 I/System.out(32093): }
+06-06 03:13:37.079 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:37.385 I/System.out(32093): URI: //map
+06-06 03:13:37.385 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:37.385 I/System.out(32093): }
+06-06 03:13:37.388 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:37.695 I/System.out(32093): URI: //map
+06-06 03:13:37.695 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:37.695 I/System.out(32093): }
+06-06 03:13:37.704 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:38.016 I/System.out(32093): URI: //map
+06-06 03:13:38.016 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:38.016 I/System.out(32093): }
+06-06 03:13:38.028 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:38.340 I/System.out(32093): URI: //map
+06-06 03:13:38.340 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:38.340 I/System.out(32093): }
+06-06 03:13:38.344 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:38.652 I/System.out(32093): URI: //map
+06-06 03:13:38.652 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:38.652 I/System.out(32093): }
+06-06 03:13:38.656 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:38.968 I/System.out(32093): URI: //map
+06-06 03:13:38.968 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:38.968 I/System.out(32093): }
+06-06 03:13:38.977 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:39.292 I/System.out(32093): URI: //map
+06-06 03:13:39.292 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:39.292 I/System.out(32093): }
+06-06 03:13:39.296 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:39.604 I/System.out(32093): URI: //map
+06-06 03:13:39.604 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:39.604 I/System.out(32093): }
+06-06 03:13:39.611 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:39.920 I/System.out(32093): URI: //map
+06-06 03:13:39.920 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:39.920 I/System.out(32093): }
+06-06 03:13:39.927 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:40.234 I/System.out(32093): URI: //map
+06-06 03:13:40.234 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:40.234 I/System.out(32093): }
+06-06 03:13:40.238 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:40.544 I/System.out(32093): URI: //map
+06-06 03:13:40.544 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:40.544 I/System.out(32093): }
+06-06 03:13:40.548 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:40.856 I/System.out(32093): URI: //map
+06-06 03:13:40.856 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:40.856 I/System.out(32093): }
+06-06 03:13:40.865 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:41.178 I/System.out(32093): URI: //map
+06-06 03:13:41.178 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:41.178 I/System.out(32093): }
+06-06 03:13:41.204 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:41.512 I/System.out(32093): URI: //map
+06-06 03:13:41.512 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:41.512 I/System.out(32093): }
+06-06 03:13:41.516 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:41.821 I/System.out(32093): URI: //map
+06-06 03:13:41.821 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:41.821 I/System.out(32093): }
+06-06 03:13:41.825 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:42.133 I/System.out(32093): URI: //map
+06-06 03:13:42.133 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:42.133 I/System.out(32093): }
+06-06 03:13:42.139 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:42.450 I/System.out(32093): URI: //map
+06-06 03:13:42.450 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:42.450 I/System.out(32093): }
+06-06 03:13:42.455 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:42.766 I/System.out(32093): URI: //map
+06-06 03:13:42.766 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:42.766 I/System.out(32093): }
+06-06 03:13:42.769 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:43.079 I/System.out(32093): URI: //map
+06-06 03:13:43.079 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:43.079 I/System.out(32093): }
+06-06 03:13:43.093 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:43.411 I/System.out(32093): URI: //map
+06-06 03:13:43.411 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:43.411 I/System.out(32093): }
+06-06 03:13:43.418 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:43.726 I/System.out(32093): URI: //map
+06-06 03:13:43.726 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:43.726 I/System.out(32093): }
+06-06 03:13:43.729 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:44.036 I/System.out(32093): URI: //map
+06-06 03:13:44.036 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:44.036 I/System.out(32093): }
+06-06 03:13:44.039 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:44.347 I/System.out(32093): URI: //map
+06-06 03:13:44.347 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:44.347 I/System.out(32093): }
+06-06 03:13:44.352 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:44.663 I/System.out(32093): URI: //map
+06-06 03:13:44.663 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:44.663 I/System.out(32093): }
+06-06 03:13:44.715 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:45.024 I/System.out(32093): URI: //map
+06-06 03:13:45.024 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:45.024 I/System.out(32093): }
+06-06 03:13:45.034 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:45.351 I/System.out(32093): URI: //map
+06-06 03:13:45.351 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:45.351 I/System.out(32093): }
+06-06 03:13:45.364 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:45.681 I/art     (32093): Do full code cache collection, code=125KB, data=122KB
+06-06 03:13:45.682 I/art     (32093): After code cache collection, code=119KB, data=109KB
+06-06 03:13:45.690 I/System.out(32093): URI: //map
+06-06 03:13:45.691 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:45.691 I/System.out(32093): }
+06-06 03:13:45.711 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:46.022 I/System.out(32093): URI: //map
+06-06 03:13:46.022 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:46.022 I/System.out(32093): }
+06-06 03:13:46.029 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:46.342 I/System.out(32093): URI: //map
+06-06 03:13:46.342 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:46.342 I/System.out(32093): }
+06-06 03:13:46.356 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:46.668 I/System.out(32093): URI: //map
+06-06 03:13:46.668 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:46.668 I/System.out(32093): }
+06-06 03:13:46.703 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:47.012 I/System.out(32093): URI: //map
+06-06 03:13:47.012 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:47.012 I/System.out(32093): }
+06-06 03:13:47.024 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:47.343 I/System.out(32093): URI: //map
+06-06 03:13:47.343 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:47.343 I/System.out(32093): }
+06-06 03:13:47.351 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:47.666 I/System.out(32093): URI: //map
+06-06 03:13:47.666 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:47.666 I/System.out(32093): }
+06-06 03:13:47.703 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:48.010 I/System.out(32093): URI: //map
+06-06 03:13:48.010 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:48.010 I/System.out(32093): }
+06-06 03:13:48.013 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:48.323 I/System.out(32093): URI: //map
+06-06 03:13:48.323 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:48.323 I/System.out(32093): }
+06-06 03:13:48.326 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:48.633 I/System.out(32093): URI: //map
+06-06 03:13:48.633 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:48.633 I/System.out(32093): }
+06-06 03:13:48.637 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:48.944 I/System.out(32093): URI: //map
+06-06 03:13:48.944 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:48.944 I/System.out(32093): }
+06-06 03:13:48.947 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:49.254 I/System.out(32093): URI: //map
+06-06 03:13:49.254 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:49.254 I/System.out(32093): }
+06-06 03:13:49.262 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:49.576 I/System.out(32093): URI: //map
+06-06 03:13:49.576 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:49.576 I/System.out(32093): }
+06-06 03:13:49.580 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:49.887 I/System.out(32093): URI: //map
+06-06 03:13:49.887 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:49.887 I/System.out(32093): }
+06-06 03:13:49.890 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:50.197 I/System.out(32093): URI: //map
+06-06 03:13:50.197 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:50.197 I/System.out(32093): }
+06-06 03:13:50.207 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:50.514 I/System.out(32093): URI: //map
+06-06 03:13:50.514 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:50.514 I/System.out(32093): }
+06-06 03:13:50.519 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:50.829 I/System.out(32093): URI: //map
+06-06 03:13:50.830 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:50.830 I/System.out(32093): }
+06-06 03:13:50.844 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:51.166 I/System.out(32093): URI: //map
+06-06 03:13:51.166 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:51.166 I/System.out(32093): }
+06-06 03:13:51.202 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:51.508 I/System.out(32093): URI: //map
+06-06 03:13:51.508 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:51.508 I/System.out(32093): }
+06-06 03:13:51.514 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:51.824 I/System.out(32093): URI: //map
+06-06 03:13:51.824 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:51.824 I/System.out(32093): }
+06-06 03:13:51.841 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:52.157 I/System.out(32093): URI: //map
+06-06 03:13:52.157 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:52.157 I/System.out(32093): }
+06-06 03:13:52.167 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:52.481 I/System.out(32093): URI: //map
+06-06 03:13:52.481 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:52.481 I/System.out(32093): }
+06-06 03:13:52.484 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:52.789 I/System.out(32093): URI: //map
+06-06 03:13:52.790 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:52.790 I/System.out(32093): }
+06-06 03:13:52.793 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:53.103 I/System.out(32093): URI: //map
+06-06 03:13:53.103 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:53.103 I/System.out(32093): }
+06-06 03:13:53.114 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:53.428 I/System.out(32093): URI: //map
+06-06 03:13:53.428 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:53.428 I/System.out(32093): }
+06-06 03:13:53.432 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:53.738 I/System.out(32093): URI: //map
+06-06 03:13:53.738 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:53.738 I/System.out(32093): }
+06-06 03:13:53.742 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:54.051 I/System.out(32093): URI: //map
+06-06 03:13:54.051 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:54.051 I/System.out(32093): }
+06-06 03:13:54.060 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:54.373 I/System.out(32093): URI: //map
+06-06 03:13:54.373 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:54.373 I/System.out(32093): }
+06-06 03:13:54.385 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:54.705 I/System.out(32093): URI: //map
+06-06 03:13:54.705 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:54.705 I/System.out(32093): }
+06-06 03:13:54.709 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:55.017 I/System.out(32093): URI: //map
+06-06 03:13:55.017 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:55.017 I/System.out(32093): }
+06-06 03:13:55.023 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:55.335 I/System.out(32093): URI: //map
+06-06 03:13:55.335 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:55.335 I/System.out(32093): }
+06-06 03:13:55.339 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:55.646 I/System.out(32093): URI: //map
+06-06 03:13:55.646 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:55.646 I/System.out(32093): }
+06-06 03:13:55.649 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:55.957 I/System.out(32093): URI: //map
+06-06 03:13:55.957 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:55.957 I/System.out(32093): }
+06-06 03:13:55.962 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:56.272 I/System.out(32093): URI: //map
+06-06 03:13:56.272 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:56.272 I/System.out(32093): }
+06-06 03:13:56.289 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:56.605 I/System.out(32093): URI: //map
+06-06 03:13:56.605 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:56.605 I/System.out(32093): }
+06-06 03:13:56.608 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:56.917 I/System.out(32093): URI: //map
+06-06 03:13:56.917 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:56.917 I/System.out(32093): }
+06-06 03:13:56.925 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:57.237 I/System.out(32093): URI: //map
+06-06 03:13:57.237 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:57.237 I/System.out(32093): }
+06-06 03:13:57.242 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:57.549 I/System.out(32093): URI: //map
+06-06 03:13:57.549 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:57.549 I/System.out(32093): }
+06-06 03:13:57.552 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:57.861 I/System.out(32093): URI: //map
+06-06 03:13:57.861 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:57.861 I/System.out(32093): }
+06-06 03:13:57.864 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:58.172 I/System.out(32093): URI: //map
+06-06 03:13:58.172 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:58.172 I/System.out(32093): }
+06-06 03:13:58.184 I/art     (32093): Do partial code cache collection, code=122KB, data=120KB
+06-06 03:13:58.184 I/art     (32093): After code cache collection, code=122KB, data=120KB
+06-06 03:13:58.184 I/art     (32093): Increasing code cache capacity to 512KB
+06-06 03:13:58.221 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:58.531 I/System.out(32093): URI: //map
+06-06 03:13:58.531 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:58.531 I/System.out(32093): }
+06-06 03:13:58.536 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:58.847 I/System.out(32093): URI: //map
+06-06 03:13:58.847 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:58.847 I/System.out(32093): }
+06-06 03:13:58.862 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:59.181 I/System.out(32093): URI: //map
+06-06 03:13:59.181 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:59.181 I/System.out(32093): }
+06-06 03:13:59.209 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:59.522 I/System.out(32093): URI: //map
+06-06 03:13:59.522 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:59.522 I/System.out(32093): }
+06-06 03:13:59.535 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:13:59.856 I/System.out(32093): URI: //map
+06-06 03:13:59.856 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:13:59.856 I/System.out(32093): }
+06-06 03:13:59.868 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001
+06-06 03:14:00.014 D/EGL_emulation( 1711): eglMakeCurrent: 0xa7985720: ver 2 0 (tinfo 0xa7983770)
+06-06 03:14:00.454 E/SurfaceFlinger( 1347): ro.sf.lcd_density must be defined as a build property
+06-06 03:14:00.455 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9592832
+06-06 03:14:00.460 D/        (32249): HostConnection::get() New Host Connection established 0xb1c1b2c0, tid 32249
+06-06 03:14:00.466 E/EGL_emulation( 1347): tid 1347: eglCreateSyncKHR(1901): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-06 03:14:00.653 I/System.out(32093): URI: //map
+06-06 03:14:00.653 I/System.out(32093): params: {json={"query":"* marked:'Add new field'","operation":{"method_name":"query","arguments":[]}}
+06-06 03:14:00.653 I/System.out(32093): }
+06-06 03:14:00.656 W/ResourceType(32093): No package identifier when getting name for resource number 0x00000001

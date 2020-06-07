@@ -1,0 +1,393 @@
+--------- beginning of main
+06-05 21:20:51.617 D/AndroidRuntime( 8355): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-05 21:20:51.618 D/AndroidRuntime( 8355): CheckJNI is ON
+06-05 21:20:51.629 W/art     ( 8355): Unexpected CPU variant for X86 using defaults: x86
+06-05 21:20:51.632 D/ICU     ( 8355): No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-05 21:20:51.640 E/memtrack( 8355): Couldn't load memtrack module (No such file or directory)
+06-05 21:20:51.640 E/android.os.Debug( 8355): failed to load memtrack module: -2
+06-05 21:20:51.641 I/Radio-JNI( 8355): register_android_hardware_Radio DONE
+06-05 21:20:51.647 D/AndroidRuntime( 8355): Calling main entry com.android.commands.am.Am
+--------- beginning of system
+06-05 21:20:51.648 I/ActivityManager( 1630): Force stopping com.evancharlton.mileage appid=10286 user=0: start instr
+06-05 21:20:51.648 I/ActivityManager( 1630): Killing 8335:com.evancharlton.mileage/u0a286 (adj 0): stop com.evancharlton.mileage
+06-05 21:20:51.649 D/ActivityManager( 1630): cleanUpApplicationRecord -- 8335
+06-05 21:20:51.649 W/ActivityManager( 1630): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.ClearAppData2}
+06-05 21:20:51.649 I/ActivityManager( 1630): Force stopping com.evancharlton.mileage appid=10286 user=0: finished inst
+06-05 21:20:51.652 I/art     ( 8365): Not late-enabling -Xcheck:jni (already on)
+06-05 21:20:51.652 W/art     ( 8365): Unexpected CPU variant for X86 using defaults: x86
+06-05 21:20:51.659 I/ActivityManager( 1630): Start proc 8365:com.evancharlton.mileage/u0a286 for added application com.evancharlton.mileage
+06-05 21:20:51.660 D/AndroidRuntime( 8355): Shutting down VM
+06-05 21:20:51.662 W/audio_hw_generic( 1395): Not supplying enough data to HAL, expected position 542446818 , only wrote 541438560
+06-05 21:20:51.665 W/System  ( 8365): ClassLoader referenced unknown path: /data/app/com.evancharlton.mileage.test-1/lib/x86
+06-05 21:20:51.665 W/System  ( 8365): ClassLoader referenced unknown path: /data/app/com.evancharlton.mileage-1/lib/x86
+06-05 21:20:51.667 W/System  ( 8365): ClassLoader referenced unknown path: 
+06-05 21:20:51.671 I/System.out( 8365): Main activity name automatically set to: com.evancharlton.mileage.Mileage
+06-05 21:20:51.671 I/System.out( 8365): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+06-05 21:20:51.671 I/calabash( 8365): Test server port: 7102
+06-05 21:20:51.672 I/InstrumentationBackend( 8365): Added:'GetPreferences', with key:'get_preferences'
+06-05 21:20:51.676 I/InstrumentationBackend( 8365): Added:'SetPreferences', with key:'set_preferences'
+06-05 21:20:51.676 I/InstrumentationBackend( 8365): Added:'ClearPreferences', with key:'clear_preferences'
+06-05 21:20:51.676 I/InstrumentationBackend( 8365): Added:'PressElement', with key:'press_l10n_element'
+06-05 21:20:51.676 I/InstrumentationBackend( 8365): Added:'WaitForElement', with key:'wait_for_l10n_element'
+06-05 21:20:51.676 I/InstrumentationBackend( 8365): Added:'NullAction', with key:'nullAction'
+06-05 21:20:51.676 I/InstrumentationBackend( 8365): Added:'PressKey', with key:'press_key'
+06-05 21:20:51.676 I/InstrumentationBackend( 8365): Added:'SetActivityOrientation', with key:'set_activity_orientation'
+06-05 21:20:51.676 I/InstrumentationBackend( 8365): Added:'GetActivityOrientation', with key:'get_activity_orientation'
+06-05 21:20:51.676 I/InstrumentationBackend( 8365): Added:'FakeGPSLocation', with key:'set_gps_coordinates'
+06-05 21:20:51.676 I/InstrumentationBackend( 8365): Added:'SetPropertyByCssSelector', with key:'set_property_by_css_selector'
+06-05 21:20:51.677 I/InstrumentationBackend( 8365): Added:'GetUrl', with key:'get_url'
+06-05 21:20:51.677 I/InstrumentationBackend( 8365): Added:'ScrollTo', with key:'scroll_to'
+06-05 21:20:51.677 I/InstrumentationBackend( 8365): Added:'GetLoadProgress', with key:'get_load_progress'
+06-05 21:20:51.677 I/InstrumentationBackend( 8365): Added:'DumpHtml', with key:'dump_html'
+06-05 21:20:51.677 I/InstrumentationBackend( 8365): Added:'DumpBodyHtml', with key:'dump_body_html'
+06-05 21:20:51.677 I/InstrumentationBackend( 8365): Added:'EnterTextByCssSelector', with key:'enter_text_by_selector'
+06-05 21:20:51.677 I/InstrumentationBackend( 8365): Added:'AndroidSDKVersion', with key:'android_sdk_version'
+06-05 21:20:51.677 I/InstrumentationBackend( 8365): Added:'Version', with key:'version'
+06-05 21:20:51.677 I/InstrumentationBackend( 8365): Added:'Drag', with key:'drag'
+06-05 21:20:51.677 I/InstrumentationBackend( 8365): Added:'TouchCoordinates', with key:'touch_coordinate'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'LongPressCoordinate', with key:'long_press_coordinate'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'DragCoordinates', with key:'drag_coordinates'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'ResumeApplication', with key:'resume_application'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'Swipe', with key:'swipe'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'DoubleTapCoordinate', with key:'double_tap_coordinate'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'ClickOnScreen', with key:'click_on_screen'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'GetActivityName', with key:'get_activity_name'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'ScrollToView', with key:'scroll_to_view'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'ViewConfiguration', with key:'view_configuration'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'IsCurrentActivityFocused', with key:'is_current_activity_focused'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'SendTcp', with key:'send_tcp'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'DpToDevicePixel', with key:'dp_to_device_pixel'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'KeyboardEnterText', with key:'keyboard_enter_text'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'DeleteSurroundingText', with key:'delete_surrounding_text'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'SetComposingRegion', with key:'set_composing_region'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'SetSelection', with key:'set_selection'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'KeyboardKeyEvent', with key:'keyboard_key_event'
+06-05 21:20:51.678 I/InstrumentationBackend( 8365): Added:'PressUserActionButton', with key:'press_user_action_button'
+06-05 21:20:51.679 I/InstrumentationBackend( 8365): Added:'HideSoftKeyboard', with key:'hide_soft_keyboard'
+06-05 21:20:51.679 I/InstrumentationBackend( 8365): Added:'ListActions', with key:'list_actions'
+06-05 21:20:51.679 I/calabash( 8365): Instantiating http server at 7102
+06-05 21:20:51.679 I/System.out( 8365): HTTP Daemon listening on: 7102
+06-05 21:20:51.770 I/System.out( 8365): URI: //ping
+06-05 21:20:51.770 I/System.out( 8365): params: {json={}
+06-05 21:20:51.770 I/System.out( 8365): }
+06-05 21:20:51.772 I/System.out( 8365): URI: //ping
+06-05 21:20:51.772 I/System.out( 8365): params: {json={}
+06-05 21:20:51.772 I/System.out( 8365): }
+06-05 21:20:51.774 I/System.out( 8365): URI: //ready
+06-05 21:20:51.774 I/System.out( 8365): params: {json={}
+06-05 21:20:51.774 I/System.out( 8365): }
+06-05 21:20:51.776 I/System.out( 8365): URI: //
+06-05 21:20:51.776 I/System.out( 8365): params: {json={"command":"version","arguments":[]}
+06-05 21:20:51.776 I/System.out( 8365): }
+06-05 21:20:51.776 I/System.out( 8365): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 02:20:52 GMT, accept=*/*, host=127.0.0.1:34777, content-length=36, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-05 21:20:51.776 I/System.out( 8365): params: {json={"command":"version","arguments":[]}
+06-05 21:20:51.776 I/System.out( 8365): }
+06-05 21:20:51.776 I/System.out( 8365): ProP json = {"command":"version","arguments":[]}
+06-05 21:20:51.776 I/System.out( 8365): files: {}
+06-05 21:20:51.776 I/System.out( 8365): command: {"command":"version","arguments":[]}
+06-05 21:20:51.780 I/InstrumentationBackend( 8365): Got command:'Command:'Line:null,version', arguments:'[]'
+06-05 21:20:51.786 I/System.out( 8365): result:{"bonusInformation":[],"message":"0.9.8","success":true}
+06-05 21:20:51.788 I/System.out( 8365): URI: //start-application
+06-05 21:20:51.788 I/System.out( 8365): params: {json={"intent":null}
+06-05 21:20:51.788 I/System.out( 8365): }
+06-05 21:20:51.797 I/ActivityManager( 1630): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.evancharlton.mileage/.Mileage} from uid 10286 on display 0
+06-05 21:20:51.804 I/calabash( 8365): newActivity1
+06-05 21:20:51.814 I/calabash( 8365): newActivity1
+06-05 21:20:51.816 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@f574869
+06-05 21:20:51.816 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 21:20:51.816 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 21:20:51.816 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 21:20:51.816 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-05 21:20:51.816 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:9806)
+06-05 21:20:51.816 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2566)
+06-05 21:20:51.816 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 21:20:51.816 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 21:20:51.817 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@f574869
+06-05 21:20:51.817 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9358)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2639)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 21:20:51.817 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@f574869
+06-05 21:20:51.817 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:9817)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2856)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 21:20:51.817 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 21:20:51.829 D/FillupsProvider( 8365): Creating database
+06-05 21:20:51.830 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 21:20:51.848 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@f574869
+06-05 21:20:51.848 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 21:20:51.848 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 21:20:51.848 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 21:20:51.848 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:12559)
+06-05 21:20:51.848 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1933)
+06-05 21:20:51.848 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 21:20:51.848 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 21:20:51.849 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@f574869
+06-05 21:20:51.849 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 21:20:51.849 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 21:20:51.849 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 21:20:51.849 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:12559)
+06-05 21:20:51.849 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1933)
+06-05 21:20:51.849 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 21:20:51.849 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 21:20:51.872 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:51.879 D/EGL_emulation( 2083): eglMakeCurrent: 0xb0f85240: ver 2 0 (tinfo 0xb0f832d0)
+06-05 21:20:51.880 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.894 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 21:20:51.894 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.900 D/        ( 8365): HostConnection::get() New Host Connection established 0x94bb4400, tid 8365
+06-05 21:20:51.901 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.901 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:51.951 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.953 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.956 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.968 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.970 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.978 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.979 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.995 I/ActivityManager( 1630): Displayed com.evancharlton.mileage/.Mileage: +193ms
+06-05 21:20:51.995 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:51.997 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 21:20:51.997 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.020 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.024 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.037 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.038 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.040 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.044 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.046 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.061 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.063 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.068 I/System.out( 8365): URI: //map
+06-05 21:20:52.068 I/System.out( 8365): params: {json={"query":"* marked:'Statistics'","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.068 I/System.out( 8365): }
+06-05 21:20:52.077 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.079 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.081 W/ResourceType( 8365): No package identifier when getting name for resource number 0x00000001
+06-05 21:20:52.094 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.096 D/EGL_emulation( 1711): eglMakeCurrent: 0xb0f853c0: ver 2 0 (tinfo 0xb0f833e0)
+06-05 21:20:52.096 I/System.out( 8365): URI: //gesture
+06-05 21:20:52.096 I/System.out( 8365): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'Statistics'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-05 21:20:52.096 I/System.out( 8365): }
+06-05 21:20:52.102 W/ResourceType( 8365): No package identifier when getting name for resource number 0x00000001
+06-05 21:20:52.194 I/WindowManager( 1630): Destroying surface Surface(name=Starting com.evancharlton.mileage) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.WindowStateAnimator.stepAnimationLocked:491 com.android.server.wm.WindowAnimator.updateWindowsLocked:303 com.android.server.wm.WindowAnimator.animateLocked:704 
+06-05 21:20:52.196 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.229 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.327 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.330 I/calabash( 8365): newActivity1
+06-05 21:20:52.331 W/audio_hw_generic( 1395): Not supplying enough data to HAL, expected position 541438609 , only wrote 541438560
+06-05 21:20:52.339 I/System.out( 8365): URI: //map
+06-05 21:20:52.339 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Fuel economy'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.339 I/System.out( 8365): }
+06-05 21:20:52.343 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@4c2e39b
+06-05 21:20:52.343 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 21:20:52.343 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 21:20:52.343 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 21:20:52.343 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-05 21:20:52.343 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:9806)
+06-05 21:20:52.343 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2566)
+06-05 21:20:52.343 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 21:20:52.343 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 21:20:52.344 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@4c2e39b
+06-05 21:20:52.344 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 21:20:52.344 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 21:20:52.344 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 21:20:52.344 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9358)
+06-05 21:20:52.344 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2639)
+06-05 21:20:52.344 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 21:20:52.344 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 21:20:52.345 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@4c2e39b
+06-05 21:20:52.345 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 21:20:52.345 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 21:20:52.345 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 21:20:52.345 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-05 21:20:52.345 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:9817)
+06-05 21:20:52.345 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2856)
+06-05 21:20:52.345 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 21:20:52.345 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 21:20:52.350 D/VehicleStatisticsActivity( 8365): Checking recalculation ...
+06-05 21:20:52.351 D/VehicleStatisticsActivity( 8365): Recalculating statistics
+06-05 21:20:52.352 D/VehicleStatisticsTask( 8365): Calculation starting...
+06-05 21:20:52.352 D/VehicleStatisticsActivity( 8365): Recalculation started!
+06-05 21:20:52.354 D/VehicleStatisticsTask( 8365): Not enough fillups to calculate statistics
+06-05 21:20:52.361 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@4c2e39b
+06-05 21:20:52.361 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:12559)
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1933)
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 21:20:52.361 W/ActivityManager( 1630): Bad activity token: android.os.BinderProxy@4c2e39b
+06-05 21:20:52.361 W/ActivityManager( 1630): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:12559)
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1933)
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 21:20:52.361 W/ActivityManager( 1630): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 21:20:52.363 D/VehicleStatisticsActivity( 8365): Checking recalculation ...
+06-05 21:20:52.364 D/VehicleStatisticsActivity( 8365): Recalculating statistics
+06-05 21:20:52.364 D/VehicleStatisticsTask( 8365): Calculation starting...
+06-05 21:20:52.364 D/VehicleStatisticsActivity( 8365): Recalculation started!
+06-05 21:20:52.365 D/VehicleStatisticsTask( 8365): Not enough fillups to calculate statistics
+06-05 21:20:52.402 I/art     ( 8365): Do partial code cache collection, code=30KB, data=30KB
+06-05 21:20:52.402 I/art     ( 8365): After code cache collection, code=30KB, data=30KB
+06-05 21:20:52.402 I/art     ( 8365): Increasing code cache capacity to 128KB
+06-05 21:20:52.436 D/VehicleStatisticsTask( 8365): Done recalculating!
+06-05 21:20:52.436 D/VehicleStatisticsTask( 8365): Done recalculating!
+06-05 21:20:52.436 D/VehicleStatisticsAdapter( 8365): Erasing the cache ...
+06-05 21:20:52.436 D/VehicleStatisticsAdapter( 8365): Erasing the cache ...
+06-05 21:20:52.437 D/VehicleStatisticsAdapter( 8365): Building new values ...
+06-05 21:20:52.437 D/VehicleStatisticsAdapter( 8365): Writing 29 records to the database ...
+06-05 21:20:52.437 D/VehicleStatisticsAdapter( 8365): Building new values ...
+06-05 21:20:52.437 D/VehicleStatisticsAdapter( 8365): Writing 29 records to the database ...
+06-05 21:20:52.439 D/Mileage.ABS( 8365): Finished backup
+06-05 21:20:52.440 D/Mileage.ABS( 8365): Not backing up; 4
+06-05 21:20:52.482 D/Mileage.ABS( 8365): Not backing up; 45
+06-05 21:20:52.482 D/Mileage.ABS( 8365): Not backing up; 46
+06-05 21:20:52.482 D/Mileage.ABS( 8365): Not backing up; 46
+06-05 21:20:52.482 D/Mileage.ABS( 8365): Not backing up; 46
+06-05 21:20:52.482 D/Mileage.ABS( 8365): Not backing up; 46
+06-05 21:20:52.483 D/Mileage.ABS( 8365): Not backing up; 47
+06-05 21:20:52.483 D/Mileage.ABS( 8365): Not backing up; 47
+06-05 21:20:52.483 D/Mileage.ABS( 8365): Not backing up; 47
+06-05 21:20:52.483 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 21:20:52.483 D/Mileage.ABS( 8365): Not backing up; 47
+06-05 21:20:52.483 D/Mileage.ABS( 8365): Not backing up; 47
+06-05 21:20:52.484 D/Mileage.ABS( 8365): Not backing up; 48
+06-05 21:20:52.484 D/Mileage.ABS( 8365): Not backing up; 48
+06-05 21:20:52.484 D/Mileage.ABS( 8365): Not backing up; 48
+06-05 21:20:52.484 D/Mileage.ABS( 8365): Not backing up; 48
+06-05 21:20:52.484 D/Mileage.ABS( 8365): Not backing up; 48
+06-05 21:20:52.484 D/Mileage.ABS( 8365): Not backing up; 48
+06-05 21:20:52.514 I/System.out( 8365): URI: //map
+06-05 21:20:52.514 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Distance between fillups'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.514 I/System.out( 8365): }
+06-05 21:20:52.520 D/Mileage.ABS( 8365): Not backing up; 84
+06-05 21:20:52.520 D/Mileage.ABS( 8365): Not backing up; 84
+06-05 21:20:52.520 D/Mileage.ABS( 8365): Not backing up; 84
+06-05 21:20:52.520 D/Mileage.ABS( 8365): Not backing up; 84
+06-05 21:20:52.520 D/Mileage.ABS( 8365): Not backing up; 84
+06-05 21:20:52.521 D/Mileage.ABS( 8365): Not backing up; 85
+06-05 21:20:52.521 D/Mileage.ABS( 8365): Not backing up; 85
+06-05 21:20:52.521 D/Mileage.ABS( 8365): Not backing up; 85
+06-05 21:20:52.521 D/Mileage.ABS( 8365): Not backing up; 85
+06-05 21:20:52.521 D/Mileage.ABS( 8365): Not backing up; 85
+06-05 21:20:52.522 D/Mileage.ABS( 8365): Not backing up; 85
+06-05 21:20:52.522 D/Mileage.ABS( 8365): Not backing up; 86
+06-05 21:20:52.522 D/Mileage.ABS( 8365): Not backing up; 86
+06-05 21:20:52.522 D/Mileage.ABS( 8365): Not backing up; 86
+06-05 21:20:52.522 D/Mileage.ABS( 8365): Not backing up; 86
+06-05 21:20:52.522 D/Mileage.ABS( 8365): Not backing up; 86
+06-05 21:20:52.522 D/Mileage.ABS( 8365): Not backing up; 86
+06-05 21:20:52.522 D/Mileage.ABS( 8365): Not backing up; 86
+06-05 21:20:52.522 D/Mileage.ABS( 8365): Not backing up; 86
+06-05 21:20:52.523 D/Mileage.ABS( 8365): Not backing up; 87
+06-05 21:20:52.523 D/Mileage.ABS( 8365): Not backing up; 87
+06-05 21:20:52.523 D/Mileage.ABS( 8365): Not backing up; 87
+06-05 21:20:52.523 D/Mileage.ABS( 8365): Not backing up; 87
+06-05 21:20:52.523 D/Mileage.ABS( 8365): Not backing up; 87
+06-05 21:20:52.523 D/Mileage.ABS( 8365): Not backing up; 87
+06-05 21:20:52.523 D/Mileage.ABS( 8365): Not backing up; 87
+06-05 21:20:52.523 D/Mileage.ABS( 8365): Not backing up; 87
+06-05 21:20:52.524 D/Mileage.ABS( 8365): Not backing up; 88
+06-05 21:20:52.524 D/Mileage.ABS( 8365): Not backing up; 88
+06-05 21:20:52.524 D/Mileage.ABS( 8365): Not backing up; 88
+06-05 21:20:52.524 D/Mileage.ABS( 8365): Not backing up; 88
+06-05 21:20:52.524 D/Mileage.ABS( 8365): Not backing up; 88
+06-05 21:20:52.524 D/Mileage.ABS( 8365): Not backing up; 88
+06-05 21:20:52.524 D/Mileage.ABS( 8365): Not backing up; 88
+06-05 21:20:52.524 D/Mileage.ABS( 8365): Not backing up; 88
+06-05 21:20:52.530 D/Mileage.ABS( 8365): Not backing up; 94
+06-05 21:20:52.532 D/Mileage.ABS( 8365): Not backing up; 96
+06-05 21:20:52.533 D/Mileage.ABS( 8365): Not backing up; 97
+06-05 21:20:52.537 I/System.out( 8365): URI: //map
+06-05 21:20:52.537 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Fillup cost'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.537 I/System.out( 8365): }
+06-05 21:20:52.539 D/Mileage.ABS( 8365): Not backing up; 103
+06-05 21:20:52.540 D/Mileage.ABS( 8365): Not backing up; 104
+06-05 21:20:52.543 D/Mileage.ABS( 8365): Not backing up; 107
+06-05 21:20:52.545 D/Mileage.ABS( 8365): Not backing up; 109
+06-05 21:20:52.546 D/VehicleStatisticsAdapter( 8365): Caching of 29 records complete! (0.109 seconds)
+06-05 21:20:52.546 D/Mileage.ABS( 8365): Not backing up; 110
+06-05 21:20:52.547 D/VehicleStatisticsAdapter( 8365): Caching of 29 records complete! (0.11 seconds)
+06-05 21:20:52.548 D/Mileage.ABS( 8365): Not backing up; 112
+06-05 21:20:52.556 I/System.out( 8365): URI: //map
+06-05 21:20:52.556 I/System.out( 8365): params: {json={"query":"android.widget.ScrollView index:0","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.556 I/System.out( 8365): }
+06-05 21:20:52.566 I/System.out( 8365): URI: //map
+06-05 21:20:52.566 I/System.out( 8365): params: {json={"query":"android.widget.AbsListView index:0","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.566 I/System.out( 8365): }
+06-05 21:20:52.579 I/System.out( 8365): URI: //map
+06-05 21:20:52.579 I/System.out( 8365): params: {json={"query":"android.widget.AbsListView index:0","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.579 I/System.out( 8365): }
+06-05 21:20:52.592 I/System.out( 8365): URI: //map
+06-05 21:20:52.592 I/System.out( 8365): params: {json={"query":"android.widget.AbsListView index:0","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.592 I/System.out( 8365): }
+06-05 21:20:52.607 I/System.out( 8365): URI: //map
+06-05 21:20:52.607 I/System.out( 8365): params: {json={"query":"android.widget.AbsListView index:0","operation":{"method_name":"query","arguments":["getFirstVisiblePosition"]}}
+06-05 21:20:52.607 I/System.out( 8365): }
+06-05 21:20:52.620 I/System.out( 8365): URI: //map
+06-05 21:20:52.620 I/System.out( 8365): params: {json={"query":"android.widget.AbsListView index:0","operation":{"method_name":"query","arguments":["getLastVisiblePosition"]}}
+06-05 21:20:52.620 I/System.out( 8365): }
+06-05 21:20:52.621 I/art     ( 8365): Do partial code cache collection, code=59KB, data=54KB
+06-05 21:20:52.621 I/art     ( 8365): After code cache collection, code=58KB, data=54KB
+06-05 21:20:52.621 I/art     ( 8365): Increasing code cache capacity to 256KB
+06-05 21:20:52.627 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.629 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.636 I/System.out( 8365): URI: //map
+06-05 21:20:52.636 I/System.out( 8365): params: {json={"query":"android.widget.AbsListView index:0","operation":{"method_name":"query","arguments":[{"method_name":"setSelection","arguments":[26]}]}}
+06-05 21:20:52.636 I/System.out( 8365): }
+06-05 21:20:52.645 I/WindowManager( 1630): Destroying surface Surface(name=com.android.launcher3/com.android.launcher3.Launcher) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.AppWindowToken.notifyAppStopped:389 com.android.server.wm.WindowManagerService.notifyAppStopped:4463 com.android.server.am.ActivityStack.activityStoppedLocked:1252 com.android.server.am.ActivityManagerService.activityStopped:6903 
+06-05 21:20:52.645 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.654 I/System.out( 8365): URI: //map
+06-05 21:20:52.654 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Cost per distance'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.654 I/System.out( 8365): }
+06-05 21:20:52.765 I/System.out( 8365): URI: //map
+06-05 21:20:52.765 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Fuel price'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.765 I/System.out( 8365): }
+06-05 21:20:52.780 I/System.out( 8365): URI: //map
+06-05 21:20:52.780 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Fuel consumption'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.780 I/System.out( 8365): }
+06-05 21:20:52.793 I/System.out( 8365): URI: //map
+06-05 21:20:52.793 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Fillup locations'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.793 I/System.out( 8365): }
+06-05 21:20:52.808 I/System.out( 8365): URI: //
+06-05 21:20:52.808 I/System.out( 8365): params: {json={"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-05 21:20:52.808 I/System.out( 8365): }
+06-05 21:20:52.808 I/System.out( 8365): header: {content-type=application/json;charset=utf-8, date=Sat, 06 Jun 2020 02:20:53 GMT, accept=*/*, host=127.0.0.1:34777, content-length=52, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-05 21:20:52.808 I/System.out( 8365): params: {json={"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-05 21:20:52.808 I/System.out( 8365): }
+06-05 21:20:52.808 I/System.out( 8365): ProP json = {"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-05 21:20:52.808 I/System.out( 8365): files: {}
+06-05 21:20:52.808 I/System.out( 8365): command: {"command":"press_key","arguments":["KEYCODE_MENU"]}
+06-05 21:20:52.809 I/InstrumentationBackend( 8365): Got command:'Command:'Line:null,press_key', arguments:'[KEYCODE_MENU]'
+06-05 21:20:52.818 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.821 I/System.out( 8365): result:{"bonusInformation":[],"message":"","success":true}
+06-05 21:20:52.825 I/System.out( 8365): URI: //map
+06-05 21:20:52.825 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Recalculate'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.825 I/System.out( 8365): }
+06-05 21:20:52.829 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.844 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.861 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.863 D/gralloc_ranchu( 1347): gralloc_alloc: Creating ashmem region of size 1720320
+06-05 21:20:52.871 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.872 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.879 V/PhoneStatusBar( 1711): setLightsOn(true)
+06-05 21:20:52.880 I/System.out( 8365): URI: //map
+06-05 21:20:52.880 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Service intervals'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.880 I/System.out( 8365): }
+06-05 21:20:52.892 I/System.out( 8365): URI: //map
+06-05 21:20:52.892 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Import / Export'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.892 I/System.out( 8365): }
+06-05 21:20:52.904 I/System.out( 8365): URI: //map
+06-05 21:20:52.904 I/System.out( 8365): params: {json={"query":"* {text CONTAINS[c] 'Settings'}","operation":{"method_name":"query","arguments":[]}}
+06-05 21:20:52.904 I/System.out( 8365): }

@@ -1,0 +1,290 @@
+--------- beginning of main
+06-05 12:37:05.997 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:05.998 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.013 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.128 D/AndroidRuntime(13684): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-05 12:37:06.129 D/AndroidRuntime(13684): CheckJNI is ON
+06-05 12:37:06.140 W/art     (13684): Unexpected CPU variant for X86 using defaults: x86
+06-05 12:37:06.142 D/ICU     (13684): No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-05 12:37:06.149 E/memtrack(13684): Couldn't load memtrack module (No such file or directory)
+06-05 12:37:06.149 E/android.os.Debug(13684): failed to load memtrack module: -2
+06-05 12:37:06.149 I/Radio-JNI(13684): register_android_hardware_Radio DONE
+06-05 12:37:06.153 D/AndroidRuntime(13684): Calling main entry com.android.commands.am.Am
+--------- beginning of system
+06-05 12:37:06.154 I/ActivityManager( 1659): Force stopping com.evancharlton.mileage appid=10082 user=0: start instr
+06-05 12:37:06.157 I/art     (13694): Not late-enabling -Xcheck:jni (already on)
+06-05 12:37:06.157 W/art     (13694): Unexpected CPU variant for X86 using defaults: x86
+06-05 12:37:06.165 I/ActivityManager( 1659): Start proc 13694:com.evancharlton.mileage/u0a82 for added application com.evancharlton.mileage
+06-05 12:37:06.165 D/AndroidRuntime(13684): Shutting down VM
+06-05 12:37:06.170 W/System  (13694): ClassLoader referenced unknown path: /data/app/com.evancharlton.mileage.test-1/lib/x86
+06-05 12:37:06.170 W/System  (13694): ClassLoader referenced unknown path: /data/app/com.evancharlton.mileage-1/lib/x86
+06-05 12:37:06.172 W/System  (13694): ClassLoader referenced unknown path: 
+06-05 12:37:06.176 I/System.out(13694): Main activity name automatically set to: com.evancharlton.mileage.Mileage
+06-05 12:37:06.176 I/System.out(13694): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+06-05 12:37:06.176 I/calabash(13694): Test server port: 7102
+06-05 12:37:06.176 I/InstrumentationBackend(13694): Added:'GetPreferences', with key:'get_preferences'
+06-05 12:37:06.180 I/InstrumentationBackend(13694): Added:'SetPreferences', with key:'set_preferences'
+06-05 12:37:06.180 I/InstrumentationBackend(13694): Added:'ClearPreferences', with key:'clear_preferences'
+06-05 12:37:06.180 I/InstrumentationBackend(13694): Added:'PressElement', with key:'press_l10n_element'
+06-05 12:37:06.180 I/InstrumentationBackend(13694): Added:'WaitForElement', with key:'wait_for_l10n_element'
+06-05 12:37:06.180 I/InstrumentationBackend(13694): Added:'NullAction', with key:'nullAction'
+06-05 12:37:06.180 I/InstrumentationBackend(13694): Added:'PressKey', with key:'press_key'
+06-05 12:37:06.180 I/InstrumentationBackend(13694): Added:'SetActivityOrientation', with key:'set_activity_orientation'
+06-05 12:37:06.180 I/InstrumentationBackend(13694): Added:'GetActivityOrientation', with key:'get_activity_orientation'
+06-05 12:37:06.180 I/InstrumentationBackend(13694): Added:'FakeGPSLocation', with key:'set_gps_coordinates'
+06-05 12:37:06.181 I/InstrumentationBackend(13694): Added:'SetPropertyByCssSelector', with key:'set_property_by_css_selector'
+06-05 12:37:06.181 I/InstrumentationBackend(13694): Added:'GetUrl', with key:'get_url'
+06-05 12:37:06.181 I/InstrumentationBackend(13694): Added:'ScrollTo', with key:'scroll_to'
+06-05 12:37:06.181 I/InstrumentationBackend(13694): Added:'GetLoadProgress', with key:'get_load_progress'
+06-05 12:37:06.181 I/InstrumentationBackend(13694): Added:'DumpHtml', with key:'dump_html'
+06-05 12:37:06.181 I/InstrumentationBackend(13694): Added:'DumpBodyHtml', with key:'dump_body_html'
+06-05 12:37:06.181 I/InstrumentationBackend(13694): Added:'EnterTextByCssSelector', with key:'enter_text_by_selector'
+06-05 12:37:06.181 I/InstrumentationBackend(13694): Added:'AndroidSDKVersion', with key:'android_sdk_version'
+06-05 12:37:06.181 I/InstrumentationBackend(13694): Added:'Version', with key:'version'
+06-05 12:37:06.181 I/InstrumentationBackend(13694): Added:'Drag', with key:'drag'
+06-05 12:37:06.182 I/InstrumentationBackend(13694): Added:'TouchCoordinates', with key:'touch_coordinate'
+06-05 12:37:06.182 I/InstrumentationBackend(13694): Added:'LongPressCoordinate', with key:'long_press_coordinate'
+06-05 12:37:06.182 I/InstrumentationBackend(13694): Added:'DragCoordinates', with key:'drag_coordinates'
+06-05 12:37:06.182 I/InstrumentationBackend(13694): Added:'ResumeApplication', with key:'resume_application'
+06-05 12:37:06.182 I/InstrumentationBackend(13694): Added:'Swipe', with key:'swipe'
+06-05 12:37:06.182 I/InstrumentationBackend(13694): Added:'DoubleTapCoordinate', with key:'double_tap_coordinate'
+06-05 12:37:06.182 I/InstrumentationBackend(13694): Added:'ClickOnScreen', with key:'click_on_screen'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'GetActivityName', with key:'get_activity_name'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'ScrollToView', with key:'scroll_to_view'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'ViewConfiguration', with key:'view_configuration'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'IsCurrentActivityFocused', with key:'is_current_activity_focused'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'SendTcp', with key:'send_tcp'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'DpToDevicePixel', with key:'dp_to_device_pixel'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'KeyboardEnterText', with key:'keyboard_enter_text'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'DeleteSurroundingText', with key:'delete_surrounding_text'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'SetComposingRegion', with key:'set_composing_region'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'SetSelection', with key:'set_selection'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'KeyboardKeyEvent', with key:'keyboard_key_event'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'PressUserActionButton', with key:'press_user_action_button'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'HideSoftKeyboard', with key:'hide_soft_keyboard'
+06-05 12:37:06.183 I/InstrumentationBackend(13694): Added:'ListActions', with key:'list_actions'
+06-05 12:37:06.184 I/calabash(13694): Instantiating http server at 7102
+06-05 12:37:06.185 I/System.out(13694): HTTP Daemon listening on: 7102
+06-05 12:37:06.278 I/System.out(13694): URI: //ping
+06-05 12:37:06.278 I/System.out(13694): params: {json={}
+06-05 12:37:06.278 I/System.out(13694): }
+06-05 12:37:06.285 I/System.out(13694): URI: //ping
+06-05 12:37:06.285 I/System.out(13694): params: {json={}
+06-05 12:37:06.285 I/System.out(13694): }
+06-05 12:37:06.291 I/System.out(13694): URI: //ready
+06-05 12:37:06.291 I/System.out(13694): params: {json={}
+06-05 12:37:06.291 I/System.out(13694): }
+06-05 12:37:06.297 W/OpenGLRenderer( 2389): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-05 12:37:06.297 I/System.out(13694): URI: //
+06-05 12:37:06.297 I/System.out(13694): params: {json={"command":"version","arguments":[]}
+06-05 12:37:06.297 I/System.out(13694): }
+06-05 12:37:06.297 I/System.out(13694): header: {content-type=application/json;charset=utf-8, date=Fri, 05 Jun 2020 17:37:07 GMT, accept=*/*, host=127.0.0.1:34782, content-length=36, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-05 12:37:06.297 I/System.out(13694): params: {json={"command":"version","arguments":[]}
+06-05 12:37:06.297 I/System.out(13694): }
+06-05 12:37:06.297 I/System.out(13694): ProP json = {"command":"version","arguments":[]}
+06-05 12:37:06.297 I/System.out(13694): files: {}
+06-05 12:37:06.298 I/System.out(13694): command: {"command":"version","arguments":[]}
+06-05 12:37:06.307 I/InstrumentationBackend(13694): Got command:'Command:'Line:null,version', arguments:'[]'
+06-05 12:37:06.324 I/System.out(13694): result:{"bonusInformation":[],"message":"0.9.8","success":true}
+06-05 12:37:06.327 I/System.out(13694): URI: //start-application
+06-05 12:37:06.327 I/System.out(13694): params: {json={"intent":null}
+06-05 12:37:06.327 I/System.out(13694): }
+06-05 12:37:06.341 I/ActivityManager( 1659): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.evancharlton.mileage/.Mileage} from uid 10082 on display 0
+06-05 12:37:06.365 I/calabash(13694): newActivity1
+06-05 12:37:06.367 D/gralloc_ranchu( 1352): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 12:37:06.380 I/calabash(13694): newActivity1
+06-05 12:37:06.382 W/ActivityManager( 1659): Bad activity token: android.os.BinderProxy@4a7f0b6
+06-05 12:37:06.382 W/ActivityManager( 1659): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 12:37:06.382 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 12:37:06.382 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 12:37:06.382 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-05 12:37:06.382 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:9806)
+06-05 12:37:06.382 W/ActivityManager( 1659): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2566)
+06-05 12:37:06.382 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 12:37:06.382 W/ActivityManager( 1659): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 12:37:06.384 W/ActivityManager( 1659): Bad activity token: android.os.BinderProxy@4a7f0b6
+06-05 12:37:06.384 W/ActivityManager( 1659): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9358)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2639)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 12:37:06.384 W/ActivityManager( 1659): Bad activity token: android.os.BinderProxy@4a7f0b6
+06-05 12:37:06.384 W/ActivityManager( 1659): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:9817)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2856)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 12:37:06.384 W/ActivityManager( 1659): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 12:37:06.398 V/PhoneStatusBar( 1792): setLightsOn(true)
+06-05 12:37:06.410 W/ActivityManager( 1659): Bad activity token: android.os.BinderProxy@4a7f0b6
+06-05 12:37:06.410 W/ActivityManager( 1659): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:12559)
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1933)
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 12:37:06.410 W/ActivityManager( 1659): Bad activity token: android.os.BinderProxy@4a7f0b6
+06-05 12:37:06.410 W/ActivityManager( 1659): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:12559)
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1933)
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 12:37:06.410 W/ActivityManager( 1659): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 12:37:06.414 D/EGL_emulation( 2389): eglMakeCurrent: 0xb1284ec0: ver 2 0 (tinfo 0x98c170c0)
+06-05 12:37:06.416 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.417 V/PhoneStatusBar( 1792): setLightsOn(true)
+06-05 12:37:06.430 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.432 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.447 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.449 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.449 D/gralloc_ranchu( 1352): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 12:37:06.454 D/        (13694): HostConnection::get() New Host Connection established 0x99f254c0, tid 13694
+06-05 12:37:06.480 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.483 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.484 V/PhoneStatusBar( 1792): setLightsOn(true)
+06-05 12:37:06.485 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.487 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.496 I/ActivityManager( 1659): Displayed com.evancharlton.mileage/.Mileage: +151ms
+06-05 12:37:06.496 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.497 D/gralloc_ranchu( 1352): gralloc_alloc: Creating ashmem region of size 9023488
+06-05 12:37:06.508 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.520 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.522 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.523 V/PhoneStatusBar( 1792): setLightsOn(true)
+06-05 12:37:06.533 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.535 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.540 I/System.out(13694): URI: //map
+06-05 12:37:06.540 I/System.out(13694): params: {json={"query":"* marked:'Statistics'","operation":{"method_name":"query","arguments":[]}}
+06-05 12:37:06.540 I/System.out(13694): }
+06-05 12:37:06.547 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.549 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.553 W/ResourceType(13694): No package identifier when getting name for resource number 0x00000001
+06-05 12:37:06.563 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.565 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.567 I/System.out(13694): URI: //gesture
+06-05 12:37:06.567 I/System.out(13694): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"* marked:'Statistics'","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+06-05 12:37:06.567 I/System.out(13694): }
+06-05 12:37:06.572 W/ResourceType(13694): No package identifier when getting name for resource number 0x00000001
+06-05 12:37:06.580 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.587 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.597 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.601 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.616 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.622 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.632 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:06.697 I/WindowManager( 1659): Destroying surface Surface(name=Starting com.evancharlton.mileage) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.WindowStateAnimator.stepAnimationLocked:491 com.android.server.wm.WindowAnimator.updateWindowsLocked:303 com.android.server.wm.WindowAnimator.animateLocked:704 
+06-05 12:37:06.702 V/PhoneStatusBar( 1792): setLightsOn(true)
+06-05 12:37:06.705 V/PhoneStatusBar( 1792): setLightsOn(true)
+06-05 12:37:06.804 I/calabash(13694): newActivity1
+06-05 12:37:06.830 V/PhoneStatusBar( 1792): setLightsOn(true)
+06-05 12:37:06.836 I/System.out(13694): URI: //map
+06-05 12:37:06.836 I/System.out(13694): params: {json={"query":"* {text CONTAINS[c] 'Average cost'}","operation":{"method_name":"query","arguments":[]}}
+06-05 12:37:06.836 I/System.out(13694): }
+06-05 12:37:06.838 W/ActivityManager( 1659): Bad activity token: android.os.BinderProxy@b1a4754
+06-05 12:37:06.838 W/ActivityManager( 1659): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 12:37:06.838 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 12:37:06.838 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 12:37:06.838 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-05 12:37:06.838 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:9806)
+06-05 12:37:06.838 W/ActivityManager( 1659): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2566)
+06-05 12:37:06.838 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 12:37:06.838 W/ActivityManager( 1659): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 12:37:06.839 W/ActivityManager( 1659): Bad activity token: android.os.BinderProxy@b1a4754
+06-05 12:37:06.839 W/ActivityManager( 1659): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 12:37:06.839 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 12:37:06.839 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 12:37:06.839 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9358)
+06-05 12:37:06.839 W/ActivityManager( 1659): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2639)
+06-05 12:37:06.839 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 12:37:06.839 W/ActivityManager( 1659): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 12:37:06.840 W/ActivityManager( 1659): Bad activity token: android.os.BinderProxy@b1a4754
+06-05 12:37:06.840 W/ActivityManager( 1659): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-05 12:37:06.840 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:586)
+06-05 12:37:06.840 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1327)
+06-05 12:37:06.840 W/ActivityManager( 1659): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1332)
+06-05 12:37:06.840 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:9817)
+06-05 12:37:06.840 W/ActivityManager( 1659): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2856)
+06-05 12:37:06.840 W/ActivityManager( 1659): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2757)
+06-05 12:37:06.840 W/ActivityManager( 1659): 	at android.os.Binder.execTransact(Binder.java:565)
+06-05 12:37:06.848 D/VehicleStatisticsActivity(13694): Checking recalculation ...
+06-05 12:37:06.848 D/VehicleStatisticsActivity(13694): Recalculating statistics
+06-05 12:37:06.848 D/VehicleStatisticsTask(13694): Calculation starting...
+06-05 12:37:06.848 D/VehicleStatisticsActivity(13694): Recalculation started!
+06-05 12:37:06.849 D/AndroidRuntime(13694): Shutting down VM
+--------- beginning of crash
+06-05 12:37:06.849 E/AndroidRuntime(13694): FATAL EXCEPTION: main
+06-05 12:37:06.849 E/AndroidRuntime(13694): Process: com.evancharlton.mileage, PID: 13694
+06-05 12:37:06.849 E/AndroidRuntime(13694): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.evancharlton.mileage/com.evancharlton.mileage.VehicleStatisticsActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.ListView.setAdapter(android.widget.ListAdapter)' on a null object reference
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2646)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.app.ActivityThread.startActivityNow(ActivityThread.java:2446)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.app.LocalActivityManager.moveToState(LocalActivityManager.java:136)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.app.LocalActivityManager.startActivity(LocalActivityManager.java:348)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.widget.TabHost$IntentContentStrategy.getContentView(TabHost.java:724)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.widget.TabHost.setCurrentTab(TabHost.java:388)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.widget.TabHost$2.onTabSelectionChanged(TabHost.java:158)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.widget.TabWidget$TabClickListener.onClick(TabWidget.java:532)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.view.View.performClick(View.java:5610)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.view.View$PerformClick.run(View.java:22265)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.os.Handler.handleCallback(Handler.java:751)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.os.Looper.loop(Looper.java:154)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.app.ActivityThread.main(ActivityThread.java:6077)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at java.lang.reflect.Method.invoke(Native Method)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
+06-05 12:37:06.849 E/AndroidRuntime(13694): Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.ListView.setAdapter(android.widget.ListAdapter)' on a null object reference
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at com.evancharlton.mileage.VehicleStatisticsActivity.setAdapter(VehicleStatisticsActivity.java:200)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at com.evancharlton.mileage.VehicleStatisticsActivity.recalculate(VehicleStatisticsActivity.java:175)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at com.evancharlton.mileage.VehicleStatisticsActivity.onCreate(VehicleStatisticsActivity.java:131)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.app.Activity.performCreate(Activity.java:6662)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2599)
+06-05 12:37:06.849 E/AndroidRuntime(13694): 	... 16 more
+06-05 12:37:06.850 I/Process (13694): Sending signal. PID: 13694 SIG: 9
+06-05 12:37:06.937 I/WindowManager( 1659): WIN DEATH: Window{68788cb u0 com.evancharlton.mileage/com.evancharlton.mileage.Mileage}
+06-05 12:37:06.938 I/WindowManager( 1659): Destroying surface Surface(name=com.evancharlton.mileage/com.evancharlton.mileage.Mileage) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.removeLocked:1456 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2484 com.android.server.wm.WindowManagerService.removeWindowLocked:2442 com.android.server.wm.WindowState$DeathRecipient.binderDied:1787 android.os.BinderProxy.sendDeathNotice:688 <bottom of call stack> 
+06-05 12:37:06.938 I/ActivityManager( 1659): Process com.evancharlton.mileage (pid 13694) has died
+06-05 12:37:06.938 D/ActivityManager( 1659): cleanUpApplicationRecord -- 13694
+06-05 12:37:06.938 W/ActivityManager( 1659): Scheduling restart of crashed service com.evancharlton.mileage/.services.AutomaticBackupService in 1000ms
+06-05 12:37:06.938 W/ActivityManager( 1659): Force removing ActivityRecord{bd7b9bf u0 com.evancharlton.mileage/.Mileage t120}: app died, no saved state
+06-05 12:37:06.947 W/ActivityManager( 1659): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner}
+06-05 12:37:06.947 I/ActivityManager( 1659): Force stopping com.evancharlton.mileage appid=10082 user=0: finished inst
+06-05 12:37:06.949 I/ActivityManager( 1659):   Force stopping service ServiceRecord{7e84c0 u0 com.evancharlton.mileage/.services.AutomaticBackupService}
+06-05 12:37:06.960 V/PhoneStatusBar( 1792): setLightsOn(true)
+06-05 12:37:06.998 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.013 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.015 D/EGL_emulation( 2389): eglMakeCurrent: 0xb1284ec0: ver 2 0 (tinfo 0x98c170c0)
+06-05 12:37:07.015 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.030 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.032 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.046 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.048 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.058 E/SurfaceFlinger( 1352): ro.sf.lcd_density must be defined as a build property
+06-05 12:37:07.058 D/gralloc_ranchu( 1352): gralloc_alloc: Creating ashmem region of size 9592832
+06-05 12:37:07.063 D/        (13727): HostConnection::get() New Host Connection established 0xaff9b2c0, tid 13727
+06-05 12:37:07.063 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.067 E/EGL_emulation( 1352): tid 1352: eglCreateSyncKHR(1901): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-05 12:37:07.068 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.089 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.092 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.096 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.098 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.113 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.115 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.130 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.131 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.151 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.153 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.163 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.165 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.180 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.196 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.198 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.213 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)
+06-05 12:37:07.215 D/EGL_emulation( 1792): eglMakeCurrent: 0x992abea0: ver 2 0 (tinfo 0xa5a6f110)

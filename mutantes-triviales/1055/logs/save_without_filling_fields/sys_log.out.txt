@@ -1,0 +1,521 @@
+--------- beginning of main
+06-01 20:53:38.056 I/zygote  ( 1669): Explicit concurrent copying GC freed 95842(3MB) AllocSpace objects, 9(180KB) LOS objects, 32% free, 12MB/18MB, paused 72us total 36.580ms
+06-01 20:53:38.061 I/GsaVoiceInteractionSrv( 2187): O received Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.evancharlton.mileage flg=0x4000010 (has extras) }
+06-01 20:53:38.062 I/Finsky  ( 2681): [2] smk.a(19): PackageMonitor - Received: android.intent.action.PACKAGE_REMOVED, [Vk962JAq2msy0y8syOteEpC4GDmXxAgKGmDqLau2yC0]
+06-01 20:53:38.062 I/Finsky  ( 2681): [2] snn.d(9): Invalidating cached PackageState for com.evancharlton.mileage
+06-01 20:53:38.063 I/Finsky  ( 2681): [129] hai.a(2): [ContentSync] finished, scheduled=false
+06-01 20:53:38.063 I/Finsky  ( 2681): [2] aeig.a(4): Do not start WearSupportService due to Wear service optimization
+06-01 20:53:38.063 I/Finsky  ( 2681): [2] aeig.a(4): Do not start WearSupportService due to Wear service optimization
+06-01 20:53:38.063 I/Finsky  ( 2681): [2] xhp.a(1): Clearing split related stale data.
+06-01 20:53:38.063 I/Finsky  ( 2681): [182] eqz.a(12): Asset module storage cleared for package com.evancharlton.mileage.
+06-01 20:53:38.066 I/Finsky  ( 2681): [2] snn.j(3): Package no longer installed: com.evancharlton.mileage
+06-01 20:53:38.067 I/GeofencerStateMachine( 1991): removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_ALL packageName=com.evancharlton.mileage]
+06-01 20:53:38.071 I/Finsky  ( 2681): [2] nlp.b(5): Installer: package com.evancharlton.mileage was removed. replacing: false
+06-01 20:53:38.071 I/Finsky  ( 2681): [2] nlp.a(218): Installer: Notifying status update. package=com.evancharlton.mileage, status=UNINSTALLED
+06-01 20:53:38.075 I/Finsky  ( 2681): [165] nyo.b(41): IQ: Notifying installation update. package=com.evancharlton.mileage, status=UNINSTALLED
+06-01 20:53:38.076 I/Finsky  ( 2681): [2] nlp.a(254): Installer: found apps to install. isMultiUserMode=true, apps=[]
+06-01 20:53:38.079 I/Fitness ( 1991): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_REMOVED [CONTEXT service_id=17 ]
+06-01 20:53:38.080 I/Finsky  ( 2681): [171] lvm.run(16): Frosting DB delete succeeded: true
+06-01 20:53:38.084 D/CarrierSvcBindHelper( 1872): No carrier app for: 0
+06-01 20:53:38.091 I/InputReader( 1669): Reconfiguring input devices.  changes=0x00000010
+06-01 20:53:38.106 I/Finsky  ( 2681): [165] nyo.b(27): IQ: No matching installs to run for jobs: []
+06-01 20:53:38.108 W/ResourceType( 1669): ResTable_typeSpec entry count inconsistent: given 30, previously 36
+06-01 20:53:38.108 W/ResourceType( 1669): ResTable_typeSpec entry count inconsistent: given 2551, previously 2554
+06-01 20:53:38.108 W/ResourceType( 1669): ResTable_typeSpec entry count inconsistent: given 2297, previously 2294
+06-01 20:53:38.108 W/ResourceType( 1669): ResTable_typeSpec entry count inconsistent: given 295, previously 1596
+06-01 20:53:38.112 I/Icing   ( 2260): doRemovePackageData com.evancharlton.mileage [CONTEXT service_id=21 ]
+06-01 20:53:38.113 I/Finsky  ( 2681): [2] smk.a(19): PackageMonitor - Received: android.intent.action.PACKAGE_FULLY_REMOVED, [Vk962JAq2msy0y8syOteEpC4GDmXxAgKGmDqLau2yC0]
+06-01 20:53:38.114 I/Finsky  ( 2681): [2] snn.d(9): Invalidating cached PackageState for com.evancharlton.mileage
+06-01 20:53:38.114 I/Finsky  ( 2681): [2] smk.a(23): PackageMonitor - Deduping intent android.intent.action.PACKAGE_FULLY_REMOVED
+06-01 20:53:38.119 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 15, previously 23
+06-01 20:53:38.119 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 1302, previously 2498
+06-01 20:53:38.119 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 642, previously 776
+06-01 20:53:38.121 I/Icing   ( 2260): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36 [CONTEXT service_id=21 ]
+06-01 20:53:38.131 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 854, previously 869
+06-01 20:53:38.131 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 672, previously 2215
+06-01 20:53:38.131 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 268, previously 1296
+06-01 20:53:38.133 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 155, previously 156
+06-01 20:53:38.134 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 1889, previously 2160
+06-01 20:53:38.134 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 1459, previously 1464
+06-01 20:53:38.134 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 288, previously 1684
+06-01 20:53:38.135 I/GmsCoreXrpcWrapper( 2260): Returning a channel provider with trafficStatsTag=12803
+06-01 20:53:38.142 I/Icing   ( 2260): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30 [CONTEXT service_id=21 ]
+06-01 20:53:38.145 I/Icing   ( 2260): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+06-01 20:53:38.147 I/GmsCoreXrpcWrapper( 2260): Returning a channel provider with trafficStatsTag=12803
+06-01 20:53:38.150 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 30, previously 36
+06-01 20:53:38.150 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 2551, previously 2554
+06-01 20:53:38.150 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 2297, previously 2294
+06-01 20:53:38.150 W/ResourceType( 2311): ResTable_typeSpec entry count inconsistent: given 295, previously 1596
+06-01 20:53:38.153 I/Icing   ( 2260): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+06-01 20:53:38.212 D/AndroidRuntime( 6572): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-01 20:53:38.239 W/app_process( 6572): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:38.250 D/AndroidRuntime( 6572): Calling main entry com.android.commands.pm.Pm
+06-01 20:53:38.252 I/app_process( 6572): System.exit called, status: 0
+06-01 20:53:38.252 W/MessageQueue( 6572): Handler (android.os.Handler) {3c99c09} sending message to a Handler on a dead thread
+06-01 20:53:38.252 W/MessageQueue( 6572): java.lang.IllegalStateException: Handler (android.os.Handler) {3c99c09} sending message to a Handler on a dead thread
+06-01 20:53:38.252 W/MessageQueue( 6572): 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-01 20:53:38.252 W/MessageQueue( 6572): 	at android.os.Handler.enqueueMessage(Handler.java:661)
+06-01 20:53:38.252 W/MessageQueue( 6572): 	at android.os.Handler.sendMessageAtTime(Handler.java:630)
+06-01 20:53:38.252 W/MessageQueue( 6572): 	at android.os.Handler.sendMessageDelayed(Handler.java:600)
+06-01 20:53:38.252 W/MessageQueue( 6572): 	at android.os.Handler.post(Handler.java:356)
+06-01 20:53:38.252 W/MessageQueue( 6572): 	at android.os.ResultReceiver$MyResultReceiver.send(ResultReceiver.java:57)
+06-01 20:53:38.252 W/MessageQueue( 6572): 	at com.android.internal.os.IResultReceiver$Stub.onTransact(IResultReceiver.java:58)
+06-01 20:53:38.252 W/MessageQueue( 6572): 	at android.os.Binder.execTransact(Binder.java:674)
+06-01 20:53:38.252 I/AndroidRuntime( 6572): VM exiting with result code 0.
+06-01 20:53:38.345 I/PackageManager.DexOptimizer( 1669): Running dexopt (dexoptNeeded=1) on: /data/app/vmdl1436049434.tmp/base.apk pkg=com.evancharlton.mileage isa=x86 dexoptFlags=boot_complete,debuggable,public target-filter=quicken oatDir=/data/app/vmdl1436049434.tmp/oat sharedLibraries=null
+06-01 20:53:38.351 W/dex2oat ( 6613): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:38.351 W/dex2oat ( 6613): Mismatch between dex2oat instruction set features (ISA: X86 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those of dex2oat executable (ISA: X86 Feature string: ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) for the command line:
+06-01 20:53:38.351 W/dex2oat ( 6613): /system/bin/dex2oat --zip-fd=8 --zip-location=base.apk --input-vdex-fd=-1 --output-vdex-fd=10 --oat-fd=9 --oat-location=/data/app/vmdl1436049434.tmp/oat/x86/base.odex --instruction-set=x86 --instruction-set-variant=x86 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --compiler-filter=quicken --swap-fd=11 --debuggable --classpath-dir=/data/app/vmdl1436049434.tmp
+06-01 20:53:38.351 I/dex2oat ( 6613): /system/bin/dex2oat --input-vdex-fd=-1 --output-vdex-fd=10 --compiler-filter=quicken --debuggable --classpath-dir=/data/app/vmdl1436049434.tmp
+06-01 20:53:38.356 W/DeviceAppInfoWork( 2311): missing version info.
+06-01 20:53:38.409 I/dex2oat ( 6613): dex2oat took 58.371ms (76.269ms cpu) (threads: 4) arena alloc=7KB (7568B) java alloc=810KB (829904B) native alloc=1382KB (1415360B) free=2MB (2254656B)
+06-01 20:53:38.456 D/installd( 1523): Applied hard quotas for 12418
+06-01 20:53:38.456 E/        ( 1523): Couldn't opendir /data/app/vmdl1436049434.tmp: No such file or directory
+06-01 20:53:38.456 E/installd( 1523): Failed to delete /data/app/vmdl1436049434.tmp: No such file or directory
+06-01 20:53:38.460 I/Finsky  ( 2681): [2] smk.a(19): PackageMonitor - Received: android.intent.action.PACKAGE_ADDED, [Vk962JAq2msy0y8syOteEpC4GDmXxAgKGmDqLau2yC0]
+06-01 20:53:38.460 I/Finsky  ( 2681): [2] snn.d(9): Invalidating cached PackageState for com.evancharlton.mileage
+06-01 20:53:38.460 I/InputReader( 1669): Reconfiguring input devices.  changes=0x00000010
+06-01 20:53:38.461 I/GsaVoiceInteractionSrv( 2187): O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.evancharlton.mileage flg=0x4000010 (has extras) }
+06-01 20:53:38.461 I/Finsky  ( 2681): [129] hai.a(2): [ContentSync] finished, scheduled=false
+06-01 20:53:38.461 I/Finsky  ( 2681): [2] aeig.a(4): Do not start WearSupportService due to Wear service optimization
+06-01 20:53:38.462 I/Finsky  ( 2681): [2] aeig.a(4): Do not start WearSupportService due to Wear service optimization
+06-01 20:53:38.463 I/Finsky  ( 2681): [2] xhp.a(1): Clearing split related stale data.
+06-01 20:53:38.463 I/Finsky  ( 2681): [182] eqz.a(12): Asset module storage cleared for package com.evancharlton.mileage.
+06-01 20:53:38.464 I/Finsky  ( 2681): [2] lvp.c(2): Frosting ID looked up on UI thread. Caller should move to a background thread.
+06-01 20:53:38.474 W/GCM     ( 1991): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.evancharlton.mileage flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+06-01 20:53:38.474 I/Finsky  ( 2681): [171] lvl.run(16): Wrote row to frosting DB: 2555
+06-01 20:53:38.474 W/GCM     ( 1991): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.evancharlton.mileage flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+06-01 20:53:38.475 E/GmsClient( 2260): unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+06-01 20:53:38.476 I/Auth    ( 2260): [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+06-01 20:53:38.476 I/ChromeSync( 2260): [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.evancharlton.mileage flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+06-01 20:53:38.476 I/FontsPackageChangeOp( 2260): Package com.evancharlton.mileage has no metadata
+06-01 20:53:38.477 I/ChromeSync( 2260): [Persistence,AffiliationManager] One of affiliation or grouping data for android://ztbxZnGwIYondSIOXeI6B4tx99Wzke1sUK94kxLxBFa3unkmHPAf8Zq58mhWnyQz-3o5L0v6hcjZi3V0QE3auA==@com.evancharlton.mileage/ was not found. Marking affiliation data as stale...
+06-01 20:53:38.504 D/CarrierSvcBindHelper( 1872): No carrier app for: 0
+06-01 20:53:38.506 D/ImsResolver( 1872): maybeAddedImsService, packageName: com.evancharlton.mileage
+06-01 20:53:38.508 D/CarrierConfigLoader( 1872): mHandler: 9 phoneId: 0
+06-01 20:53:38.528 I/ChromeSync( 2260): [Persistence,AffiliationManager] Fetching affiliations from the server.
+06-01 20:53:38.529 I/Icing   ( 2260): Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms using seqno 63 [CONTEXT service_id=21 ]
+06-01 20:53:38.580 W/DeviceAppInfoWork( 2311): missing version info.
+06-01 20:53:38.603 D/AndroidRuntime( 6618): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-01 20:53:38.628 W/app_process( 6618): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:38.638 D/AndroidRuntime( 6618): Calling main entry com.android.commands.pm.Pm
+06-01 20:53:38.642 I/app_process( 6618): System.exit called, status: 0
+06-01 20:53:38.642 I/AndroidRuntime( 6618): VM exiting with result code 0.
+06-01 20:53:38.802 D/AndroidRuntime( 6639): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-01 20:53:38.827 W/app_process( 6639): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:38.840 D/AndroidRuntime( 6639): Calling main entry com.android.commands.pm.Pm
+06-01 20:53:38.843 W/MessageQueue( 6639): Handler (android.os.Handler) {3c99c09} sending message to a Handler on a dead thread
+06-01 20:53:38.843 W/MessageQueue( 6639): java.lang.IllegalStateException: Handler (android.os.Handler) {3c99c09} sending message to a Handler on a dead thread
+06-01 20:53:38.843 W/MessageQueue( 6639): 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-01 20:53:38.843 W/MessageQueue( 6639): 	at android.os.Handler.enqueueMessage(Handler.java:661)
+06-01 20:53:38.843 W/MessageQueue( 6639): 	at android.os.Handler.sendMessageAtTime(Handler.java:630)
+06-01 20:53:38.843 W/MessageQueue( 6639): 	at android.os.Handler.sendMessageDelayed(Handler.java:600)
+06-01 20:53:38.843 W/MessageQueue( 6639): 	at android.os.Handler.post(Handler.java:356)
+06-01 20:53:38.843 W/MessageQueue( 6639): 	at android.os.ResultReceiver$MyResultReceiver.send(ResultReceiver.java:57)
+06-01 20:53:38.843 W/MessageQueue( 6639): 	at com.android.internal.os.IResultReceiver$Stub.onTransact(IResultReceiver.java:58)
+06-01 20:53:38.843 W/MessageQueue( 6639): 	at android.os.Binder.execTransact(Binder.java:674)
+06-01 20:53:38.843 I/app_process( 6639): System.exit called, status: 0
+06-01 20:53:38.843 I/AndroidRuntime( 6639): VM exiting with result code 0.
+06-01 20:53:39.002 D/AndroidRuntime( 6651): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-01 20:53:39.033 W/app_process( 6651): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:39.047 D/AndroidRuntime( 6651): Calling main entry com.android.commands.pm.Pm
+06-01 20:53:39.050 W/MessageQueue( 6651): Handler (android.os.Handler) {66c3672} sending message to a Handler on a dead thread
+06-01 20:53:39.050 W/MessageQueue( 6651): java.lang.IllegalStateException: Handler (android.os.Handler) {66c3672} sending message to a Handler on a dead thread
+06-01 20:53:39.050 W/MessageQueue( 6651): 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-01 20:53:39.050 W/MessageQueue( 6651): 	at android.os.Handler.enqueueMessage(Handler.java:661)
+06-01 20:53:39.050 W/MessageQueue( 6651): 	at android.os.Handler.sendMessageAtTime(Handler.java:630)
+06-01 20:53:39.050 W/MessageQueue( 6651): 	at android.os.Handler.sendMessageDelayed(Handler.java:600)
+06-01 20:53:39.050 W/MessageQueue( 6651): 	at android.os.Handler.post(Handler.java:356)
+06-01 20:53:39.050 W/MessageQueue( 6651): 	at android.os.ResultReceiver$MyResultReceiver.send(ResultReceiver.java:57)
+06-01 20:53:39.050 W/MessageQueue( 6651): 	at com.android.internal.os.IResultReceiver$Stub.onTransact(IResultReceiver.java:58)
+06-01 20:53:39.050 W/MessageQueue( 6651): 	at android.os.Binder.execTransact(Binder.java:674)
+06-01 20:53:39.050 I/app_process( 6651): System.exit called, status: 0
+06-01 20:53:39.050 I/AndroidRuntime( 6651): VM exiting with result code 0.
+06-01 20:53:39.065 E/        ( 1523): Couldn't opendir /data/user/10/com.evancharlton.mileage.test: No such file or directory
+06-01 20:53:39.065 E/installd( 1523): Failed to delete /data/user/10/com.evancharlton.mileage.test: No such file or directory
+06-01 20:53:39.065 E/        ( 1523): Couldn't opendir /data/user_de/10/com.evancharlton.mileage.test: No such file or directory
+06-01 20:53:39.065 E/installd( 1523): Failed to delete /data/user_de/10/com.evancharlton.mileage.test: No such file or directory
+06-01 20:53:39.065 D/installd( 1523): Found valid user 10
+06-01 20:53:39.120 I/keystore( 1524): clear_uid 12417
+06-01 20:53:39.120 I/keystore( 1524): clear_uid 1012417
+06-01 20:53:39.146 I/Icing   ( 2260): Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+06-01 20:53:39.158 I/Icing   ( 2260): Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+06-01 20:53:39.160 I/zygote  ( 1669): Explicit concurrent copying GC freed 46542(2MB) AllocSpace objects, 15(300KB) LOS objects, 32% free, 12MB/18MB, paused 74us total 37.458ms
+06-01 20:53:39.164 I/Finsky  ( 2681): [2] smk.a(19): PackageMonitor - Received: android.intent.action.PACKAGE_REMOVED, [Hc-uu0eID9wC4ptvRCsWBIQPDhHxrgxu8bZlIwakNJw]
+06-01 20:53:39.164 I/Finsky  ( 2681): [2] snn.d(9): Invalidating cached PackageState for com.evancharlton.mileage.test
+06-01 20:53:39.164 I/GsaVoiceInteractionSrv( 2187): O received Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.evancharlton.mileage.test flg=0x4000010 (has extras) }
+06-01 20:53:39.164 I/Finsky  ( 2681): [129] hai.a(2): [ContentSync] finished, scheduled=false
+06-01 20:53:39.165 I/Finsky  ( 2681): [2] aeig.a(4): Do not start WearSupportService due to Wear service optimization
+06-01 20:53:39.165 I/Finsky  ( 2681): [2] aeig.a(4): Do not start WearSupportService due to Wear service optimization
+06-01 20:53:39.165 I/Finsky  ( 2681): [2] xhp.a(1): Clearing split related stale data.
+06-01 20:53:39.165 I/Finsky  ( 2681): [182] eqz.a(12): Asset module storage cleared for package com.evancharlton.mileage.test.
+06-01 20:53:39.165 I/GeofencerStateMachine( 1991): removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_ALL packageName=com.evancharlton.mileage.test]
+06-01 20:53:39.168 I/Finsky  ( 2681): [2] snn.j(3): Package no longer installed: com.evancharlton.mileage.test
+06-01 20:53:39.170 I/Finsky  ( 2681): [2] nlp.b(5): Installer: package com.evancharlton.mileage.test was removed. replacing: false
+06-01 20:53:39.171 I/Finsky  ( 2681): [2] nlp.a(218): Installer: Notifying status update. package=com.evancharlton.mileage.test, status=UNINSTALLED
+06-01 20:53:39.171 I/Finsky  ( 2681): [165] nyo.b(41): IQ: Notifying installation update. package=com.evancharlton.mileage.test, status=UNINSTALLED
+06-01 20:53:39.173 I/InputReader( 1669): Reconfiguring input devices.  changes=0x00000010
+06-01 20:53:39.182 I/Finsky  ( 2681): [2] nlp.a(254): Installer: found apps to install. isMultiUserMode=true, apps=[]
+06-01 20:53:39.190 D/CarrierSvcBindHelper( 1872): No carrier app for: 0
+06-01 20:53:39.192 I/Finsky  ( 2681): [171] lvm.run(16): Frosting DB delete succeeded: true
+06-01 20:53:39.193 I/Icing   ( 2260): doRemovePackageData com.evancharlton.mileage.test [CONTEXT service_id=21 ]
+06-01 20:53:39.195 I/Fitness ( 1991): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_REMOVED [CONTEXT service_id=17 ]
+06-01 20:53:39.203 I/Finsky  ( 2681): [2] smk.a(19): PackageMonitor - Received: android.intent.action.PACKAGE_FULLY_REMOVED, [Hc-uu0eID9wC4ptvRCsWBIQPDhHxrgxu8bZlIwakNJw]
+06-01 20:53:39.203 I/Finsky  ( 2681): [2] snn.d(9): Invalidating cached PackageState for com.evancharlton.mileage.test
+06-01 20:53:39.203 I/Finsky  ( 2681): [2] smk.a(23): PackageMonitor - Deduping intent android.intent.action.PACKAGE_FULLY_REMOVED
+06-01 20:53:39.204 I/Finsky  ( 2681): [165] nyo.b(27): IQ: No matching installs to run for jobs: []
+06-01 20:53:39.211 W/ResourceType( 1669): ResTable_typeSpec entry count inconsistent: given 30, previously 36
+06-01 20:53:39.211 W/ResourceType( 1669): ResTable_typeSpec entry count inconsistent: given 2551, previously 2554
+06-01 20:53:39.212 W/ResourceType( 1669): ResTable_typeSpec entry count inconsistent: given 2297, previously 2294
+06-01 20:53:39.212 W/ResourceType( 1669): ResTable_typeSpec entry count inconsistent: given 295, previously 1596
+06-01 20:53:39.212 I/zygote  ( 2260): Compiler allocated 4MB to compile abwx abwy.a(abpo, abwv, long)
+06-01 20:53:39.237 W/DeviceAppInfoWork( 2311): missing version info.
+06-01 20:53:39.302 D/AndroidRuntime( 6668): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-01 20:53:39.328 W/app_process( 6668): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:39.338 D/AndroidRuntime( 6668): Calling main entry com.android.commands.pm.Pm
+06-01 20:53:39.340 W/MessageQueue( 6668): Handler (android.os.Handler) {66c3672} sending message to a Handler on a dead thread
+06-01 20:53:39.340 W/MessageQueue( 6668): java.lang.IllegalStateException: Handler (android.os.Handler) {66c3672} sending message to a Handler on a dead thread
+06-01 20:53:39.340 W/MessageQueue( 6668): 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-01 20:53:39.340 W/MessageQueue( 6668): 	at android.os.Handler.enqueueMessage(Handler.java:661)
+06-01 20:53:39.340 W/MessageQueue( 6668): 	at android.os.Handler.sendMessageAtTime(Handler.java:630)
+06-01 20:53:39.340 W/MessageQueue( 6668): 	at android.os.Handler.sendMessageDelayed(Handler.java:600)
+06-01 20:53:39.340 W/MessageQueue( 6668): 	at android.os.Handler.post(Handler.java:356)
+06-01 20:53:39.340 W/MessageQueue( 6668): 	at android.os.ResultReceiver$MyResultReceiver.send(ResultReceiver.java:57)
+06-01 20:53:39.340 W/MessageQueue( 6668): 	at com.android.internal.os.IResultReceiver$Stub.onTransact(IResultReceiver.java:58)
+06-01 20:53:39.340 W/MessageQueue( 6668): 	at android.os.Binder.execTransact(Binder.java:674)
+06-01 20:53:39.341 I/app_process( 6668): System.exit called, status: 0
+06-01 20:53:39.341 I/AndroidRuntime( 6668): VM exiting with result code 0.
+06-01 20:53:39.443 I/PackageManager.DexOptimizer( 1669): Running dexopt (dexoptNeeded=1) on: /data/app/vmdl170667695.tmp/base.apk pkg=com.evancharlton.mileage.test isa=x86 dexoptFlags=boot_complete,debuggable,public target-filter=quicken oatDir=/data/app/vmdl170667695.tmp/oat sharedLibraries=/system/framework/android.test.runner.jar:/system/framework/com.google.android.maps.jar
+06-01 20:53:39.448 W/dex2oat ( 6691): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:39.448 W/dex2oat ( 6691): Mismatch between dex2oat instruction set features (ISA: X86 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those of dex2oat executable (ISA: X86 Feature string: ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) for the command line:
+06-01 20:53:39.448 W/dex2oat ( 6691): /system/bin/dex2oat --zip-fd=8 --zip-location=base.apk --input-vdex-fd=-1 --output-vdex-fd=10 --oat-fd=9 --oat-location=/data/app/vmdl170667695.tmp/oat/x86/base.odex --instruction-set=x86 --instruction-set-variant=x86 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --compiler-filter=quicken --swap-fd=11 --debuggable --runtime-arg -classpath --runtime-arg /system/framework/android.test.runner.jar:/system/framework/com.google.android.maps.jar --classpath-dir=/data/app/vmdl170667695.tmp
+06-01 20:53:39.449 I/dex2oat ( 6691): /system/bin/dex2oat --input-vdex-fd=-1 --output-vdex-fd=10 --compiler-filter=quicken --debuggable --classpath-dir=/data/app/vmdl170667695.tmp
+06-01 20:53:39.510 W/dex2oat ( 6691): Rejecting class sh.calaba.instrumentationbackend.ClearAppData2 that attempts to sub-type erroneous class android.test.InstrumentationTestRunner in base.apk
+06-01 20:53:39.510 W/dex2oat ( 6691): Rejecting class sh.calaba.instrumentationbackend.GetPreferences that attempts to sub-type erroneous class android.test.InstrumentationTestRunner in base.apk
+06-01 20:53:39.510 W/dex2oat ( 6691): Rejecting class sh.calaba.instrumentationbackend.SetPreferences that attempts to sub-type erroneous class android.test.InstrumentationTestRunner in base.apk
+06-01 20:53:39.511 W/dex2oat ( 6691): Rejecting class sh.calaba.instrumentationbackend.ClearPreferences that attempts to sub-type erroneous class android.test.InstrumentationTestRunner in base.apk
+06-01 20:53:39.516 W/dex2oat ( 6691): Rejecting class sh.calaba.instrumentationbackend.ClearAppData that attempts to sub-type erroneous class android.test.InstrumentationTestRunner in base.apk
+06-01 20:53:39.527 I/Icing   ( 2260): Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+06-01 20:53:39.528 I/Icing   ( 2260): Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+06-01 20:53:39.548 I/dex2oat ( 6691): dex2oat took 99.573ms (178.587ms cpu) (threads: 4) arena alloc=70KB (72000B) java alloc=956KB (979904B) native alloc=1994KB (2042664B) free=2MB (2675928B)
+06-01 20:53:39.590 D/installd( 1523): Applied hard quotas for 12419
+06-01 20:53:39.600 E/        ( 1523): Couldn't opendir /data/app/vmdl170667695.tmp: No such file or directory
+06-01 20:53:39.600 E/installd( 1523): Failed to delete /data/app/vmdl170667695.tmp: No such file or directory
+06-01 20:53:39.602 I/Finsky  ( 2681): [2] smk.a(19): PackageMonitor - Received: android.intent.action.PACKAGE_ADDED, [Hc-uu0eID9wC4ptvRCsWBIQPDhHxrgxu8bZlIwakNJw]
+06-01 20:53:39.602 I/Finsky  ( 2681): [2] snn.d(9): Invalidating cached PackageState for com.evancharlton.mileage.test
+06-01 20:53:39.603 I/GsaVoiceInteractionSrv( 2187): O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.evancharlton.mileage.test flg=0x4000010 (has extras) }
+06-01 20:53:39.603 I/Finsky  ( 2681): [129] hai.a(2): [ContentSync] finished, scheduled=false
+06-01 20:53:39.604 I/Finsky  ( 2681): [2] aeig.a(4): Do not start WearSupportService due to Wear service optimization
+06-01 20:53:39.604 I/Finsky  ( 2681): [2] aeig.a(4): Do not start WearSupportService due to Wear service optimization
+06-01 20:53:39.605 I/InputReader( 1669): Reconfiguring input devices.  changes=0x00000010
+06-01 20:53:39.605 I/Finsky  ( 2681): [2] xhp.a(1): Clearing split related stale data.
+06-01 20:53:39.605 I/Finsky  ( 2681): [182] eqz.a(12): Asset module storage cleared for package com.evancharlton.mileage.test.
+06-01 20:53:39.609 I/Finsky  ( 2681): [2] lvp.c(2): Frosting ID looked up on UI thread. Caller should move to a background thread.
+06-01 20:53:39.612 I/Auth    ( 2260): [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+06-01 20:53:39.612 I/ChromeSync( 2260): [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.evancharlton.mileage.test flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+06-01 20:53:39.613 W/GCM     ( 1991): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.evancharlton.mileage.test flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+06-01 20:53:39.614 I/FontsPackageChangeOp( 2260): Package com.evancharlton.mileage.test has no metadata
+06-01 20:53:39.614 I/ChromeSync( 2260): [Persistence,AffiliationManager] One of affiliation or grouping data for android://ztbxZnGwIYondSIOXeI6B4tx99Wzke1sUK94kxLxBFa3unkmHPAf8Zq58mhWnyQz-3o5L0v6hcjZi3V0QE3auA==@com.evancharlton.mileage.test/ was not found. Marking affiliation data as stale...
+06-01 20:53:39.615 W/GCM     ( 1991): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.evancharlton.mileage.test flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+06-01 20:53:39.625 I/Finsky  ( 2681): [171] lvl.run(16): Wrote row to frosting DB: 2556
+06-01 20:53:39.634 D/CarrierSvcBindHelper( 1872): No carrier app for: 0
+06-01 20:53:39.636 D/ImsResolver( 1872): maybeAddedImsService, packageName: com.evancharlton.mileage.test
+06-01 20:53:39.636 D/CarrierConfigLoader( 1872): mHandler: 9 phoneId: 0
+06-01 20:53:39.646 I/ChromeSync( 2260): [Persistence,AffiliationManager] Fetching affiliations from the server.
+06-01 20:53:39.663 W/DeviceAppInfoWork( 2311): missing version info.
+06-01 20:53:39.741 D/AndroidRuntime( 6697): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-01 20:53:39.772 W/app_process( 6697): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:39.783 D/AndroidRuntime( 6697): Calling main entry com.android.commands.pm.Pm
+06-01 20:53:39.786 I/app_process( 6697): System.exit called, status: 0
+06-01 20:53:39.786 I/AndroidRuntime( 6697): VM exiting with result code 0.
+06-01 20:53:39.786 W/MessageQueue( 6697): Handler (android.os.Handler) {66c3672} sending message to a Handler on a dead thread
+06-01 20:53:39.786 W/MessageQueue( 6697): java.lang.IllegalStateException: Handler (android.os.Handler) {66c3672} sending message to a Handler on a dead thread
+06-01 20:53:39.786 W/MessageQueue( 6697): 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-01 20:53:39.786 W/MessageQueue( 6697): 	at android.os.Handler.enqueueMessage(Handler.java:661)
+06-01 20:53:39.786 W/MessageQueue( 6697): 	at android.os.Handler.sendMessageAtTime(Handler.java:630)
+06-01 20:53:39.786 W/MessageQueue( 6697): 	at android.os.Handler.sendMessageDelayed(Handler.java:600)
+06-01 20:53:39.786 W/MessageQueue( 6697): 	at android.os.Handler.post(Handler.java:356)
+06-01 20:53:39.786 W/MessageQueue( 6697): 	at android.os.ResultReceiver$MyResultReceiver.send(ResultReceiver.java:57)
+06-01 20:53:39.786 W/MessageQueue( 6697): 	at com.android.internal.os.IResultReceiver$Stub.onTransact(IResultReceiver.java:58)
+06-01 20:53:39.786 W/MessageQueue( 6697): 	at android.os.Binder.execTransact(Binder.java:674)
+06-01 20:53:39.943 D/AndroidRuntime( 6716): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-01 20:53:39.968 W/app_process( 6716): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:39.982 D/AndroidRuntime( 6716): Calling main entry com.android.commands.pm.Pm
+06-01 20:53:39.985 W/MessageQueue( 6716): Handler (android.os.Handler) {66c3672} sending message to a Handler on a dead thread
+06-01 20:53:39.985 W/MessageQueue( 6716): java.lang.IllegalStateException: Handler (android.os.Handler) {66c3672} sending message to a Handler on a dead thread
+06-01 20:53:39.985 W/MessageQueue( 6716): 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-01 20:53:39.985 W/MessageQueue( 6716): 	at android.os.Handler.enqueueMessage(Handler.java:661)
+06-01 20:53:39.985 W/MessageQueue( 6716): 	at android.os.Handler.sendMessageAtTime(Handler.java:630)
+06-01 20:53:39.985 W/MessageQueue( 6716): 	at android.os.Handler.sendMessageDelayed(Handler.java:600)
+06-01 20:53:39.985 W/MessageQueue( 6716): 	at android.os.Handler.post(Handler.java:356)
+06-01 20:53:39.985 W/MessageQueue( 6716): 	at android.os.ResultReceiver$MyResultReceiver.send(ResultReceiver.java:57)
+06-01 20:53:39.985 W/MessageQueue( 6716): 	at com.android.internal.os.IResultReceiver$Stub.onTransact(IResultReceiver.java:58)
+06-01 20:53:39.985 W/MessageQueue( 6716): 	at android.os.Binder.execTransact(Binder.java:674)
+06-01 20:53:39.986 I/app_process( 6716): System.exit called, status: 0
+06-01 20:53:39.986 I/AndroidRuntime( 6716): VM exiting with result code 0.
+06-01 20:53:40.122 D/AndroidRuntime( 6728): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-01 20:53:40.146 W/app_process( 6728): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:40.158 D/AndroidRuntime( 6728): Calling main entry com.android.commands.pm.Pm
+06-01 20:53:40.160 I/app_process( 6728): System.exit called, status: 0
+06-01 20:53:40.160 I/AndroidRuntime( 6728): VM exiting with result code 0.
+06-01 20:53:40.204 I/Icing   ( 2260): Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+06-01 20:53:40.205 I/Icing   ( 2260): Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+06-01 20:53:40.294 D/AndroidRuntime( 6740): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-01 20:53:40.319 W/app_process( 6740): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:40.330 D/AndroidRuntime( 6740): Calling main entry com.android.commands.am.Am
+06-01 20:53:40.333 I/zygote  ( 6750): Not late-enabling -Xcheck:jni (already on)
+06-01 20:53:40.338 W/zygote  ( 6750): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:40.342 D/AndroidRuntime( 6740): Shutting down VM
+06-01 20:53:40.346 W/zygote  ( 6750): Found duplicate classes, falling back to extracting from APK : /data/app/com.evancharlton.mileage.test-y4ZpfH4-cYccjHuqe9F4IQ==/base.apk
+06-01 20:53:40.346 W/zygote  ( 6750): NOTE: This wastes RAM and hurts startup performance.
+06-01 20:53:40.346 W/zygote  ( 6750): Found duplicated class when checking oat files: 'Ljunit/runner/BaseTestRunner;' in /data/app/com.evancharlton.mileage.test-y4ZpfH4-cYccjHuqe9F4IQ==/base.apk and /system/framework/android.test.runner.jar
+06-01 20:53:40.346 W/zygote  ( 6750): 
+06-01 20:53:40.370 W/System  ( 6750): ClassLoader referenced unknown path: 
+06-01 20:53:40.373 I/System.out( 6750): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+06-01 20:53:40.374 I/System.out( 6750): External cache dir: /storage/emulated/0/Android/data/com.evancharlton.mileage/cache
+06-01 20:53:40.375 I/System.out( 6750): Deleting external cache dir...
+06-01 20:53:40.375 I/System.out( 6750): Deleting: /storage/emulated/0/Android/data/com.evancharlton.mileage/cache
+06-01 20:53:40.375 I/System.out( 6750): Cache dir: /data/user/0/com.evancharlton.mileage/cache
+06-01 20:53:40.375 I/System.out( 6750): Deleting cache dir...
+06-01 20:53:40.376 I/System.out( 6750): Deleting: /data/user/0/com.evancharlton.mileage/cache
+06-01 20:53:40.376 I/System.out( 6750): External files dir: /storage/emulated/0/Android/data/com.evancharlton.mileage/files
+06-01 20:53:40.377 I/System.out( 6750): Deleting external files dir...
+06-01 20:53:40.377 I/System.out( 6750): Deleting: /storage/emulated/0/Android/data/com.evancharlton.mileage/files
+06-01 20:53:40.377 I/System.out( 6750): Files dir: /data/user/0/com.evancharlton.mileage/files
+06-01 20:53:40.378 I/System.out( 6750): Deleting files dir...
+06-01 20:53:40.378 I/System.out( 6750): Deleting: /data/user/0/com.evancharlton.mileage/files
+06-01 20:53:40.378 I/System.out( 6750): Data dir: /data/user/0/com.evancharlton.mileage
+06-01 20:53:40.378 I/System.out( 6750): Deleting: /data/user/0/com.evancharlton.mileage/code_cache
+06-01 20:53:40.387 I/zygote  ( 6766): Not late-enabling -Xcheck:jni (already on)
+06-01 20:53:40.391 W/zygote  ( 6766): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:40.401 W/zygote  ( 6766): Found duplicate classes, falling back to extracting from APK : /data/app/com.evancharlton.mileage.test-y4ZpfH4-cYccjHuqe9F4IQ==/base.apk
+06-01 20:53:40.401 W/zygote  ( 6766): NOTE: This wastes RAM and hurts startup performance.
+06-01 20:53:40.401 W/zygote  ( 6766): Found duplicated class when checking oat files: 'Ljunit/runner/BaseTestRunner;' in /data/app/com.evancharlton.mileage.test-y4ZpfH4-cYccjHuqe9F4IQ==/base.apk and /system/framework/android.test.runner.jar
+06-01 20:53:40.401 W/zygote  ( 6766): 
+06-01 20:53:40.402 D/gralloc_ranchu( 1435): gralloc_alloc: Creating ashmem region of size 8298496
+06-01 20:53:40.429 I/System.out( 6766): Failure file: /data/user/0/com.evancharlton.mileage.test/files/calabash_failure.out
+06-01 20:53:40.429 I/System.out( 6766): Finished file: /data/user/0/com.evancharlton.mileage.test/files/calabash_finished.out
+06-01 20:53:40.429 I/System.out( 6766): method: report-finished
+06-01 20:53:40.430 I/System.out( 6766): Finished state: SUCCESSFUL
+06-01 20:53:40.448 E/SurfaceFlinger( 1445): Failed to find layer (Splash Screen com.evancharlton.mileage.test#0) in layer parent (no-parent).
+06-01 20:53:40.636 I/Icing   ( 2260): Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+06-01 20:53:40.638 I/Icing   ( 2260): Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+06-01 20:53:41.028 I/Dialer  ( 2073): OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+06-01 20:53:41.033 I/Dialer  ( 2073): RetryPolicy - discarding deferred status: configuration_state=4
+06-01 20:53:41.035 I/Dialer  ( 2073): VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+06-01 20:53:41.046 I/Dialer  ( 2073): VvmTaskReceiver - task received
+06-01 20:53:41.046 I/Dialer  ( 2073): VvmTaskReceiver - TaskExecutor already running
+06-01 20:53:41.046 I/Dialer  ( 2073): Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+06-01 20:53:41.047 I/Dialer  ( 2073): RetryPolicy - retry #1 for com.android.voicemail.impl.ActivationTask@1e0dbdf queued, executing in 5000
+06-01 20:53:41.048 I/Dialer  ( 2073): VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@1e0dbdf added
+06-01 20:53:41.048 I/Dialer  ( 2073): VvmTaskExecutor - minimal wait time:5000
+06-01 20:53:41.048 I/Dialer  ( 2073): VvmTaskExecutor - sleep for 5000 millis
+06-01 20:53:45.523 D/AndroidRuntime( 6788): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-01 20:53:45.555 W/app_process( 6788): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:45.566 D/AndroidRuntime( 6788): Calling main entry com.android.commands.am.Am
+--------- beginning of system
+06-01 20:53:45.567 I/ActivityManager( 1669): Force stopping com.evancharlton.mileage appid=12418 user=0: start instr
+06-01 20:53:45.567 I/ActivityManager( 1669): Killing 6750:com.evancharlton.mileage/u0a2418 (adj 0): stop com.evancharlton.mileage
+06-01 20:53:45.568 W/ActivityManager( 1669): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.ClearAppData2}
+06-01 20:53:45.568 I/ActivityManager( 1669): Force stopping com.evancharlton.mileage appid=12418 user=0: finished inst
+06-01 20:53:45.573 I/zygote  ( 6798): Not late-enabling -Xcheck:jni (already on)
+06-01 20:53:45.580 W/zygote  ( 6798): Unexpected CPU variant for X86 using defaults: x86
+06-01 20:53:45.580 I/ActivityManager( 1669): Start proc 6798:com.evancharlton.mileage/u0a2418 for added application com.evancharlton.mileage
+06-01 20:53:45.580 D/AndroidRuntime( 6788): Shutting down VM
+06-01 20:53:45.590 E/adbd    ( 1422): failed to connect to socket 'tcp:7102': Connection refused
+06-01 20:53:45.591 E/adbd    ( 1422): failed to connect to socket 'tcp:7102': Connection refused
+06-01 20:53:45.592 W/zygote  ( 6798): Found duplicate classes, falling back to extracting from APK : /data/app/com.evancharlton.mileage.test-y4ZpfH4-cYccjHuqe9F4IQ==/base.apk
+06-01 20:53:45.592 W/zygote  ( 6798): NOTE: This wastes RAM and hurts startup performance.
+06-01 20:53:45.592 W/zygote  ( 6798): Found duplicated class when checking oat files: 'Ljunit/runner/BaseTestRunner;' in /data/app/com.evancharlton.mileage.test-y4ZpfH4-cYccjHuqe9F4IQ==/base.apk and /system/framework/android.test.runner.jar
+06-01 20:53:45.592 W/zygote  ( 6798): 
+06-01 20:53:45.617 W/System  ( 6798): ClassLoader referenced unknown path: 
+06-01 20:53:45.624 I/System.out( 6798): Main activity name automatically set to: com.evancharlton.mileage.Mileage
+06-01 20:53:45.625 I/System.out( 6798): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+06-01 20:53:45.625 I/calabash( 6798): Test server port: 7102
+06-01 20:53:45.625 I/InstrumentationBackend( 6798): Added:'GetPreferences', with key:'get_preferences'
+06-01 20:53:45.645 I/InstrumentationBackend( 6798): Added:'SetPreferences', with key:'set_preferences'
+06-01 20:53:45.645 I/InstrumentationBackend( 6798): Added:'ClearPreferences', with key:'clear_preferences'
+06-01 20:53:45.646 I/InstrumentationBackend( 6798): Added:'PressElement', with key:'press_l10n_element'
+06-01 20:53:45.646 I/InstrumentationBackend( 6798): Added:'WaitForElement', with key:'wait_for_l10n_element'
+06-01 20:53:45.646 I/InstrumentationBackend( 6798): Added:'NullAction', with key:'nullAction'
+06-01 20:53:45.646 I/InstrumentationBackend( 6798): Added:'PressKey', with key:'press_key'
+06-01 20:53:45.646 I/InstrumentationBackend( 6798): Added:'SetActivityOrientation', with key:'set_activity_orientation'
+06-01 20:53:45.646 I/InstrumentationBackend( 6798): Added:'GetActivityOrientation', with key:'get_activity_orientation'
+06-01 20:53:45.646 I/InstrumentationBackend( 6798): Added:'FakeGPSLocation', with key:'set_gps_coordinates'
+06-01 20:53:45.647 I/InstrumentationBackend( 6798): Added:'SetPropertyByCssSelector', with key:'set_property_by_css_selector'
+06-01 20:53:45.647 I/InstrumentationBackend( 6798): Added:'GetUrl', with key:'get_url'
+06-01 20:53:45.648 I/InstrumentationBackend( 6798): Added:'ScrollTo', with key:'scroll_to'
+06-01 20:53:45.649 I/InstrumentationBackend( 6798): Added:'GetLoadProgress', with key:'get_load_progress'
+06-01 20:53:45.649 I/InstrumentationBackend( 6798): Added:'DumpHtml', with key:'dump_html'
+06-01 20:53:45.649 I/InstrumentationBackend( 6798): Added:'DumpBodyHtml', with key:'dump_body_html'
+06-01 20:53:45.649 I/InstrumentationBackend( 6798): Added:'EnterTextByCssSelector', with key:'enter_text_by_selector'
+06-01 20:53:45.653 I/InstrumentationBackend( 6798): Added:'AndroidSDKVersion', with key:'android_sdk_version'
+06-01 20:53:45.653 I/InstrumentationBackend( 6798): Added:'Version', with key:'version'
+06-01 20:53:45.654 I/InstrumentationBackend( 6798): Added:'Drag', with key:'drag'
+06-01 20:53:45.654 I/InstrumentationBackend( 6798): Added:'TouchCoordinates', with key:'touch_coordinate'
+06-01 20:53:45.654 I/InstrumentationBackend( 6798): Added:'LongPressCoordinate', with key:'long_press_coordinate'
+06-01 20:53:45.654 I/InstrumentationBackend( 6798): Added:'DragCoordinates', with key:'drag_coordinates'
+06-01 20:53:45.654 I/InstrumentationBackend( 6798): Added:'ResumeApplication', with key:'resume_application'
+06-01 20:53:45.654 I/InstrumentationBackend( 6798): Added:'Swipe', with key:'swipe'
+06-01 20:53:45.654 I/InstrumentationBackend( 6798): Added:'DoubleTapCoordinate', with key:'double_tap_coordinate'
+06-01 20:53:45.654 I/InstrumentationBackend( 6798): Added:'ClickOnScreen', with key:'click_on_screen'
+06-01 20:53:45.655 I/InstrumentationBackend( 6798): Added:'GetActivityName', with key:'get_activity_name'
+06-01 20:53:45.655 I/InstrumentationBackend( 6798): Added:'ScrollToView', with key:'scroll_to_view'
+06-01 20:53:45.655 I/InstrumentationBackend( 6798): Added:'ViewConfiguration', with key:'view_configuration'
+06-01 20:53:45.655 I/InstrumentationBackend( 6798): Added:'IsCurrentActivityFocused', with key:'is_current_activity_focused'
+06-01 20:53:45.656 I/InstrumentationBackend( 6798): Added:'SendTcp', with key:'send_tcp'
+06-01 20:53:45.656 I/InstrumentationBackend( 6798): Added:'DpToDevicePixel', with key:'dp_to_device_pixel'
+06-01 20:53:45.656 I/InstrumentationBackend( 6798): Added:'KeyboardEnterText', with key:'keyboard_enter_text'
+06-01 20:53:45.656 I/InstrumentationBackend( 6798): Added:'DeleteSurroundingText', with key:'delete_surrounding_text'
+06-01 20:53:45.656 I/InstrumentationBackend( 6798): Added:'SetComposingRegion', with key:'set_composing_region'
+06-01 20:53:45.656 I/InstrumentationBackend( 6798): Added:'SetSelection', with key:'set_selection'
+06-01 20:53:45.657 I/InstrumentationBackend( 6798): Added:'KeyboardKeyEvent', with key:'keyboard_key_event'
+06-01 20:53:45.657 I/InstrumentationBackend( 6798): Added:'PressUserActionButton', with key:'press_user_action_button'
+06-01 20:53:45.657 I/InstrumentationBackend( 6798): Added:'HideSoftKeyboard', with key:'hide_soft_keyboard'
+06-01 20:53:45.658 I/InstrumentationBackend( 6798): Added:'ListActions', with key:'list_actions'
+06-01 20:53:45.658 I/calabash( 6798): Instantiating http server at 7102
+06-01 20:53:45.659 I/System.out( 6798): HTTP Daemon listening on: 7102
+06-01 20:53:45.694 I/System.out( 6798): URI: //ping
+06-01 20:53:45.694 I/System.out( 6798): params: {json={}
+06-01 20:53:45.694 I/System.out( 6798): }
+06-01 20:53:45.697 I/System.out( 6798): URI: //ping
+06-01 20:53:45.697 I/System.out( 6798): params: {json={}
+06-01 20:53:45.697 I/System.out( 6798): }
+06-01 20:53:45.699 I/System.out( 6798): URI: //ready
+06-01 20:53:45.699 I/System.out( 6798): params: {json={}
+06-01 20:53:45.699 I/System.out( 6798): }
+06-01 20:53:45.702 I/System.out( 6798): URI: //
+06-01 20:53:45.702 I/System.out( 6798): params: {json={"command":"version","arguments":[]}
+06-01 20:53:45.702 I/System.out( 6798): }
+06-01 20:53:45.702 I/System.out( 6798): header: {content-type=application/json;charset=utf-8, date=Tue, 02 Jun 2020 01:53:45 GMT, accept=*/*, host=127.0.0.1:34782, content-length=36, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.1 (2018-03-29))}
+06-01 20:53:45.702 I/System.out( 6798): params: {json={"command":"version","arguments":[]}
+06-01 20:53:45.702 I/System.out( 6798): }
+06-01 20:53:45.702 I/System.out( 6798): ProP json = {"command":"version","arguments":[]}
+06-01 20:53:45.702 I/System.out( 6798): files: {}
+06-01 20:53:45.702 I/System.out( 6798): command: {"command":"version","arguments":[]}
+06-01 20:53:45.711 I/InstrumentationBackend( 6798): Got command:'Command:'Line:null,version', arguments:'[]'
+06-01 20:53:45.729 I/System.out( 6798): result:{"bonusInformation":[],"message":"0.9.8","success":true}
+06-01 20:53:45.733 I/System.out( 6798): URI: //start-application
+06-01 20:53:45.733 I/System.out( 6798): params: {json={"intent":null}
+06-01 20:53:45.733 I/System.out( 6798): }
+06-01 20:53:45.755 I/ActivityManager( 1669): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.evancharlton.mileage/.Mileage} from uid 12418
+06-01 20:53:45.761 E/memtrack( 1669): Couldn't load memtrack module
+06-01 20:53:45.761 W/android.os.Debug( 1669): failed to get memory consumption info: -1
+06-01 20:53:45.762 I/calabash( 6798): newActivity1
+06-01 20:53:45.775 W/ActivityManager( 1669): Bad activity token: android.os.BinderProxy@486f51d
+06-01 20:53:45.775 W/ActivityManager( 1669): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-01 20:53:45.775 W/ActivityManager( 1669): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+06-01 20:53:45.775 W/ActivityManager( 1669): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+06-01 20:53:45.775 W/ActivityManager( 1669): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+06-01 20:53:45.775 W/ActivityManager( 1669): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+06-01 20:53:45.775 W/ActivityManager( 1669): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+06-01 20:53:45.775 W/ActivityManager( 1669): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+06-01 20:53:45.775 W/ActivityManager( 1669): 	at android.os.Binder.execTransact(Binder.java:674)
+06-01 20:53:45.775 I/calabash( 6798): newActivity1
+06-01 20:53:45.778 W/ActivityManager( 1669): Bad activity token: android.os.BinderProxy@486f51d
+06-01 20:53:45.778 W/ActivityManager( 1669): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-01 20:53:45.778 W/ActivityManager( 1669): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+06-01 20:53:45.778 W/ActivityManager( 1669): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+06-01 20:53:45.778 W/ActivityManager( 1669): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+06-01 20:53:45.778 W/ActivityManager( 1669): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+06-01 20:53:45.778 W/ActivityManager( 1669): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+06-01 20:53:45.778 W/ActivityManager( 1669): 	at android.os.Binder.execTransact(Binder.java:674)
+06-01 20:53:45.779 W/ActivityManager( 1669): Bad activity token: android.os.BinderProxy@486f51d
+06-01 20:53:45.779 W/ActivityManager( 1669): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+06-01 20:53:45.779 W/ActivityManager( 1669): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+06-01 20:53:45.779 W/ActivityManager( 1669): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+06-01 20:53:45.779 W/ActivityManager( 1669): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+06-01 20:53:45.779 W/ActivityManager( 1669): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+06-01 20:53:45.779 W/ActivityManager( 1669): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+06-01 20:53:45.779 W/ActivityManager( 1669): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+06-01 20:53:45.779 W/ActivityManager( 1669): 	at android.os.Binder.execTransact(Binder.java:674)
+06-01 20:53:45.783 D/gralloc_ranchu( 1435): gralloc_alloc: Creating ashmem region of size 7675904
+06-01 20:53:45.789 D/AndroidRuntime( 6798): Shutting down VM
+--------- beginning of crash
+06-01 20:53:45.790 E/AndroidRuntime( 6798): FATAL EXCEPTION: main
+06-01 20:53:45.790 E/AndroidRuntime( 6798): Process: com.evancharlton.mileage, PID: 6798
+06-01 20:53:45.790 E/AndroidRuntime( 6798): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.evancharlton.mileage/com.evancharlton.mileage.Mileage}: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.evancharlton.mileage/com.evancharlton.mileage.FillupActivity}: android.view.InflateException: Binary XML file line #5: Binary XML file line #5: Error inflating class com.evancharlton.mileage.views.CursorSpinner
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2817)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.os.Handler.dispatchMessage(Handler.java:105)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.os.Looper.loop(Looper.java:164)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): Caused by: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.evancharlton.mileage/com.evancharlton.mileage.FillupActivity}: android.view.InflateException: Binary XML file line #5: Binary XML file line #5: Error inflating class com.evancharlton.mileage.views.CursorSpinner
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2817)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.startActivityNow(ActivityThread.java:2615)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.LocalActivityManager.moveToState(LocalActivityManager.java:136)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.LocalActivityManager.startActivity(LocalActivityManager.java:348)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.widget.TabHost$IntentContentStrategy.getContentView(TabHost.java:769)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.widget.TabHost.setCurrentTab(TabHost.java:423)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.widget.TabHost.addTab(TabHost.java:233)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.evancharlton.mileage.Mileage.onCreate(Mileage.java:31)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.Activity.performCreate(Activity.java:6975)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	... 9 more
+06-01 20:53:45.790 E/AndroidRuntime( 6798): Caused by: android.view.InflateException: Binary XML file line #5: Binary XML file line #5: Error inflating class com.evancharlton.mileage.views.CursorSpinner
+06-01 20:53:45.790 E/AndroidRuntime( 6798): Caused by: android.view.InflateException: Binary XML file line #5: Error inflating class com.evancharlton.mileage.views.CursorSpinner
+06-01 20:53:45.790 E/AndroidRuntime( 6798): Caused by: java.lang.reflect.InvocationTargetException
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.view.LayoutInflater.createView(LayoutInflater.java:647)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:790)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:730)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:863)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:489)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:423)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:374)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.evancharlton.mileage.BaseFormActivity.onCreate(BaseFormActivity.java:37)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.evancharlton.mileage.FillupActivity.onCreate(FillupActivity.java:72)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.Activity.performCreate(Activity.java:6975)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.startActivityNow(ActivityThread.java:2615)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.LocalActivityManager.moveToState(LocalActivityManager.java:136)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.LocalActivityManager.startActivity(LocalActivityManager.java:348)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.widget.TabHost$IntentContentStrategy.getContentView(TabHost.java:769)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.widget.TabHost.setCurrentTab(TabHost.java:423)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.widget.TabHost.addTab(TabHost.java:233)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.evancharlton.mileage.Mileage.onCreate(Mileage.java:31)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.Activity.performCreate(Activity.java:6975)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.os.Handler.dispatchMessage(Handler.java:105)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.os.Looper.loop(Looper.java:164)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.database.sqlite.SQLiteDatabase android.content.Context.openOrCreateDatabase(java.lang.String, int, android.database.sqlite.SQLiteDatabase$CursorFactory, android.database.DatabaseErrorHandler)' on a null object reference
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:254)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:218)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.evancharlton.mileage.provider.FillUpsProvider.query(FillUpsProvider.java:238)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.content.ContentProvider.query(ContentProvider.java:1057)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.content.ContentProvider.query(ContentProvider.java:1149)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:242)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.content.ContentResolver.query(ContentResolver.java:754)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.content.ContentResolver.query(ContentResolver.java:704)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at android.content.ContentResolver.query(ContentResolver.java:662)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.evancharlton.mileage.views.CursorSpinner.filter(CursorSpinner.java:38)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	at com.evancharlton.mileage.views.CursorSpinner.<init>(CursorSpinner.java:32)
+06-01 20:53:45.790 E/AndroidRuntime( 6798): 	... 33 more
+06-01 20:53:45.794 I/Process ( 6798): Sending signal. PID: 6798 SIG: 9
+06-01 20:53:45.798 W/BroadcastQueue( 1669): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+06-01 20:53:45.798 W/BroadcastQueue( 1669): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-01 20:53:45.832 I/ActivityManager( 1669): Process com.evancharlton.mileage (pid 6798) has died: fore TOP 
+06-01 20:53:45.832 W/ActivityManager( 1669): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner}
+06-01 20:53:45.832 I/ActivityManager( 1669): Force stopping com.evancharlton.mileage appid=12418 user=0: finished inst
+06-01 20:53:45.832 I/ActivityManager( 1669):   Force finishing activity ActivityRecord{48d60a9 u0 com.evancharlton.mileage/.Mileage t564}
+06-01 20:53:45.833 E/adbd    ( 1422): failed to connect to socket 'tcp:7102': Connection refused
+06-01 20:53:45.834 D/EGL_emulation( 2311): eglMakeCurrent: 0xa6286200: ver 2 0 (tinfo 0xa6283c70)
+06-01 20:53:45.836 D/EGL_emulation( 2219): eglMakeCurrent: 0xa6285480: ver 2 0 (tinfo 0xa6283250)
+06-01 20:53:45.840 I/ActivityManager( 1669):   Force finishing activity ActivityRecord{48d60a9 u0 com.evancharlton.mileage/.Mileage t564 f}
+06-01 20:53:45.840 W/ActivityManager( 1669): Duplicate finish request for ActivityRecord{48d60a9 u0 com.evancharlton.mileage/.Mileage t564 f}
